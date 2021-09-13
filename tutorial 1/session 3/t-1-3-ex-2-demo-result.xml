@@ -81,7 +81,7 @@
       <name>Plato, Euthyphro in Greek, Burnet</name>
       <!-- jk: I add a master location, and push my file there; any differences between this copy and my
          master version will be reported back to me. -->
-      <master-location href="http://textalign.net/tutorials/examples/t-1-3-ex-2-demo-result.xml"/>
+      <master-location href="http://textalign.net/tutorials/tutorial%201/session%203/t-1-3-ex-2-demo-result.xml"/>
       <license which="by 4.0" licensor="jk"/>
      
      <reference-system type="material" scriptum="stephanus" wf-ready="true"/>
