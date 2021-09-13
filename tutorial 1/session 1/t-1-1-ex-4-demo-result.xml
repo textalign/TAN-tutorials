@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- EXERCISE 4 -->
+<!-- Metadata -->
+
+<TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki@gmail.com,2021:tan-voc:test" TAN-version="2021">
+   <head>
+      <name>A test TAN-voc file</name>
+      <license licensor="jk" which="by nc 1.0"/>
+      <vocabulary-key>
+         <person which="Joel_Kalvesmaki" xml:id="jk"/>
+      </vocabulary-key>
+      <resp who="jk" roles="editor"/>
+      <file-resp who="jk"/>
+      <change when="2021-09-08" who="jk"/>
+      <to-do>
+         <comment when="2021-09-08" who="jk">Add more items</comment>
+      </to-do>
+   </head>
+   <body>
+      <!-- Prob. 1: yourself -->
+      <item affects-element="person">
+         <IRI>http://viaf.org/viaf/299582703</IRI>
+         <IRI>tag:kalvesmaki.com,2014:self</IRI>
+         <IRI>tag:kalvesmaki@gmail.com,2021:self</IRI>
+         <name>Joel Kalvesmaki</name>
+      </item>
+      
+      <!-- Examples below drawn from the Evagrius TAN project -->
+      
+      <!-- Prob. 2: conceptual work -->
+      <item affects-element="work">
+         <IRI>tag:evagriusponticus.net,2015:cpg2430</IRI>
+         <IRI>tag:evagriusponticus.net,2015:tlg4110.001</IRI>
+         <IRI>tag:evagriusponticus.net,2015:tlg4110.X01</IRI>
+         <name>Prak</name>
+         <name>Prak.</name>
+         <name>Praktikos</name>
+         <name xml:lang="grc">Λόγος πράκτικος</name>
+         <name xml:lang="lat">Practicus et epistula ad Anatolium</name>
+         <name>cpg2430</name>
+         <desc>The Praktikos contains 100 chapters discussing foundational discipline of the
+            ascetic life, namely fighting the passions and their attendant demons. It is
+            prefaced by a letter to Anatolius (otherwise unknown). The work, considered one of
+            his most important, is the first of a trilogy that continues with the Gnostikos and
+            the Kephalaia gnostika. Unusually, numerous manuscripts both attest to the original
+            Greek and attribute the work to Evagrius, rather than reassigning it to Nilus or
+            another less controversial author. The Praktikos exercised an enormous influence on
+            Christian monastic asceticism in the medieval period.</desc>
+      </item>
+      
+      <!-- Prob. 3: scripta -->
+      <item affects-element="scriptum source">
+         <IRI>urn:isbn:0674018753</IRI>
+         <IRI>tag:evagriusponticus.net,2012:scriptum:brakke-2006</IRI>
+         <name>Brakke 2006</name>
+         <desc>Brakke, David. Demons and the Making of the Monk: Spiritual Combat in Early Christianity. Cambridge, Mass.: Harvard University Press, 2006. </desc>
+      </item>
+      
+      
+      <!-- Prob. 4: something else -->
+      <item affects-element="algorithm">
+         <IRI>tag:kalvesmaki.com,2014:algorithm:org.perseus:tools:morpheus.v1</IRI>
+         <name>Tufts morphology service</name>
+         <name>Perseids</name>
+         <name>Morpheus</name>
+         <desc>http://services.perseids.org/bsp/morphologyservice</desc>
+      </item>
+   </body>
+</TAN-voc>

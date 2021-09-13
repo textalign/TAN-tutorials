@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>TAN Tutorial 1, Session 3</title>
+        <link rel="stylesheet" href="../../.core/js/reveal.js/dist/reset.css"><!--  --></link>
+        <link rel="stylesheet" href="../../.core/js/reveal.js/dist/reveal.css"><!--  --></link>
+        <link rel="stylesheet" href="../../.core/js/reveal.js/dist/theme/white.css"><!--  --></link>
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../../.core/js/reveal.js/plugin/highlight/monokai.css"
+            ><!--  --></link>
+        <link rel="stylesheet" type="text/css" href="../../.core/css/tutorials.css" />
+        <style></style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <section>
+                        <h1>TAN Tutorial 1</h1>
+                        <h2>Preparing a TEI Corpus for the Text Alignment Network</h2>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Session 3</h1>
+                        <h2>Alignment and Annotation</h2>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Objectives</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Develop a TAN-A file for aligning and annotating the corpus of files. </li>
+                            <li>Expose files to a network</li>
+                            <li>Use files on the network</li>
+                            <li>Understand how claims (annotations) work</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Alignment</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Alignment is challenging</li>
+                            <li>Traditional methods are arbitrary, hard to edit, administer:
+                                    <code>@xml:id</code>, XPath, URI</li>
+                            <li>Different things need alignment: work, version, text section,
+                                phrase, word</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>TAN alignment mechanisms</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Unit</th>
+                                    <th>Mechanism</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Work/version</td>
+                                    <td>IRI</td>
+                                </tr>
+                                <tr>
+                                    <td>Scriptum</td>
+                                    <td>IRI</td>
+                                </tr>
+                                <tr>
+                                    <td>Text divisions</td>
+                                    <td>chained <code>@n</code>s = <code>@ref</code>, optionally
+                                        with <code>&lt;adjustments></code>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Phrases</td>
+                                    <td>class 1 <code>&lt;div></code> or TAN-A</td>
+                                </tr>
+                                <tr>
+                                    <td>Words, characters</td>
+                                    <td>TAN-A-tok</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </section>
+                
+                <section>
+                    <section>
+                        <h1>Annotations</h1>
+                    </section>
+                    <section>
+                        <h2>Annotations</h2>
+                        <ul>
+                            <li>A text about one or more texts</li>
+                            <li>Has one or more anchors, of variable specificity</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>TEI annotation</h2>
+                        <ul>
+                            <li>Excellent for limited, clear, isolatable annotations</li>
+                            <li>More complicated cases are challenging
+                                <ul>
+                                    <li>Clusters of annotations</li>
+                                    <li>Credited annotations</li>
+                                    <li>Overlapping annotations</li>
+                                    <li>Complex annotations</li>
+                                </ul>
+                            </li>
+                            <li>Stand-off annotation helpful, but pointing mechanisms suffer the
+                                same challenge as alignment mechanisms </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>The TAN approach to annotation</h2>
+                        <ul>
+                            <li>Inline TEI annotations are fine</li>
+                            <li>For complex cases:
+                                <ul>
+                                    <li>Stand-off annotation in separate files</li>
+                                    <li>Point via reference system, word (token), character</li>
+                                </ul>
+                            </li>
+                            <li>Annotation = claim → claimant</li>
+                            <li>Semantic orientation, human-friendly syntax</li>
+                        </ul>
+                    </section>
+                </section>
+                
+                <section>
+                    <section>
+                        <h1>Class 2 Files</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Always point to class-1 sources</li>
+                            <li>Always start "TAN-A"</li>
+                            <li>The A stands for alignment, annotation, or both</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>TAN Class 2</h2>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Description</th>
+                                    <th>Sources</th>
+                                    <th>Use</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>TAN-A</td>
+                                    <td>Generic alignment, annotation</td>
+                                    <td>zero or more</td>
+                                    <td>various</td>
+                                </tr>
+                                <tr>
+                                    <td>TAN-A-lm</td>
+                                    <td>Lexicomorphology</td>
+                                    <td>one</td>
+                                    <td>linguistics</td>
+                                </tr>
+                                <tr>
+                                    <td>TAN-A-tok</td>
+                                    <td>Bitext alignment</td>
+                                    <td>two</td>
+                                    <td>translation studies</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </section>
+                
+                <section>
+                    <section>
+                        <h1>TAN-A</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Points to zero or more sources</li>
+                            <li>Minor non-intrusive adjustments</li>
+                            <li>Sources can be grouped via <code>&lt;alias></code></li>
+                            <li><code>&lt;body></code> can be empty</li>
+                            <li>otherwise it has <code>&lt;claim></code>s</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Caveats</h2>
+                        <ul>
+                            <li>Can be time-consuming to validate on long sources, many claims</li>
+                            <li>Exportable to RDF only theoretically</li>
+                            <li>Editorial tools at their infancy</li>
+                            <li>Requires vocabulary awareness</li>
+                        </ul>
+                    </section>
+                </section>
+                
+                
+                <section>
+                    <section>
+                        <h1>Demonstration</h1>
+                        <div><a href="t-1-3-ex-1-demo.xml">Skeleton TAN-A</a></div>
+                        <div><a href="t-1-3-ex-1-demo-result.xml">Prepared TAN-A</a></div>
+                    </section>
+                    
+                </section>
+                <section>
+                    <section>
+                        <h1>Exercise 1</h1>
+                        <div><a href="t-1-3-ex-1.xml">Create a TAN-A file</a></div>
+                    </section>
+                </section>
+                
+                
+                <section>
+                    <section>
+                        <h1>Network</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>TAN is a network</li>
+                            <li>No file is an island</li>
+                            <li>Files "talk" to each other</li>
+                            <li>Decentralized</li>
+                            <li>Cross-project</li>
+                            <li>The key to publishing, communication: <code>&lt;master-location></code></li>
+                            <li>Catalogues help in discovery</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>TAN linking elements</h2>
+                        <table class="compress">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Core?</th>
+                                    <th>Class</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>&lt;vocabulary></code></td>
+                                    <td>yes</td>
+                                    <td>all</td>
+                                    <td>Points to vocabulary essential for interpreting the file</td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;inclusion></code></td>
+                                    <td>yes</td>
+                                    <td>all</td>
+                                    <td>Points to files whose components may be incorporated wholesale into the current file</td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;predecessor></code></td>
+                                    <td>no</td>
+                                    <td>all</td>
+                                    <td>Points to a previous version of the file</td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;successor></code></td>
+                                    <td>no</td>
+                                    <td>all</td>
+                                    <td>Points to a new version of the file; implies that the current one is obsolete</td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;see-also></code></td>
+                                    <td>no</td>
+                                    <td>all</td>
+                                    <td>Points to any file</td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;redivision></code></td>
+                                    <td>no</td>
+                                    <td>1</td>
+                                    <td>Points to another class-1 file with an identical transcription,
+                                        but in a different div structure</td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;model></code></td>
+                                    <td>no</td>
+                                    <td>1</td>
+                                    <td>Points to another class-1 file whose div structure exemplifies
+                                        the one being used currently</td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;source></code></td>
+                                    <td>yes</td>
+                                    <td>2</td>
+                                    <td>Points to class-1 files</td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;morphology></code></td>
+                                    <td>yes</td>
+                                    <td>2</td>
+                                    <td>Used by TAN-A-lm to point to a TAN-mor file</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </section>
+                <section>
+                    <section><h1>Demonstration</h1>
+                        <div><a href="../session%202/t-1-2-ex-2-demo-result.xml">Session 2 transcription</a></div>
+                        <div><a href="t-1-3-ex-2-demo-result.xml">Transcription prepared for publication</a></div>
+                    </section>
+                </section>
+                <section>
+                    <section><h1>Exercise 2</h1>
+                        <div><a href="t-1-3-ex-2.xml">Prepare the network</a></div>
+                    </section>
+                </section>
+                
+                
+                
+                <section>
+                    <section><h1>TAN-A Claims</h1></section>
+                    <section>
+                        <ul>
+                            <li>Always attributed to a claimant</li>
+                            <li>Recursion ok (X claims that Y claims that Z...)</li>
+                            <li>RDF model: reification, n-ary triples</li>
+                            <li>Still experimental</li>
+                            <li><code>&lt;verb></code> is the heart of a claim</li>
+                            <li>verb components can be customized, to require, disallow parts</li>
+                            <li>claims can be negated, nuanced via <code>@adverb</code></li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section><h1>Demonstration</h1>
+                        <div><a href="t-1-3-ex-1-demo-result.xml">TAN-A without claims</a></div>
+                        <div><a href="t-1-3-ex-3-demo-result.xml">Transcription prepared for publication</a></div>
+                    </section>
+                </section>
+                <section>
+                    <section><h1>Exercise 3</h1>
+                        <div><a href="t-1-3-ex-3.xml">Write claims</a></div>
+                    </section>
+                </section>
+                
+                
+                <section>
+                    <section><h1>Caveats</h1></section>
+                    <section>
+                        <ul>
+                            <li><code>&lt;claim></code>s are an experimental technology</li>
+                            <li><code>&lt;verb></code>s are an experimental technology</li>
+                            <li>Validation, utilities, applications may not perform as expected with
+                                experimental technology</li>
+                            <li>No attempt has yet been made to export to RDF</li>
+                            <li>Parts of works cannot yet be generally expressed via URI, except by private convention</li>
+                        </ul>
+                    </section>
+                </section>
+
+
+
+                <section>
+                    <section><h1>Recap</h1></section>
+                    <section>
+                        <h2>What we've learned</h2>
+                        <ul>
+                            <li>Develop a TAN-A file for aligning and annotating the corpus of files. </li>
+                            <li>Expose files to a network</li>
+                            <li>Use files on the network</li>
+                            <li>Understand how claims (annotations) work</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>General discussion</h1>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Finish, evaluate exercises</h1>
+                    </section>
+                </section>
+
+            </div>
+        </div>
+        <script type="text/javascript" src="../../.core/js/reveal.js/dist/reveal.js"></script>
+        <script src="../../.core/js/reveal.js/dist/reveal.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/zoom/zoom.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/notes/notes.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/search/search.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/highlight/highlight.js"></script>
+        <script>
+         // Also available as an ES module, see:
+         // https://revealjs.com/initialization/
+         Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+            
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins:[RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+         });</script>
+    </body>
+</html>

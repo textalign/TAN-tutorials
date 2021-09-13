@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>TAN Tutorial 1, Session 4</title>
+        <link rel="stylesheet" href="../../.core/js/reveal.js/dist/reset.css"><!--  --></link>
+        <link rel="stylesheet" href="../../.core/js/reveal.js/dist/reveal.css"><!--  --></link>
+        <link rel="stylesheet" href="../../.core/js/reveal.js/dist/theme/white.css"><!--  --></link>
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../../.core/js/reveal.js/plugin/highlight/monokai.css"
+            ><!--  --></link>
+        <link rel="stylesheet" type="text/css" href="../../.core/css/tutorials.css" />
+        <style></style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <section>
+                        <h1>TAN Tutorial 1</h1>
+                        <h2>Preparing a TEI Corpus for the Text Alignment Network</h2>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Session 4</h1>
+                        <h2>Application</h2>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Objectives</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Configure and use the TAN application Parabola. </li>
+                            <li>Learn the basics of data types and regular expressions.</li>
+                            <li>Work with class 2 adjustments. </li>
+                            <li>Grouping works and sources via aliases. </li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section>
+                    <section><h1>TAN Applications</h1></section>
+                    <section>
+                        <ul>
+                            <li>TAN utilities help you create and edit TAN files</li>
+                            <li>TAN applications leverage your TAN files for research, teaching, publication</li>
+                            <li><code>applications</code> directory</li>
+                            <li>Single XSLT file with companion configuration file</li>
+                            <li>Parameters only, with ample documentation</li>
+                            <li>Subdirectories hide the real work</li>
+                        </ul>
+                    </section>
+                </section>
+                
+                
+                <section>
+                    <section><h1>Using XSLT</h1></section>
+                    <section>
+                        <img src="../../.core/img/xslt.jpeg" />
+                    </section>
+                    <section>
+                        <h2>Running an Application</h2>
+                        <ul>
+                            <li>Read application documentation first!</li>
+                            <li>Catalyzing document = ?</li>
+                            <li>Oxygen: Configure Transformation Scenarios (ctrl+shift+T)</li>
+                            <li>Command line: <a href="https://saxonica.com/documentation10/index.html#!using-xsl/commandline">Saxonica instructions</a></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Oxygen Notes</h2>
+                        <ul>
+                            <li>Project orientation</li>
+                            <li>Frameworks are very powerful</li>
+                            <li>Setup: <ol>
+                                    <li> Options > Preferences > Document Type Association >
+                                        Locations </li>
+                                    <li>Decide: global or project?</li>
+                                    <li>Additional frameworks directories > Add </li>
+                                    <li>Point to TAN 2021 root directory </li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section><h1>Demonstration</h1>
+                        <div><a href="../session%203/t-1-3-ex-3-demo-result.xml">TAN-A file from session 3</a></div>
+                        <div>Method 1: TAN project</div>
+                        <div>Method 2: tutorial project</div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1><a href="t-1-4-ex-1.xml">Exercise 1</a></h1>
+                    </section>
+                </section>
+                
+                <section>
+                    <section><h1>Features of Parabola output</h1></section>
+                </section>
+                <section>
+                    <section><h1>XSLT and HTML</h1></section>
+                    <section>
+                        <ul>
+                            <li>Many TAN applications generate output in HTML</li>
+                            <li>HTML offers limitless possibilities that cannot be accounted for in TAN parameters</li>
+                            <li>Javascript dependencies (local and libraries)</li>
+                            <li>CSS dependencies</li>
+                            <li>You might want something completely different</li>
+                            <li>TAN apps provide proof of concept output</li>
+                            <li>Advanced configuration or website integration may need specialized development</li>
+                        </ul>
+                    </section>
+                </section>
+                
+                
+                <section>
+                    <section><h1>Configuring XSLT</h1></section>
+                    <section>
+                        <h2>Data types</h2>
+                        <div>There are many, many data types. Below are those you will
+                            encounter in the parameters used by TAN applications.</div>
+                        <table class="compress">
+                            <thead>
+                                <tr>
+                                    <th>type</th>
+                                    <th>example</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>string</td>
+                                    <td><code>&lt;xsl:param name="exstring" as="xs:string" select="'45'"/></code></td>
+                                </tr>
+                                <tr>
+                                    <td>boolean</td>
+                                    <td><code>&lt;xsl:param name="exbool" as="xs:boolean" select="false()"/></code></td>
+                                </tr>
+                                <tr>
+                                    <td>integer</td>
+                                    <td><code>&lt;xsl:param name="exint" as="xs:integer" select="45"/></code></td>
+                                </tr>
+                                <tr>
+                                    <td>decimal</td>
+                                    <td><code>&lt;xsl:param name="exdec" as="xs:integer" select="45.0"/></code></td>
+                                </tr>
+                                <tr>
+                                    <td>element</td>
+                                    <td><code>&lt;xsl:param name="exel" as="element" select="/*/tan:head"/></code></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section>
+                        <h2>Quantifiers and data types</h2>
+                        <table class="compress75">
+                            <thead>
+                                <tr>
+                                    <th>Quantity</th>
+                                    <th>Symbol</th>
+                                    <th>Atomic type example</th>
+                                    <th>Node type example</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>zero or one</td>
+                                    <td>
+                                        <code>?</code>
+                                    </td>
+                                    <td>
+                                        <code>xs:string?</code>
+                                    </td>
+                                    <td>
+                                        <code>element()?</code>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>exactly one</td>
+                                    <td>none</td>
+                                    <td>
+                                        <code>xs:boolean</code>
+                                    </td>
+                                    <td>
+                                        <code>document-node()</code>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>zero or more</td>
+                                    <td>
+                                        <code>*</code>
+                                    </td>
+                                    <td>
+                                        <code>xs:dateTime*</code>
+                                    </td>
+                                    <td>
+                                        <code>attribute()*</code>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>one or more</td>
+                                    <td>
+                                        <code>+</code>
+                                    </td>
+                                    <td>
+                                        <code>xs:integer+</code>
+                                    </td>
+                                    <td>
+                                        <code>comment()+</code>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </section>
+                </section>
+                
+                <section>
+                    <section><h1>Demonstration</h1>
+                        <div>
+                            <a href="../../../TAN-2021/applications/Parabola/Parabola.xsl">Parabola
+                                master file</a></div>
+                    </section>
+                    
+                </section>
+                <section>
+                    <section><h1>Exercise 2</h1>
+                        <div><a href="t-1-4-ex-2.xml">Configure Parabola</a></div>
+                    </section>
+                </section>
+                
+                
+                <section>
+                    <section>
+                        <h1>Regular expressions</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Latin <em>regula</em>, "rule"</li>
+                            <li>Patterned </li>
+                            <li>Large, complicated topic</li>
+                            <li>Learn enough to configure Parabola's parameters</li>
+                        </ul>
+                    </section>
+                    <section>
+
+                        <table class="compress">
+                            <thead>
+                                <tr>
+                                    <th>Symbol</th>
+                                    <th>Meaning</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>.</code></td>
+                                    <td>any character</td>
+                                </tr>
+                                <tr>
+                                    <td>|</td>
+                                    <td>or (union)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>^</code></td>
+                                    <td>start of line</td>
+                                </tr>
+                                <tr>
+                                    <td><code>?</code></td>
+                                    <td>zero or one</td>
+                                </tr>
+                                <tr>
+                                    <td><code>*</code></td>
+                                    <td>zero or more</td>
+                                </tr>
+                                <tr>
+                                    <td><code>+</code></td>
+                                    <td>one or more</td>
+                                </tr>
+                                <tr>
+                                    <td><code>[ ]</code></td>
+                                    <td>a class of characters</td>
+                                </tr>
+                                <tr>
+                                    <td><code>( )</code></td>
+                                    <td>a group</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\w</code></td>
+                                    <td>any word character</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\W</code></td>
+                                    <td>any nonword character</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\s</code></td>
+                                    <td>any of the four standard spacing characters: space (U+0020),
+                                        tab (U+0009), newline (U+000A), carriage return
+                                        (U+000D)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\S</code></td>
+                                    <td>anything not a spacing character</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section>
+                        <table class="compress">
+                            <thead>
+                                <tr>
+                                    <th>Symbol</th>
+                                    <th>Meaning</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>\d</code></td>
+                                    <td>any digit (0-9)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\D</code></td>
+                                    <td>anything not a digit</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\n</code></td>
+                                    <td>a new line (U+000A)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\r</code></td>
+                                    <td>a carriage return line (U+000D)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\p{IsGujarati}</code></td>
+                                    <td>any character from the Unicode block named Gujarati</td>
+                                </tr>
+                                <tr>
+                                    <td><code>^</code></td>
+                                    <td>beginning of a line or string (doesn't capture any
+                                        characters)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>$</code></td>
+                                    <td>end of a line or string (doesn't capture any
+                                        characters)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\\</code></td>
+                                    <td>literal backslash (an escaped escape character)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\^</code></td>
+                                    <td>literal caret sign (must be escaped with the )</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\$</code></td>
+                                    <td>literal dollar sign (escaped)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\(</code></td>
+                                    <td>literal opening parenthesis (escaped)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\[</code></td>
+                                    <td>literal opening square bracket (escaped)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section>
+                        <h2>Special TAN extension</h2>
+                        <table class="compress">
+                            <thead>
+                                <tr>
+                                    <th>Symbol</th>
+                                    <th>Meaning</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>\u{+b}</code></td>
+                                    <td>all composites of the letter b: bᵇḃḅḇ⒝ⓑ㍴㏔㏝ｂ𝐛𝑏𝒃𝒷𝓫𝔟𝕓𝖇𝖻𝗯𝘣𝙗𝚋</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\u{.symbol}</code></td>
+                                    <td>all characters that have "symbol" as part of their Unicode name</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\u{!latin}</code></td>
+                                    <td>all characters that do not have "latin" as part of their Unicode name</td>
+                                </tr>
+                                <tr>
+                                    <td><code>\u{.small.a!latin}</code></td>
+                                    <td>all characters that have "small" and "a" as part of their Unicode name, 
+                                        but not "latin"</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div>Limited support</div>
+                        <div class="compress">Kalvesmaki, Joel. “A New \u: Extending XPath Regular
+                            Expressions for Unicode.” Presented at Balisage: The Markup Conference
+                            2020, Washington, DC, July 27 - 31, 2020. In <em>Proceedings of Balisage:
+                            The Markup Conference 2020. Balisage Series on Markup Technologies</em>, vol.
+                            25 (2020). 
+                            <a
+                                href="https://www.balisage.net/Proceedings/vol25/html/Kalvesmaki01/BalisageVol25-Kalvesmaki01.html"
+                                >https://doi.org/10.4242/BalisageVol25.Kalvesmaki01</a>.</div>
+                    </section>
+                </section>
+                
+                
+                <section>
+                    <section><h1>Demonstration</h1>
+                        <div>
+                            <a href="../../../TAN-2021/applications/Parabola/Parabola.xsl">Parabola
+                                master file</a></div>
+                    </section>
+                    
+                </section>
+                <section>
+                    <section><h1>Exercise 3</h1>
+                        <div><a href="t-1-4-ex-3.xml">Configure Parabola regular expressions</a></div>
+                    </section>
+                </section>
+                
+                
+                
+                <section>
+                    <section>
+                        <h1>Adjustments</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Class 2 files</li>
+                            <li>Prunes, reshapes sources, nonintrusively</li>
+                            <li>Does not entail meaning</li>
+                            <li>Can be applied selectively to sources</li>
+                            <li>Four types</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Adjustments</h2>
+                        <ol>
+                            <li>skip</li>
+                            <li>rename</li>
+                            <li>equate</li>
+                            <li>reassign</li>
+                        </ol>
+                    </section>
+                </section>
+                
+
+                <section>
+                    <section><h1>Demonstration</h1>
+                        <div><a href="../session%203/t-1-3-ex-3-demo-result.xml">TAN-A file from session 3</a></div>
+                        <div><a href="t-1-4-ex-4-demo-result.xml">results</a></div>
+                    </section>
+                    
+                </section>
+                <section>
+                    <section><h1>Exercise 4</h1>
+                        <div><a href="t-1-4-ex-4.xml">Add TAN-A adjustments</a></div>
+                    </section>
+                </section>
+                
+                
+                
+                <section>
+                    <section>
+                        <h1>Aliases</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Available only in <code>head/vocabulary-key</code></li>
+                            <li>Allows you to assign one or more <code>@xml:id</code>s to a single id</li>
+                            <li><code>@xml:id</code> or <code>@id</code> (to allow punctuation)</li>
+                            <li>TAN-A files: create sigla for families of manuscripts</li>
+                            <li>Parabola: group your sources</li>
+                        </ul>
+                    </section>
+                </section>
+                
+                <section>
+                    <section>
+                        <h1>Demonstration</h1>
+                        <div><a href="../../../TAN-2021/examples/TAN-A/ringoroses.div.1.xml">Ring around the Rosie</a></div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Exercise 5</h1>
+                        <div><a href="">Configure aliases for Parabola</a></div>
+                    </section>
+                </section>
+                
+                
+                
+                
+
+                <section>
+                    <section><h1>Recap</h1></section>
+                    <section>
+                        <h2>What we've learned</h2>
+                        <ul>
+                            <li>Configure and use the TAN application Parabola. </li>
+                            <li>Learn the basics of data types and regular expressions.</li>
+                            <li>Work with class 2 adjustments. </li>
+                            <li>Grouping works and sources via aliases. </li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>General discussion</h1>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Finish, evaluate exercises</h1>
+                    </section>
+                </section>
+
+            </div>
+        </div>
+        <script type="text/javascript" src="../../.core/js/reveal.js/dist/reveal.js"></script>
+        <script src="../../.core/js/reveal.js/dist/reveal.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/zoom/zoom.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/notes/notes.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/search/search.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/highlight/highlight.js"></script>
+        <script>
+         // Also available as an ES module, see:
+         // https://revealjs.com/initialization/
+         Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+            
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins:[RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+         });</script>
+    </body>
+</html>

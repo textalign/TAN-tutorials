@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise>
+   <!-- EXERCISE 3 -->
+   <!-- Configure Parabola regular expressions -->
+   
+   <!-- Prob. 1: configure Parabola -->
+   <!-- As with exercise 3, configure the following parameters that call for regular expressions. You
+      may do the configuration either in the master file or your configuration file.
+         * $div-types-must-match-regex
+         * $div-types-must-not-match-regex
+         * $level-1-div-ns-must-match-regex
+         * $level-1-div-ns-must-not-match-regex
+         * $leaf-div-refs-must-match-regex
+         * $leaf-div-refs-must-not-match-regex
+   -->
+   
+   
+</exercise>

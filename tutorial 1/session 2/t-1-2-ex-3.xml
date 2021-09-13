@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise>
+   <!-- Congratulations. At this point you should have at least one working TAN-TEI file. If
+      you do not yet, then for this exercise you may wish to use t-1-2-ex-2-demo-result.xml for
+      the following exercise.
+   -->
+   
+   <!-- EXERCISE 3 -->
+   <!-- Exploring TAN normalization -->
+   
+   <!-- Prob. 1: Unicode -->
+   <!-- In your TAN-TEI file, invoke a validation error by finding some non-normalized Unicode
+      characters in the script of your choice and insert them. Use Schematron Quick Fixes to
+      normalize the faulty Unicode.
+   -->
+   
+   <!-- Prob. 2: references -->
+   <!-- In your TAN-TEI file, invoke a validation error by inserting a value of a numeric @n in 
+      the beginning of the first valid descendant text node. (Note: to raise this error you will 
+      need to validate in verbose mode.) Try to repeat the error with different numeration systems:
+      Roman, alphabetic.
+   -->
+   
+   <!-- Prob. 3: line endings -->
+   <!-- In your TAN-TEI file, add discretionary hyphens where appropriate. If your text does not 
+      require it, try adding one at an appropriate place. Note: the discretionary hyphen is &#xAD; -->
+   
+   
+   <!-- Prob. 4: normalizations -->
+   <!-- In your TAN-TEI file's <head>, just before <vocabulary-key>, add an <adjustments>. Inside
+      that, add at least one <normalization> and declare at least one kind of normalization that has
+      been performed on the transcription. If you want to use standard, built-in TAN vocabulary, use
+      @which (if blank or marked with ???, a Schematron Quick Fix will present you with options).
+      Alternatively, you may define your own normalization vocabulary item, either by using <IRI> +
+      <name> inside the element, or by defining a vocabulary item either in the <vocabulary-key>
+      or in your TAN-voc file.
+   -->
+   
+</exercise>

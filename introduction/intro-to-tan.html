@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Introduction to TAN</title>
+        <link rel="stylesheet" href="../.core/js/reveal.js/dist/reset.css"><!--  --></link>
+        <link rel="stylesheet" href="../.core/js/reveal.js/dist/reveal.css"><!--  --></link>
+        <link rel="stylesheet" href="../.core/js/reveal.js/dist/theme/white.css"
+            ><!--  --></link>
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../.core/js/reveal.js/plugin/highlight/monokai.css"><!--  --></link>
+        <link rel="stylesheet" type="text/css" href="../.core/css/tutorials.css" />
+        <style></style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <!--<section data-auto-animate>
+                    <h2 data-id="code-title">Pretty Code</h2>
+                    <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+						import React, { useState } from 'react';
+
+						function Example() {
+						  const [count, setCount] = useState(0);
+
+						  return (
+						    &lt;xml:test val="some value"/>
+						  );
+						}
+					</code></pre>
+                    <p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+                </section>-->
+                <section>
+                    <h1>The Text Alignment Network</h1>
+                    <h2>An Introduction</h2>
+                    <div class="compress">Version: 2021-08-1930</div>
+                </section>
+                <section>
+                    <section>
+                        <h1>What is TAN?</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Suite of XML formats</li>
+                            <li class="fragment">Deals with TEI-like problems</li>
+                            <li class="fragment">Stand-off annotation</li>
+                            <li class="fragment">Pointers modeled on citations</li>
+                            <li class="fragment">Deep validation</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Designed for multiple versions of texts</li>
+                            <li class="fragment">Enhanced cross-project interoperability</li>
+                            <li class="fragment">Rooted in semantics (RDF-friendly)</li>
+                            <li class="fragment">Schematron for natural language grammar</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>XSLT function library</li>
+                            <li class="fragment">Interoperable utilities/applications</li>
+                            <li class="fragment">Oxygen framework</li>
+                            <li class="fragment">Next-gen TEI / NLTK / CLTK</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>Open source</li>
+                            <li class="fragment">September 2021: Alpha release 2021</li>
+                            <li class="fragment">So much accomplished, so much to do</li>
+                            <li class="fragment">Co-developers welcome</li>
+                            <li class="fragment"><a href="https://textalign.net">textalign.net</a></li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Why bother?</h1>
+                    </section>
+                    <section>
+                        <h2>The scenario: a new translation project</h2>
+                        <ul>
+                            <li class="fragment">five scholars, five states</li>
+                            <li class="fragment">text written in the 4th c. CE, in Greek</li>
+                            <li class="fragment">translate the original</li>
+                            <li class="fragment">translate the 5/6th-c. translations</li>
+                            <li class="fragment">comment</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Project challenges</h2>
+                        <ul>
+                            <li class="fragment">fragmentary text</li>
+                            <li class="fragment">30+ books / editions of interest</li>
+                            <li class="fragment">multiple ancient translations</li>
+                            <li class="fragment">extensive text reuse</li>
+                            <li class="fragment">project's work in flux</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Project need</h2>
+                        <ul>
+                            <li class="fragment">single reading space juxtaposing every version</li>
+                            <li class="fragment">include project's working translations</li>
+                            <li class="fragment">include quoted literature</li>
+                        </ul>
+                    </section>
+                    <!-- https://evagriusponticus.net -->
+                    <!-- ../../../web%20-%20evagriusponticus.net -->
+                    <section data-background-iframe="http://evagriusponticus.net/cpg2432/cpg2432-full-for-reading.html" data-background-interactive="">
+                        <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+                            <h2>A vision: Parabola</h2>
+                            <ul>
+                                <li class="fragment">Juxtapose multiple versions, multiple works, any language</li>
+                                <li class="fragment">Quoted works too</li>
+                                <li class="fragment">Version grouping, sorting, filtering</li>
+                                <li class="fragment">Push-button operation from underlying master files</li>
+                                <li class="fragment">Plug-n-play: add new versions as needed</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Problems, Opportunities</h2>
+                        <ul>
+                            <li class="fragment">How to generalize?</li>
+                            <li class="fragment">How to distribute?</li>
+                            <li class="fragment">How to coordinate works?</li>
+                            <li class="fragment">How to coordinate reference systems?</li>
+                            <li class="fragment">How to structure interoperable citations?</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Standard TEI inadequate</h2>
+                        <ul>
+                            <li class="fragment">Too laissez faire</li>
+                            <li class="fragment">Pointers, syntax are project-oriented</li>
+                            <li class="fragment"><span class="code">teiHeader</span> is confusing, not semantic-oriented</li>
+                            <li class="fragment">Pointers, syntax are project-oriented</li>
+                            <li class="fragment">etc.</li>
+                        </ul>
+                        <aside class="notes">
+                            <p>One could also mention:</p>
+                            <ol>
+                                <li>lack of space control</li>
+                                <li>interleaving of mixed- and non-mixed tree structures</li>
+                                <li>tendency toward scriptum orientation</li>
+                                <li>difficulty of doing multiple lexicomorphological tags on a single word</li>
+                                <li>lack of inclusion techniques, encouraging repetition</li>
+                            </ol>
+                        </aside>
+                    </section>
+                    <section>
+                        <h2>A vision: TAN</h2>
+                        <ul>
+                            <li class="fragment">Constrained, decluttered TEI</li>
+                            <li class="fragment">Annotations → simple, networked stand-off files</li>
+                            <li class="fragment">Pointers based on existing citation conventions</li>
+                            <li class="fragment">Cross-project communication</li>
+                            <li class="fragment">Streamlined metadata rooted in semantics, accessed by familiar names, abbreviations</li>
+                            <li class="fragment">Deeper validation</li>
+                            <li class="fragment">New inclusion techniques</li>
+                            <li class="fragment">So much more</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Caveats</h1>
+                    </section>
+                    <section>
+                        <h2>TAN Gaze</h2>
+                        <div>
+                            <span class="fragment">Our gaze can be directed toward a text-bearing
+                                object</span> <span class="fragment">or away from it.</span>
+                            <span class="fragment">Many TEI files direct our gaze toward scripta.</span> 
+                            <span class="fragment">The TAN ecosystem redirect our gaze, toward the
+                                intertextual ocean.</span></div>
+                        <hr class="fragment" />
+                        <ul>
+                            <li class="fragment">Extensive normalization</li>
+                            <li class="fragment">Shared conventions</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Not all problems can be fixed by a computer</h2>
+                        <ul>
+                            <li class="fragment">Competing reference systems</li>
+                            <li class="fragment">Incongruous text structures</li>
+                            <li class="fragment">Unparseable polysemy</li>
+                            <li class="fragment">Presumptuous synonymity</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Not a traditional application</h2>
+                        <ul>
+                            <li class="fragment">No GUI, not a web service, not an API</li>
+                            <li class="fragment">Could be used in conjunction with existing setups</li>
+                            <li class="fragment">To be used with an XML editor or on the command line</li>
+                            <li class="fragment">Rooted in XSLT 3.0</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Work in progress</h2>
+                        <ul>
+                            <li class="fragment">TAN will change</li>
+                            <li class="fragment">Some operations may be slow</li>
+                            <li class="fragment">You may encounter bugs</li>
+                            <li class="fragment">We're all learning together</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Installing TAN</h1>
+                    </section>
+                    <section>
+                        <h2>Installation</h2>
+                        <ul>
+                            <li class="fragment">Download</li>
+                            <li class="fragment">Open Oxygen project <span class="code">tan.xpr</span></li>
+                            <li class="fragment">Get to work</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Digital assets</h1>
+                    </section>
+                    <section>
+                        <h2>Organization</h2>
+                        <ul>
+                            <li class="fragment">Relatively flat directory structure</li>
+                            <li class="fragment">Names of top-level folders (plural nouns) describe
+                                purpose of the contained files</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>TAN Guidelines</h1>
+                    </section>
+                    <section data-background-iframe="https://textalign.net/release/TAN-2020/guidelines/xhtml/index.xhtml" data-background-interactive="">
+                        <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+                            <h2>TAN Guidelines</h2>
+                            <ul>
+                                <li>Docbook (master)</li>
+                                <li>HTML (website or Oxygen transformation)</li>
+                                <li>PDF (website or Oxygen transformation)</li>
+                            </ul>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>TAN Schemas</h1>
+                    </section>
+                    <section>
+                        <h2 class="code">/schemas</h2>
+                        <ul>
+                            <li class="fragment"><span class="code">*.rnc/*.rng</span> for structural validation</li>
+                            <li class="fragment"><span class="code">*.sch</span> for detailed validation</li>
+                            <li class="fragment">Point to schemas via processing instructions, or let Oxygen infer and apply.</li>
+                            <li class="fragment">See the guidelines</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Schematron validation phases</h2>
+                        <ul>
+                            <li class="fragment">terse: essential errors</li>
+                            <li class="fragment">normal: standard errors</li>
+                            <li class="fragment">verbose: deep checking</li>
+                            <li class="fragment">Heart of validation performed by XSLT, with Schematron as a handler.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Errors</h2>
+                        <div>See the guidelines for a list of errors</div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>TAN Vocabulary</h1>
+                    </section>
+                    <section>
+                        <h2>Vocabulary features</h2>
+                        <ul>
+                            <li class="fragment">Avoids repetition</li>
+                            <li class="fragment">Tethers abbreviations to URIs</li>
+                            <li class="fragment">Standard vocabulary: <span class="code">/vocabularies</span></li>
+                            <li class="fragment">Coverage: division types, grammar, licenses, roles, tokenization, etc.</li>
+                            <li class="fragment">Standard vocabulary can be overridden</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>TAN Parameters</h1>
+                    </section>
+                    <section>
+                        <h2 class="code">/parameters</h2>
+                        <ul>
+                            <li class="fragment">Adjusts validation, utilities, applications</li>
+                            <li class="fragment">Any parameter can be changed</li>
+                            <li class="fragment">Not every parameter affects every operation</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Parameters: caution</h2>
+                        <ul>
+                            <li class="fragment">Need to understand data types and XSLT syntax</li>
+                            <li class="fragment">Very helpful to understand regular expressions</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>TAN functions</h1>
+                    </section>
+                    <section>
+                        <h2>TAN function library</h2>
+                        <div class="fragment">250+ public functions</div>
+                        <div class="fragment">Drives schematron validation</div>
+                        <div class="fragment">Foundation for utilities, applications</div>
+                        <div class="fragment">For XSLT developers: <span class="code">&lt;xsl:include href="[PATH]/functions/TAN-function-library.xsl"></span></div>
+                    </section>
+                    <section>
+                        <h2>TAN function library coverage</h2>
+                        <div>Arabic, archives, arrays, attributes, binary, booleans, checksums,
+                            codepoints, colors, datatypes, diff, docx, expansion, filenames, files,
+                            Greek, grouping, html, identifiers, items, language, Latin,
+                            lexicomorphology, maps, merging, namespaces, nodes, numerals, numerics,
+                            pointers, regular expressions, resolution, search, sequences,
+                            serialization, spacing, statistics, strings, Syriac, tree manipulation,
+                            uris, versioning, vocabulary</div>
+                    </section>
+                    
+                </section>
+                <section>
+                    <section>
+                        <h1>TAN utilities</h1>
+                    </section>
+                    <section>
+                        <h2 class="code">/utilities</h2>
+                        <ul>
+                            <li class="fragment">Get material into TEI / TAN</li>
+                            <li class="fragment">Perform challenging / time-consuming editing</li>
+                            <li class="fragment">Managed through Oxygen transformations</li>
+                            <li class="fragment">All documentation, configuration at <span class="code">/utilities/[NAME]/[NAME.xsl]</span></li>
+                            <li class="fragment">See guidelines to understand the XSLT process</li>
+                        </ul>
+                    </section>
+                    
+                    <section>
+                        <h2>Body Builder</h2>
+                        <ul>
+                            <li class="fragment">Convert plain text or Word docx to TAN / TEI</li>
+                            <li class="fragment">Requires strong command of regular expression</li>
+                            <li class="fragment">To be configured iteratively</li>
+                            <li class="fragment">Designed for complex workflows</li>
+                            <li class="fragment">Can save many hours of work</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Body Remodeler</h2>
+                        <ul>
+                            <li class="fragment">Mold a text into the div structure of a model</li>
+                            <li class="fragment">Best done incrementally, in concert with special Oxygen Author tools</li>
+                            <li class="fragment">To be configured iteratively</li>
+                            <li class="fragment">Regular expression determine where breaks are not allowed</li>
+                            <li class="fragment">Can save many hours of work</li>
+                        </ul>
+                        
+                    </section>
+                    <section>
+                        <h2>Other utilities: <span class="code">/utilities</span></h2>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>TAN applications</h1>
+                    </section>
+                    <section>
+                        <h2 class="code">/applications</h2>
+                        <ul>
+                            <li class="fragment">TAN for end use: teaching, publication, research</li>
+                            <li class="fragment">Complex, configurable code</li>
+                            <li class="fragment">Managed through Oxygen transformations</li>
+                            <li class="fragment">All documentation, configuration at <span class="code">/applications/[NAME]/[NAME.xsl]</span></li>
+                            <li class="fragment">See guidelines to understand the XSLT process</li>
+                        </ul>
+                    </section>
+                    <section data-background-iframe="https://evagriusponticus.net/cpg2430/cpg2430-full-for-reading.html" data-background-interactive="">
+                        <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+                            <h2>TAN Parabola</h2>
+                            <ul>
+                                <li class="fragment">Juxtapose multiple versions of a work, along with annotations, into a single reading space</li>
+                                <li class="fragment">Oldest and most popular application</li>
+                                <li class="fragment">Sources can be grouped, sorted, filtered</li>
+                                <li class="fragment">Managed through a TAN-A file</li>
+                                <li class="fragment">Useful for publishing, teaching, research, collaboration</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section data-background-iframe="https://textalign.net/output/CFR-2017-title1-vol1-compared.html" data-background-interactive="">
+                        <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+                            <h2>TAN Diff+</h2>
+                            <ul>
+                                <li class="fragment">Compare 2 or more texts</li>
+                                <li class="fragment">Visualize letter-for-letter differences</li>
+                                <li class="fragment">Study statistical analyses</li>
+                                <li class="fragment">Normalize input</li>
+                                <li class="fragment">De-normalize output</li>
+                                <li class="fragment">Quantify, measure text differences</li>
+                                <li class="fragment">Useful in many areas in academics and industry</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>TAN Tangram</h2>
+                        <ul>
+                            <li class="fragment">Detect verbatim parallels between two groups of texts</li>
+                            <li class="fragment">Designed for Greek and Latin literature</li>
+                            <li class="fragment">Disregards ngram order</li>
+                            <li class="fragment">Allows inserted words</li>
+                            <li class="fragment">Scores results across multiple metrics</li>
+                            <li class="fragment">Still under development</li>
+                            <li class="fragment">Useful for identifying plagiarism, quotations, common themes, collocations</li>
+                        </ul>
+                        
+                    </section>
+                    <section>
+                        <h2>Applications under development</h2>
+                        <ul>
+                            <li class="fragment">Translation explicitation</li>
+                            <li class="fragment">Lexical complexity</li>
+                            <li class="fragment">Stylometry</li>
+                        </ul>
+                        <div class="fragment">The sky is the limit</div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>TAN Formats</h1>
+                    </section>
+                    <section>
+                        <h2>Format design principles</h2>
+                        <ul>
+                            <li class="fragment">Only one purpose per format</li>
+                            <li class="fragment">Predictable design</li>
+                            <li class="fragment">Human readable</li>
+                            <li class="fragment">Computer actionable</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Classes</h2>
+                        <ul>
+                            <li class="fragment">Class 1: texts</li>
+                            <li class="fragment">Class 2: annotations on texts</li>
+                            <li class="fragment">Class 3: everything else</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Class 1: Texts</h2>
+                        <ul>
+                            <li class="fragment"><span class="code">TEI</span>: all, slightly adjusted for TAN</li>
+                            <li class="fragment"><span class="code">TAN-T</span>: as close as you can get to plain text</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Class 1 Features</h2>
+                        <ul>
+                            <li class="fragment">One version, one work, one reference system, one scriptum</li>
+                            <li class="fragment"><span class="code">@n</span> is the key to navigation</li>
+                            <li class="fragment">Complex, aliased <span class="code">@n</span>s supported</li>
+                            <li class="fragment">Normalization of space, Unicode, line breaks, references</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Class 2: Annotations</h2>
+                        <ul>
+                            <li class="fragment"><span class="code">TAN-A</span>: general alignment, annotations</li>
+                            <li class="fragment"><span class="code">TAN-A-lm</span>: lexico-morphology (part of speech)</li>
+                            <li class="fragment"><span class="code">TAN-A-tok</span>: detailed word-for-word bitext alignment</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Class 2 Features</h2>
+                        <ul>
+                            <li class="fragment">Simple adjustments allowed</li>
+                            <li class="fragment">Pointing system based on <span class="code">@n</span> and tokens</li>
+                            <li class="fragment">Tokenization defined by regular expressions</li>
+                            <li class="fragment">All annotations are claims</li>
+                            <li class="fragment">Claim architecture reflects scholarly concerns</li>
+                            <li class="fragment">Conversion to RDF (reified, complex) pending</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Class 3: Everything else</h2>
+                        <ul>
+                            <li class="fragment"><span class="code">TAN-voc</span>: vocabulary (IRIs, names, descriptions of concepts)</li>
+                            <li class="fragment"><span class="code">TAN-mor</span>: customizable rules for grammars used by TAN-A-lm files</li>
+                            <li class="fragment"><span class="code">catalog.tan</span>: catalogs to index TAN files</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>TAN Metadata</h1>
+                    </section>
+                    <section>
+                        <h2>Metadata design principles</h2>
+                        <ul>
+                            <li class="fragment">Focus only on the data</li>
+                            <li class="fragment">Predictable structure</li>
+                            <li class="fragment">Human readable</li>
+                            <li class="fragment">Computer actionable</li>
+                            <li class="fragment">Chain of responsibility</li>
+                            <li class="fragment">Cross-project communication</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Scholarly responsibility</h2>
+                        <ul>
+                            <li class="fragment">Who did what when?</li>
+                            <li class="fragment">What are your sources?</li>
+                            <li class="fragment">How do you define your terms?</li>
+                            <li class="fragment">What alterations have you made to your
+                                sources?</li>
+                            <li class="fragment">What rights do I have to use your material?</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Metadata structure</h2>
+                        <ol>
+                            <li class="fragment">Key information</li>
+                            <li class="fragment">Declarations</li>
+                            <li class="fragment">Network</li>
+                            <li class="fragment">Adjustments</li>
+                            <li class="fragment">Vocabulary assignment</li>
+                            <li class="fragment">Responsibility</li>
+                            <li class="fragment">Change log</li>
+                            <li class="fragment">Pending work</li>
+                        </ol>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Next steps</h1>
+                    </section>
+                    <section>
+                        <h2>Next steps</h2>
+                        <ul>
+                            <li class="fragment">Examples (<span class="code">/examples</span>)</li>
+                            <li class="fragment">Other libraries</li>
+                            <li class="fragment">Guidelines</li>
+                            <li class="fragment">Tutorials</li>
+                        </ul>
+                    </section>
+                </section>
+                <section data-background-iframe="https://textalign.net" data-background-interactive="">
+                    <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+                        <h1>TAN</h1>
+                        <div><a href="https://textalign.net">textalign.net</a></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script type="text/javascript" src="../.core/js/reveal.js/dist/reveal.js"></script>
+        <script src="../.core/js/reveal.js/dist/reveal.js"></script>
+        <script src="../.core/js/reveal.js/plugin/zoom/zoom.js"></script>
+        <script src="../.core/js/reveal.js/plugin/notes/notes.js"></script>
+        <script src="../.core/js/reveal.js/plugin/search/search.js"></script>
+        <script src="../.core/js/reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="../.core/js/reveal.js/plugin/highlight/highlight.js"></script>
+        <script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+    </body>
+</html>

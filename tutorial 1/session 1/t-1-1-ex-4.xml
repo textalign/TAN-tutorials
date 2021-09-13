@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- EXERCISE 4 -->
+<!-- Metadata -->
+
+<TAN-voc xmlns="tag:textalign.net,2015:ns">
+   
+   <!-- Setup -->
+   <!-- Step 1 -->
+   <!-- Using exercise 2 as a model, fix the @href below so that it points to the correct Schematron file on your local drive. -->
+   <?xml-model href="../../schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+   
+   <!-- Step 2 -->
+   <!-- Move the processing instruction to the top of the file. -->
+   
+   <!-- Step 3 -->
+   <!-- Copy the initial processing instruction from exercise 3 to the top of this file. -->
+
+   <!-- Step 4 -->
+   <!-- Replace the root element of this file with the results from exercise 3. -->
+
+</TAN-voc>
+
+<!-- Prob. 1 -->
+<!-- After following the instructions above, validate the file with Oxygen. There will be numerous errors. Use Oxygen tools
+   to incrementally fix the TAN-voc file. -->

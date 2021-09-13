@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise>
+   <!-- EXERCISE 2 -->
+   <!-- Prepare the network -->
+   
+   <!-- Prob. 1: exposing your files to the network -->
+   <!-- Use the TAN-TEI files you prepared from session 2 and add <master-location>s to each one, pointing to
+      a location on the Internet where you can post the material. Once it is valid, upload the file to the
+      target location. Confirm that you have done this by validating your local file. There should be no errors
+      at <master-location>. Try adding a character or two in local file. Validate again. You should get a 
+      validation warning that reports exactly where the difference occurs.
+   -->
+   
+   
+   <!-- Prob. 2: accessing the network -->
+   <!-- Share the master-location with others who are taking this tutorial. They will be sharing their links
+      with you as well. Find one or two files from each of two or more of your fellow participants, get a copy
+      of the files, and put them in your local TAN file system. Validate the files. Does <master-location> 
+      validate? Try adding a little bit of text to your local copy, and validate again. Results? Tell participants
+      which files you have accessed.
+   -->
+   
+   
+   <!-- Prob. 3: communicating to the network -->
+   <!-- If you have been told by one of your fellow participants that they are using your file, add at least 
+      one <comment> or <change>. Post the new copy to the master location. Make sure your file validates. Ask
+      your fellow participant to validate their local copy. They should see the new comment or change that you
+      have added.
+   -->
+   
+   
+   <!-- Prob. 4: align the file -->
+   <!-- Choose one of the files you have downloaded from your fellow participants and add it as a <source> 
+      to the TAN-A file you created in the previous exercise. Within that element, add a <location> pointing
+      to the local copy and another <location> to the master location. Validate your TAN-A file. What do you 
+      see?
+   -->
+   
+</exercise>

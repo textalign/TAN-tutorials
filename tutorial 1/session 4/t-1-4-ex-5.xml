@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise>
+   <!-- EXERCISE 5 -->
+   <!-- Configure aliases for Parabola -->
+   
+   <!-- Prob. 1: aliases -->
+   <!-- Create an <alias> in the <vocabulary-key> that points to two different alias ids. Then define two
+      more <alias>es to define those, and let them point to the source @xml:ids, so that all sources are
+      covered. Make sure that they are all versions of the same work. Run Parabola to check your results. -->
+   
+</exercise>

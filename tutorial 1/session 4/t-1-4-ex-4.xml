@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise>
+   <!-- EXERCISE 4 -->
+   <!-- Add TAN-A adjustments -->
+   
+   <!-- Prob. 1: skip -->
+   <!-- Create an <adjustment> in the <head> of the TAN-A file you have been using. Bind the
+      <adjustment> via @src to one or more sources. If you want the <adjustment> to apply to
+      every source, use *. Set up an ad hoc <skip>. Run Parabola to check your results. -->
+   
+   
+   <!-- Prob. 2: rename -->
+   <!-- As prob. 1, but use <rename> -->
+   
+   
+   <!-- Prob. 3: equate -->
+   <!-- As prob. above, but use <equate> -->
+   
+</exercise>

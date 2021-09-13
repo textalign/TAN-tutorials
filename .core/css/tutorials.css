@@ -1,0 +1,100 @@
+section table > tbody > tr > td {
+   border: 0px;
+}
+div,
+li{
+   font-family: 'Athena Ruby';
+   font-family: 'Joscelyn';
+   font-family: 'Gentium Plus';
+   font-family: 'Garamond';
+   font-family: 'Sorts Mill Goudy';
+}
+.reveal h1,
+.reveal h2,
+h1,
+h2{
+   color: sienna;
+   font-family: 'Rosario';
+}
+.slides section > ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+.slides section > ul > li::before {
+   content: '~';
+   padding-right: 6px;
+   color: sienna;
+}
+section div.credit {
+   font-size: smaller;
+   font-style: italic;
+   background: sienna;
+   color: white;
+}
+.bigtable td {
+   font-size: 24px;
+}
+.reveal table.data td
+{
+   text-align: right;
+}
+li > .example {
+   font-size: 16px;
+}
+.reveal li > ul > li {
+   margin-left: 2em;
+}
+.code,
+code,
+.left {
+   text-align: left;
+}
+div.code {
+   display: inline;
+}
+.delete {
+   text-decoration: line-through;
+}
+div.code.line {
+   display: block;
+}
+section .code,
+.reveal code,
+.reveal code div,
+code {
+   font-family: 'Liberation mono', monospace;
+   font-family: 'Source code pro medium', monospace;
+   font-family: 'Athena Ruby', monospace;
+   font-family: 'Oxygen mono', monospace;
+   font-family: 'Iosevka', monospace;
+   /*  color: blue; */
+}
+section .code.highlight,
+.highlight {
+   color: sienna;
+}
+div section.code code {
+   margin-left: 20px;
+   display: block;
+}
+.compress,
+section div.compress,
+section.compress {
+   font-size: 50%;
+}
+.compress75,
+section div.compress75,
+section.compress75 {
+   font-size: 75%;
+}
+.reveal .ind1 {
+   margin-left: 2em;
+}
+.reveal .ind2 {
+   margin-left: 4em;
+}
+.leftindent,
+section div.leftindent {
+   margin-left: 20%;
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki.com,2014:tan-a:test" TAN-version="2021">
+   <head>
+      <name>A test TAN-A file</name>
+      <license which="by 4.0" licensor="jk"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki@gmail.com,2021:tan-voc:test</IRI>
+         <name>A test TAN-voc file</name>
+         <location accessed-when="2021-09-10T14:00:51.986-04:00" href="../session%201/t-1-1-ex-4-demo-result.xml"/>
+      </vocabulary>
+      
+      <source xml:id="pl">
+         <IRI>tag:kalvesmaki@gmail.com,2021:text:plato:euthyphro:grc:1906:burnet</IRI>
+         <name>Plato, Euthyphro in Greek, Burnet</name>
+         <location accessed-when="2021-09-10T14:04:15.959-04:00" href="../session%202/t-1-2-ex-2-demo-result.xml"/>
+      </source>
+      
+      <source xml:id="ar">
+         <IRI>tag:kalvesmaki.com,2014:tan-t:ar.cat.grc.1949.minio-paluello:object-refs</IRI>
+         <name>Categories, Aristotle, Greek text edited in 1949 by Minio-Paluello, native scriptum-based reference system</name>
+         <location accessed-when="2021-09-10T14:05:05.952-04:00" href="../../../TAN-2021/examples/ar.cat.grc.1949.minio-paluello.ref-scriptum.xml"/>
+         <location href="https://raw.githubusercontent.com/textalign/TAN-2020/master/examples/ar.cat.grc.1949.minio-paluello.ref-scriptum.xml" accessed-when="2020-09-09"/>
+      </source>
+      
+      
+      
+      <vocabulary-key>
+         <person which="Joel Kalvesmaki" xml:id="jk"/>
+         
+         <!-- jk: I'm coining two vocabulary items I use later in the document; note, these approaches to making claims is 
+            currently an experimental feature -->
+         <verb xml:id="eats">
+            <IRI>tag:kalvesmaki.com,2014:verb:eats</IRI>
+            <name>eats</name>
+            <desc>the act of consuming food; in this case I'm requiring that a location always be provided</desc>
+            <constraints>
+               <place status="required"/>
+            </constraints>
+         </verb>
+         <place xml:id="home">
+            <IRI>tag:kalvesmaki.com,2014:place:home</IRI>
+            <name>home</name>
+         </place>
+      </vocabulary-key>
+      <resp who="jk" roles="editor creator"/>
+      <file-resp who="jk"/>
+      <change when="2021-09-09" who="jk">Started file</change>
+      <to-do>
+         <comment when="2021-09-09" who="jk">Add more content</comment>
+      </to-do>
+   </head>
+   <!-- jk: add a claimant, default verb -->
+   <body claimant="jk" verb="refers_to">
+      
+      <!-- jk: The following states that one source probably refers to the other source -->
+      <claim subject="ar" adverb="probably" object="pl"/>
+      
+      <!-- jk: The following claim gets specific, making the absurd claim that the first fifteen lines of Aristotle's 
+         Categories probably refers to sections 2.a then 5.d from Plato's Euthyphro. The claim points to the
+         work, which means that the claim has value beyond any specific source or edition: it can be trusted and
+         applied to any version of the work, in any language, at that particular reference. If I had wanted to
+         restrict the claim to *these* particular sources, I would have used @src instead of @work.
+      -->
+      <claim adverb="probably">
+         <subject work="ar" ref="1.a.1 - 1.a.15"/>
+         <object work="pl" ref="2.a, 5.d"/>
+      </claim>
+      
+      <!-- jk: The following takes the previous one and makes it recursive. Because the default claimant is me, here
+         I am (absurdly) claiming that the scriptum behind "pl" (i.e., Burnet's edition) is making the claim that 
+         Aristotle refers to Plato. -->
+      <claim subject="pl" verb="claims">
+         <claim verb="refers_to" adverb="probably">
+            <subject ref="1.a.1 - 1.a.15" work="ar"/>
+            <object ref="2.a, 5.d" work="pl"/>
+         </claim>
+      </claim>
+      
+      <!-- jk: in the following I absurdly claim that I eat the source "pl" at home. That claim is based upon 
+         a verb that I myself invented and constrained. -->
+      <claim subject="jk" object="pl" verb="eats" where="home"/>
+      
+   </body>
+</TAN-A>

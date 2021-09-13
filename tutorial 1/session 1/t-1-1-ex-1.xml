@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise-1>
+   
+   <!-- INSTRUCTIONS -->
+   <!-- For each item described below, find one or more IRIs and one or more names, enclosing the former
+      in <IRI>s and the latter in <name>s. -->
+   <!-- If time is limited, do not go in sequential order. Begin with the problems that seem easiest and
+      work your way toward the most difficult ones. -->
+   <!-- Oxygen tip: type CTRL+l (letter ell) to have Oxygen "learn" the patterns, to prompt autofill. -->
+   
+   <!-- EXAMPLE -->
+   <item>
+      <desc>Joan of Arc, a fifteenth-century French woman</desc>
+   </item>
+   
+   <!-- EXAMPLE ANSWERED -->
+   <item>
+      
+      <IRI>https://viaf.org/viaf/97108273</IRI>
+      <IRI>https://isni.org/isni/0000000121446253</IRI>
+      <IRI>https://dbpedia.org/resource/Joan_of_Arc</IRI>
+      <IRI>tag:kalvesmaki.com,2021:person:joan</IRI>
+      <IRI>urn:uuid:1d8fe941-3386-49a2-82ad-621658d39be0</IRI>
+      
+      <name>Jeanne d'Arc</name>
+      
+      <desc>Joan of Arc, a fifteenth-century French woman</desc>
+      
+   </item>
+   
+   <!-- PROBLEMS -->
+   
+   <!-- Prob. 1: person -->
+   <item>
+      
+      <desc>Cleopatra VII Philopator, the last Ptolemaic ruler of Egypt</desc>
+   </item>
+   
+   <!-- Prob. 2: person -->
+   <item>
+      
+      <desc>Alice-Mary Talbot, Byzantine scholar, former director of Byzantine Studies at Dumbarton Oaks</desc>
+   </item>
+   
+   <!-- Prob. 3: organization -->
+   <item>
+      
+      <desc>United Nations</desc>
+   </item>
+   
+   <!-- Prob. 4: abstract textual work -->
+   <item>
+      
+      <desc>Ring around the Roses, a children's nursery rhyme</desc>
+   </item>
+   
+   <!-- Prob. 5: material textual work -->
+   <item>
+      
+      <desc>The Oxford dictionary of nursery rhymes, edited by Iona and Peter Opie and published in 1951.</desc>
+   </item>
+   
+   <!-- Prob. 6: textual division, material -->
+   <item>
+      
+      <desc>a column of text on a page</desc>
+   </item>
+   
+   <!-- Prob. 7: textual division, logical -->
+   <item>
+      
+      <desc>a paragraph</desc>
+   </item>
+
+   <!-- Prob. 8: person -->
+   <item>
+      
+      <desc>An author of one of the texts in the corpus you are assembling</desc>
+   </item>
+   
+   <!-- Prob. 9: person -->
+   <item>
+      
+      <desc>You. (Yes, you.)</desc>
+   </item>
+   
+   <!-- Prob. 10: abstract textual work -->
+   <item>
+      
+      <desc>A work that is in the corpus you are assembling</desc>
+   </item>
+   
+   <!-- Prob. 11: material textual work -->
+   <item>
+      
+      <desc>A book, manuscript, or other material object that carries the exemplar of one of the
+         versions of the texts in the corpus you are assembling</desc>
+   </item>
+   
+   <!-- Prob. 12: textual division, material -->
+   <item>
+      
+      <desc>A material textual division that features in your corpus, e.g., volume, page, line.
+      </desc>
+   </item>
+   
+   <!-- Prob. 13: textual division, logical -->
+   <item>
+      
+      <desc>A logical textual division that features in your corpus. Logical textual divisions are
+         all those that are not material, e.g., stanza, chapter, homily.</desc>
+   </item>
+   
+   <!-- Prob. 14: a digital file -->
+   <item>
+      
+      <desc>This file.</desc>
+   </item>
+   
+   
+</exercise-1>

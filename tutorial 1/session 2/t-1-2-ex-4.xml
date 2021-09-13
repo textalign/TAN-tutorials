@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise>
+   <!-- EXERCISE 4 -->
+   <!-- Reference systems -->
+   
+   <!-- Background: open the official TAN vocabulary file for division types:
+      ../../../TAN-2021/vocabularies/div-types.TAN-voc.xml and browse through the entries.
+      Observe the typology, and that there are 160 logical div types compared to only
+      12 material div types.
+   -->
+   
+   <!-- Prob. 1: Division types -->
+   <!-- List every type of <div> in your TAN-TEI files. For each item, indicate whether the
+      division is material or logical. For each file, is the entire reference system material,
+      logical, or mixed?
+   -->
+   
+   
+   <!-- Prob. 2: Reference scriptum -->
+   <!-- For each scriptum/source you are transcribing, itemize all the possible reference systems.
+      Classify each reference system as material, logical, or mixed. 
+   -->
+   
+   
+   <!-- Prob. 3: Reference system -->
+   <!-- In your TAN-TEI files, insert toward the beginning of the <head> a <reference-system>,
+      filling out the attributes as best you can. Do not worry about @wf-ready, because that
+      refers to an experimental technology.
+   -->
+   
+   
+   <!-- Prob. 4: Reference system -->
+   <!-- In your TAN-TEI files, identify at least one other work that is quoted or alluded to.
+      Let's call that a target text. Using plain language, write down at least five references
+      to the target text, connecting them to references in your source texts with some verb
+      that describes the relationship between the two texts. For example:
+         2:4:7 quotes from Matt 2:14
+         1.2 parallels VII. 
+      You can use any punctuation character you like to separate levels but NOT a comma (which
+      always means "and" and creates a sequence).
+   -->
+   
+</exercise>

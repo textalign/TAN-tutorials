@@ -1,0 +1,1613 @@
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="AW4_lat1">
+                <title> Averroes, Commentum super libro Peryermenias, transl. William of
+                    Luna.</title>
+                <author>Averroes</author>
+                <editor> D.A.R.E.</editor>
+                <respStmt>
+                    <resp>Translated by</resp>
+                    <persName> William of Luna</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority> DARE (RV) </authority>
+                <pubPlace> </pubPlace>
+                <date> 1996</date>
+                <publisher> </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier xml:id="FT3" xml:lang="lat">
+                        <placeName>Princeton</placeName>
+                        <repository>University Library </repository>
+                        <idno>WIP</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1" ed="FT3_pre_release"/>
+            <anchor type="chunk" subtype="chunk_start" n="1"></anchor>
+            <anchor type="chapter" subtype="chapter_start" n="Differentia 1"></anchor>
+            <head>&lt;Differentia prima&gt;</head><p> [1] | Dixit: et oportet ut dicamus primo quid est
+            nomen et quid est <lb/> uerbum; deinde dicemus post hec quid affirmatio et negatio et
+                uniuersa</p> <wb></wb>
+            <lb/> <p>liter quid est enuntiatio et oratio *uel dictio*, que est genus affirmatio</p> <wb/>
+            <lb/> nis et negationis. <lb/> [2] Dicemus ergo quod dictiones quibus ratiocinatur
+            significant primo <lb/> intentiones que sunt in anima; et littere que scribuntur
+            significant primo <lb/>
+            <pb n="2" ed="FT3_pre_release"/> has dictiones; et quemadmodum littere scripte, scilicet
+            scriptura, non <lb/> est una et eadem omnibus gentibus, similiter dictiones quibus
+            interpre <wb/>
+            <lb/> tatur de intentionibus non sunt une et eedem apud omnes gentes; et <lb/> propter
+            hoc est significatio harum ad placitum *per concordiam*, non <lb/> per naturam. Sed
+            intentiones &lt;...&gt; sunt une et eedem omnibus <lb/> gentibus, quemadmodum res
+            inuente, quarum intentiones que sunt in <lb/> anima sunt exempla et significantes ipsas,
+            sunt une et inuente per <lb/> naturam omnibus. Dictio autem *uel sermo* in modo
+            significationis <lb/> intentionum que sunt in anima super res inuentas extra animam, est
+            <lb/> alterius scientie ab hac; iamque locutus est in eo in libro De anima. <lb/>
+            <pb n="3" ed="FT3_pre_release"/> [3] Et uerba similantur intentionibus intellectis in eo
+            quod, quemadmo <wb/>
+            <lb/> dum res multotiens est intellecta preter quod disponatur per uerum et <lb/>
+            falsum, similiter et uerbum multotiens est scitum preter quod dispona <wb/>
+            <lb/> tur per uerum neque falsum; et quemadmodum multotiens est intellec <wb/>
+            <lb/> tum ex re dispositum per uerum et falsum, similiter et uerbum erit, <lb/> scitum,
+            dispositum per uerum et falsum; uerum namque et falsum <lb/> sequuntur intentiones
+            intellectas et uerba significantia ipsas, cum com <wb/>
+            <lb/> ponuntur ad inuicem aut diuiduntur ab inuicem; sed cum accipiuntur <lb/> separata,
+            non significant quidem neque uerum neque falsum. Et nomen <lb/> et uerbum similantur
+            intentionibus simplicibus, que non sunt uere <lb/> neque false, et sunt ille que
+            inueniuntur preter diuisionem et composi <wb/>
+            <lb/> tionem; uerbi gratia: sermo noster «homo» et «albedo», quoniam, cum <lb/> non
+            coniungitur ei «inuenitur» aut «non inuenitur», non est adhuc <lb/>
+            <pb n="4" ed="FT3_pre_release"/> neque uerum neque falsum; sed significat quidem rem cui
+            innuitur <lb/> preter quod dis|ponatur res illa per uerum et falsum. Et propter hoc
+            <lb/> sermo noster «hyrcoceruus» et «+ <hi rend="italic">anchagaribach</hi> +» non
+            disponitur per <lb/> uerum neque falsum, dum non coniungitur cum eo sermo noster <lb/>
+            «inuenitur» | aut «non inuenitur», aut absolute aut in tempore, et <lb/> dicatur
+            «hyrcoceruus inuentus», «hyrcoceruus non inuentus», aut <lb/> «hyrcoceruus inuenitur»
+            aut «non inuenitur». <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="1"/>
+            <anchor type="chunk" subtype="chunk_start" n="2"/>
+            <anchor type="chapter" subtype="chapter_end" n="Differentia 1" lvl="1"/>
+            <anchor type="chapter" subtype="chapter_start" n="Dictio in nomine" lvl="2"/>
+            <head>Dictio in nomine</head>
+            <lb/> [4]Et no|men est dictio significans ad placitum *per concordiam* <lb/> intentionem
+            expoliatam a tempore, preter quod significet una partium <lb/> ipsius, cum diuiditur,
+            partem illius intentionis, siue sit nomen diuisum <lb/> simplex, sicut «Petrus» et
+            «Paulus», aut compositum, sicut «Seruus-regis», <lb/>
+            <pb n="5" ed="FT3_pre_release"/> quod est nomen hominis. Et illud est quod
+            «Seruus-regis», quod est nomen <lb/> hominis, cum separatur ab eo «seruus» aut «regis»,
+            non significat <lb/> partem illius intentionis quam significat coniunctum amborum, quem <wb/>
+            <lb/> admodum | significat illud in sermone nostro «seruus regis», cum <lb/> uolumus
+            quod ipse est seruus regis, quoniam «seruus» significat hic <lb/> partem intentionis
+            quam significat sermo noster «seruus regis»; et <lb/> similiter «regis» etiam significat
+            partem intentionis. Sed differentia inter <lb/> nomina simplicia et nomina composita -
+            uerbi gratia «+ <hi rend="italic">Abdelcais</hi> +» <lb/> (Seruus-Caïs) et «+ <hi
+                rend="italic">Bahalbethe</hi> +» - est quia nominis simplicis pars, que <lb/> est
+            incisio una incisionum ex quibus componitur nomen, non significat <lb/> aliquid penitus,
+            non per se neque per accidens, sicut «Pe» «Petri»; et pars <lb/> quidem nominis
+            compositi non significat separata *per se* nisi per <lb/> accidens, sicut si accidat
+            illi cuius nomen est «Seruus-regis» ut sit seruus <lb/> regis. <lb/>
+            <pb n="6" ed="FT3_pre_release"/> [5] Additur namque in diffinitione nominis «per
+            concordiam», prop <wb/>
+            <lb/> terea quia dictiones quibus sermocinantur gentes non significant per <lb/>
+            naturam, sicut multa ex dictionibus quibus locuntur animalia, que sunt <lb/> dictiones
+            que non scribuntur; quoniam dictiones quibus balbutiuntur <lb/> plura ex animalibus sunt
+            composite ex incisionibus ex quibus compo <wb/>
+            <lb/> nuntur dictiones quibus loquitur homo, aut ex incisionibus compositis <lb/> ex
+            litteris appropinquantibus sibi in exitu, et sunt significantes intentio <wb/>
+            <lb/> nes per seipsas, scilicet apud animalia. <lb/> [6] Et nominis aliud est finitum et
+            aliud infinitum. Et finitum quidem est <lb/> nomen quod significat habitum, sicut «homo»
+            et «equus». Sed infi <wb/>
+            <lb/> nitum est nomen compositum ex nomine habitus et negatiua particula <lb/> «non» in
+            lingua in qua agitur ista species nominis, sicut sermo noster <lb/> «non homo» et «non
+            animal». Et iste modus nominum nominatur <lb/>
+            <pb n="7" ed="FT3_pre_release"/> quidem nomen infinitum, quoniam non decet ut nominetur
+            nomen <lb/> absolute, cum non significet habitum; neque etiam est sermo negatiuus, <lb/>
+            quia significatio ipsius est significatio nominis simplicis, quamuis sit <lb/>
+            compositum. Et propter illud iam sequitur ipsum pars negatiua, sicut <lb/> sequitur
+            nomen finitum. <lb/> [7] Et nomen etiam, cum genitiuatur aut accusatiuatur aut mutatur
+            <lb/> mutatione alia huiusmodi, non dicitur nomen absolute, sed nomen <lb/> declinatum.
+            Erunt igitur nomina etiam quedam declinata et quedam <lb/> non declinata. Sed diffinitio
+            | qua diffinitur nomen, comprehendit ea <lb/> omnia, nisi quia differentia est inter
+            declinatum et non declinatum (et <lb/> illud est in casu «u» in lingua arabica), quod
+            cum additur nominibus <lb/> declinatis, que nominantur declinantia, «fuit» aut «erit»
+            aut «est nunc» <lb/> et dicitur «Petrum fuit» per accusatiuum aut «Petri erit» per geni <wb/>
+            <lb/> tiuum, non erit uerum neque falsum. Sed nomen non declinatum <lb/> (et est illud
+            quod dicitur rectum), cum additur unum ex istis, erit uerum <lb/> aut falsum, sicut
+            sermo noster «Petrus fuit» aut «Martinus inuenitur» <lb/> per «u» casum. <lb/> [8] Et
+            hoc est quod rememoratus est ex diffinitione nominis et modorum <lb/> ipsius. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="2"/>
+            <anchor type="chunk" subtype="chunk_start" n="3"/>
+            <pb n="8" ed="FT3_pre_release"/>
+            <anchor type="chapter" subtype="chapter_end" n="Dictio in nomine" lvl="2"/>
+            <anchor type="chapter" subtype="chapter_start" n="Dictio in uerbo" lvl="2"/>
+            <head>Dictio in uerbo</head>
+            <lb/> [9] Et uerbum, quod nominatur apud Arabes «actio», est dictio significans <lb/>
+            intentionem et tempus illius intentionis prouenientis | in uno temporum <lb/> trium, que
+            sunt preteritum et presens et futurum; neque aliqua partium <lb/> eius significat etiam
+            separata, et hoc per se. Et proprium uerbi est quod <lb/> sit semper appositum, non
+            suppositum, predicatum, non subiectum. Et <lb/> propter illud significat semper
+            intentionem de cuius proprietate est ut <lb/> predicetur de alio. Et illud [quidem] siue
+            ut sit secundum formam suam <lb/> significans inten|tionem predicati et coniunctionem
+            predicati cum sub <wb/>
+            <lb/> iecto, et illud, cum erit appositum per se - sicut cum dicimus «Socrates <lb/>
+            sanatur» et «Socrates ambulat» -; aut ut sit forma sua significans <lb/>
+            <pb n="9" ed="FT3_pre_release"/> colligationem predicati cum subiecto, cum erit
+            predicatum nomen ex <lb/> nominibus - sicut cum dicimus «Socrates inuenitur animal» -.
+            Et <lb/> predicatum, quod significat colligationem suam cum subiecto, aut est <lb/> ex
+            eo quod dicitur in subiecto - et illud cum fuerit accidens in subiecto <lb/> -, aut est
+            ex eo quod dicitur de subiecto - quando est subiectum pars <lb/> predicati -. Et quod
+            additur in diffinitione uerbi: quod est significans, <lb/> cum eo quod significat
+            intentionem, tempus illius intentionis, est diffe <wb/>
+            <lb/> rentia qua differt uerbum a nomine. Et illud est, quia sermo noster <lb/>
+            «sanatur» est significans quod significat sermo noster «sanitas» <wb/>
+            <lb/> quod est nomen - et tempus presens aut futurum, in quibus inuenitur <lb/> sanitas.
+            <lb/> [10] Et ex uerbo etiam est finitum et infinitum. Et finitum uerbum est <lb/> quod
+            significat intentionem quam significat nomen finitum et tempus <lb/> illius intentionis.
+            Et infinitum uerbum | est quod significat illud quod <lb/> significat nomen infinitum et
+            tempus illius intentionis; et illud est <lb/> priuatio illius quod significat nomen
+            finitum - scilicet priuatio, que <lb/> diffinita est in libro Predicamentorum -, sicut
+            sermo noster «non <lb/> sanatur»; ipse namque significat id quod significat sermo noster
+            «non <lb/>
+            <pb n="10" ed="FT3_pre_release"/> sanitas» et tempus illius intentionis. Et uerbum
+            infinitum est species <lb/> specierum uerbi, cum sit intrans diffinitionem precedentem
+            uerbi abso <wb/>
+            <lb/> lute et inueniatur ei proprium precedens uerbi: et est quod semper <lb/>
+            significat id de cuius proprietate | est ut predicetur de alio predicatione <lb/>
+            alicuius de subiecto aut in subiecto. Et nominatur quidem hic modus <lb/> uerbi uerbum
+            infinitum, propterea quia est deriuatum a nomine infinito. <lb/> Et hec species uerbi
+            non inuenitur in lingua arabica, sicut nomen <lb/> infinitum est non inuentum. <lb/>
+            [11] Et ex uerbo est declinatum et non declinatum: et est illud de quo <lb/> dicitur
+            nomen uerbi absolute. Et uerbum non declinatum est quod <lb/> significat in lingua
+            multarum gentium tempus presens. Et declinatum <lb/> est quod significat tempus quod
+            inuenitur circumdans tempus presens, <lb/> et est tempus preteritum et futurum. Et non
+            est tempori presenti forma <lb/> propria in lingua arabica, sed forma quidem que
+            inuenitur in lingua <lb/> arabica est communis presenti et futuro, sicut *uerbi gratia*
+            «sanatur» <lb/> (+ <hi rend="italic"> </hi>
+            <hi rend="italic">yasith</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic" rend2="supraline">i</hi>
+            <hi rend="italic" rend2="supraline"> </hi> +) et «ibit» (+ <hi rend="italic"> </hi>
+            <hi rend="italic">yasih</hi>
+            <hi rend="italic"> </hi>
+            <hi rend="italic" rend2="supraline">i</hi>
+            <hi rend="italic" rend2="supraline"> </hi> +); et propter hoc dixerunt grammatici <lb/>
+            <pb n="11" ed="FT3_pre_release"/> eorum quod, cum uolunt appropriare futuro, faciunt
+            intrare uerbum <lb/> + <hi rend="italic">.s.</hi> + aut + <hi rend="italic">scaf</hi> +
+            et dicunt «+ <hi rend="italic">scehisih</hi> +» (sanabitur) aut «+ <hi rend="italic"> </hi>
+            <hi rend="italic">sci</hi>
+            <wb/>
+            <hi rend="italic"> </hi>
+            <lb/>
+            <hi rend="italic"> </hi>
+            <hi rend="italic">hamhissih</hi>
+            <hi rend="italic"> </hi> +» (ibit). Et tempus presens est tempus quod accipit intellec <wb/>
+            <lb/> tus existens in actu et cui innuitur - uerbi gratia «hec hora» et «hoc <lb/>
+            instans» -; et propter hoc dicitur nomen temporis de hoc absolute, cum <lb/> hoc sit
+            magis scitum apud uulgus, et [est] in relatione ad ipsum <lb/> intelligitur tempus
+            preteritum et futurum, quia preteritum est precedens <lb/> hoc tempus et futurum est
+            posterius ab eo. Sed utrum illud quod <lb/> ymaginatur ex tempore presenti habet esse
+            sicut ymaginamur aut non <lb/>
+            <pb n="12" ed="FT3_pre_release"/> habet esse, illud non est quo indigemus in hoc loco.
+            <lb/> [12] Et uerbum similatur nomini et communicat ei in hoc quod, cum <lb/> dicitur
+            separatum, intelligitur ex eo intentio sufficiens per se, sicut illud <lb/> quod
+            intelligitur ex nomine cum dicitur separatum per se. Et propter <lb/> hoc, cum audit
+            illud audiens, sufficit sibi, nisi quia non intelligit ex <lb/> intentione consecuta,
+            quod aliquid sit adhuc existens aut non existens <lb/> - uerbi gratia «est» aut «erit
+            hoc» -, | quando est hoc uerbum <lb/> appositum per se. Sed cum erit copula, [quia] non
+            intelligitur ex eo <lb/> intentio sufficiens per seipsum, sicut dispositio copule,
+            quoniam qui <wb/>
+            <lb/> dem significat tunc compositionem predicati cum subiecto, | neque est <lb/> uia ad
+            intelligendum compositionem preter intellectum rerum composi <wb/>
+            <lb/> tarum; et hoc erit apud copulationem ipsius - uerbi gratia «Socrates <lb/>
+            <pb n="13" ed="FT3_pre_release"/> inuenitur sapiens» aut «non inuenitur sapiens» -. Erit
+            | ergo uerbum duobus <lb/> modis: modus qui intelligitur per se - et est uerbum quod per
+            se est <lb/> appositum -, et modus qui non intelligitur per se - et est uerbum <lb/>
+            copulatiuum, quod nominatur essentiale. <lb/> [13] Et hoc est quod dixit in diffinitione
+            nominis et uerbi, et scientia <lb/> modorum ipsorum necessariorum hic; et sunt quibus
+            diuersificatur <lb/> enuntiatio per ipsorum diuersitatem. Sed de coniunctionibus
+            rememora <wb/>
+            <lb/> bitur in libro uersuum. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="3"/>
+            <anchor type="chunk" subtype="chunk_start" n="4"/>
+            <anchor type="chapter" subtype="chapter_end" n="Dictio in uerbo" lvl="2"/>
+            <anchor type="chapter" subtype="chapter_start" n="Sermo in oratione" lvl="2"/>
+            <head>Sermo in oratione</head>
+            <lb/> [14] Et oratio est dictio cuius una partium primarum - id est simplicium <lb/> -
+            iam significat separata *per se*, secundum modum intellectus <lb/> ymaginationis, non
+            secundum modum affirmationis et negationis; uerbi <lb/>
+            <pb n="14" ed="FT3_pre_release"/> gratia «homo est animal», quoniam dictio que est
+            «homo», que est pars <lb/> eius, significat aliquid secundum modum ymaginationis et non
+            secundum <lb/> modum quod hoc aliquid est inuentum aut non inuentum; et similiter <lb/>
+            dictio que est «animal», que est pars secunda huius orationis. Et hoc quod <lb/>
+            accipitur in diffinitione orationis: quod una partium eius primarum <lb/> significat per
+            se *separata*, est differentia qua differt oratio a nomine; <lb/> quoniam nominis
+            simplicis pars que est sillaba, non significat aliquid <lb/> penitus; nominisque
+            compositi etiam non significat pars aliquid nisi per <lb/> accidens: uerbi gratia, ut
+            accidit homini | cuius nomen est «Seruus-regis», <lb/> quod sit seruus regi. <lb/> [15]
+            Et oratio quidem significat secundum uiam concordie et non per <lb/> naturam, neque
+            secundum uiam ut omni intentioni composite sit dictio <lb/> sculpens eam per naturam et
+            significans eam, preter quod inueniatur illa <lb/> significatio in alia dictione ab
+            illa, sicut non inuenitur actio instrumenti <lb/> alii instrumento: quia quibusdam
+            apparet quod dictiones hoc modo <lb/>
+            <pb n="15" ed="FT3_pre_release"/> significant, et quibusdam aliis uidetur quod dictiones
+            significant per <lb/> naturam, absque eo quod in ea sit nobis electio &lt;...&gt;
+            compositionis <lb/> positiue, neque electio compositionis naturalis; et hec est
+            sententia illius <lb/> cui uidetur quod sit hic compositio dictionis significans per
+            naturam <lb/> intentionem et intentionem. <lb/> [16] Et oratio quedam est perfecta et
+            quedam imperfecta. Et perfecta <lb/> quedam est sententia *enuntiatio* et quedam non,
+            sicut mandatio et <lb/> prohibitio. Et intentio hic quidem est loqui in oratione
+            enuntiatiua. Sed <lb/> de orationibus perfectis que sunt preter eam, loquitur in libro
+            Rethorice <lb/> et Poetice, sicut de modis orationum imperfectarum que sunt diffinitio <wb/>
+            <lb/> nes et descriptiones, loquitur in libro Demonstrationis. <lb/>
+            <pb n="16" ed="FT3_pre_release"/> [17] Et oratio enuntiatiua est que disponitur per
+            uerum aut falsum, et ipsa <lb/> est duorum modorum: simplex et composita. Et simplex |
+            est composita <lb/> ex predicato uno et subiecto uno, non ex predicato magis uno et
+            <lb/> subiecto plus uno. Et ista est duarum specierum: una prior est affirma <wb/>
+            <lb/> tio et secunda posterior est negatio. <lb/> [18] Et oratio simplex erit una, cum
+            est subiectum in ea significans unam <lb/> intentionem, et similiter predicatum. Et erit
+            plures, quando significat <lb/> predicatum in ea intentiones plures, aut subiectum, aut
+            ambo. Et oratio <lb/> composita erit una copula | que copulat ipsam. Et erit plures cum
+            non <lb/> habet copulam copulantem ipsas. Et propter illud omnis oratio aut est <lb/>
+            una aut plures. Et si est una, aut est una propterea quod subiectum eius <lb/> et
+            predicatum significant unam intentionem, aut propter copulam copu <wb/>
+            <lb/> lantem ipsas: et sunt orationes in quibus inuenitur plus uno | <lb/>
+            <pb n="17" ed="FT3_pre_release"/> subiecto et uno predicato, sicut est sillogismus
+            condicionalis et cathego <wb/>
+            <lb/> ricus, quoniam condicionalis est una per copulam que est + <hi rend="italic"
+                >arf</hi> + - id <lb/> est copula *uel coniunctio* - condicionalis; uerbi gratia «si
+            sol est <lb/> eleuatus, ergo est dies»; quoniam illa coniunctio «ergo» est que ponit
+            <lb/> has duas orationes simplices, que sunt sermo noster «sol est <lb/> eleuatus» et
+            «dies inuenitur», orationem unam. Sed cathegoricus est una per <lb/> copulam que est
+            terminus medius; uerbi gratia «homo est animal» et <lb/> «animal est corpus»,
+            quemadmodum ueniet post. Et si est oratio multe, <lb/> aut erit multe propterea quod
+            predicatum aut subiectum aut ambo <lb/> significant multa, aut quia non est eis copula
+            copulans eas. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="4"/>
+            <anchor type="chunk" subtype="chunk_start" n="5"/> [19] Et omnis oratio enuntiatiua
+            quidem est composita ex nomine et <lb/> uerbo, aut eo quod stat loco uerbi in
+            copulatione predicati cum <lb/> subiecto. Et illud est, quia oratio enuntiatiua in qua
+            est subiectum <lb/> nomen et predicatum nomen, absque dubio habet uerbum aut quod stat <lb/>
+            <pb n="18" ed="FT3_pre_release"/> loco uerbi significans copulationem predicati cum
+            subiecto. Et hoc, aut <lb/> in actu et apparet manifeste - sicut inuenitur res in eo
+            quod est preter <lb/> linguam arabicam -, aut in potentia et subintellectum, sicut
+            inuenitur <lb/> res secundum plurimum in lingua arabica. Et postquam sunt hic tres <lb/>
+            intentiones: subiecti et predicati et proportionis copulantis predicatum <lb/> cum
+            subiecto, necesse est quod sint hic tres dictiones: dictio significans <lb/> subiectum
+            et dictio significans predicatum et dictio significans propor <wb/>
+            <lb/> tionem. Sed dictio significans copulationem predicati cum subiecto <lb/> quandoque
+            significat colligationem ipsius in tempore preterito, aut <lb/> futuro, aut presenti:
+            uerbi gratia «Petrus inuenitur nunc sapiens», aut <lb/> «Petrus inuentus | fuit
+            sapiens», aut «Petrus inuenietur sapiens»; et <lb/> quandoque significat colligationem
+            non sumptam cum tempore: et hec <lb/> est predicatio necessaria, et illud est sicut
+            sermo dicentis «triangulus <lb/> existens cuius anguli sunt equales duobus rectis»; | et
+            non est in lingua <lb/> arabica dictio significans istum modum copule, et est inuentum
+            in aliis <lb/> linguis. Et propinquior dictio similis illi in | lingua arabica est illud <lb/>
+            <pb n="19" ed="FT3_pre_release"/> quod significat hec dictio «ipsum», ut in sermone
+            nostro «Petrus ipse <lb/> animal», aut «inuenitur», in sermone nostro «Petrus inuenitur
+            <lb/> animal». <lb/> [20] Et nomen et uerbum non est uerum aut falsum, sed oratio quidem
+            est <lb/> que est uera aut falsa. Et oratio que uerificatur aut falsificatur nomina <wb/>
+            <lb/> tur sententia *enuntiatio* et iudicium. Et iudicii simplicis similatur <lb/>
+            affirmatio positioni alicuius super aliquo, et negatio, ablationi alicuius <lb/> ab
+            aliquo. Et compositum ex hiis est oratio composita. Iamque describi <wb/>
+            <lb/> tur etiam oratio simplex per hoc quod est dictio significans quod <lb/> aliquid
+            est inuentum aut non inuentum, et illud, aut in tempore <lb/> preterito, aut futuro, aut
+            presenti, aut absolute; sed affirmatio per hoc <lb/> quod est iudicium in fixione
+            alicuius alicui et negatio est iudicium in <lb/> ablatione alicuius ab aliquo. <lb/>
+            [21] Et quia iam est possibile ut iudicetur per orationem secundum quod <lb/> est in
+            anima super illud quod est inuentum extra animam, quod non sit inuentum; et <lb/>
+            <pb n="20" ed="FT3_pre_release"/> super illud quod est inuentum, quod est inuentum; et
+            super illud quod <lb/> non est inuentum, quod non est inuentum (et hoc aut iudicio
+            absoluto <lb/> aut in uno temporum trium que sunt presens, aut preteritum, aut <lb/>
+            futurum); iam possibile est in omni eo quod affirmat affirmator, ut neget <lb/> illud
+            negator; et in omni eo quod negat negator, ut affirmet illud <lb/> affirmator. Et cum
+            hoc sit ita, omni ergo affirmationi negatio opponitur <lb/> et omni negationi
+            affirmatio; et illud secundum quod affirmatio et <lb/> negatio sunt inuente in anima,
+            non extra animam, quoniam non <lb/> inuenitur rebus affirmatis secundum quod sunt extra
+            animam negatio <lb/> opposita, neque rebus negatis secundum quod sunt extra animam <lb/>
+            affirmatio opposita. Sed consideratio in affirmatione et negatione est <lb/> secundum
+            quod ipse sunt in anima. Et affirmatio quidem et negatio <lb/> sunt opposite secundum
+            ueritatem, cum erit intentio predicati in amba <wb/>
+            <lb/> bus una ex omnibus partibus, et similiter est intentio subiecti. Sed cum <lb/> non
+            erit una, siue propter communitatem nominis aut propter aliud ex <lb/> eis a quibus
+            cauetur in libro Sophistice, non sunt affirmatio | neque <lb/> negatio opposite |. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="5"/>
+            <anchor type="chunk" subtype="chunk_start" n="6"/>
+            <anchor type="chapter" subtype="chapter_end" n="Sermo in oratione" lvl="2"/>
+            <anchor type="chapter" subtype="chapter_start" n="Differentia 2" lvl="1"/>
+            <head>Differentia secunda</head>
+            <lb/> est singularis. Et uolo per uniuersalem: illam de cuius | proprietate est <lb/> ut
+            predicetur de pluribus, sicut est predicatio animalis de homine et <lb/> equo, et
+            reliquis speciebus animalis. Et per particularem: de cuius <lb/> proprietate est non
+            illud, sicut Petri et Pauli, cui innuitur. Et cum sit res <lb/> ita, oportet de
+            necessitate, cum iudicamus per affirmationem aut nega <wb/>
+            <lb/> tionem alicui, quod sit illud iudicium intentioni ex intentionibus singu <wb/>
+            <lb/> laribus aut intentioni ex intentionibus uniuersalibus. Deinde cum est <lb/>
+            intentioni ex intentionibus uniuersalibus, procul dubio aut sumetur <lb/> absque
+            clausura aut cum clausura. Et uolo per clausuram dictionem <lb/> «omnis» aut «quidam».
+            Deinde cum est accepta cum clausura, non <lb/> euacuatur quin sit accepta cum clausura
+            uniuersali aut particulari. <lb/>
+            <pb n="22" ed="FT3_pre_release"/> [23] Et opposite secundum affirmationem et negationem
+            quarum amba <wb/>
+            <lb/> rum subiectum est intentio ex intentionibus singularibus, nominantur <lb/>
+            singulares: uerbi gratia «Petrus est missus», «Petrus non est missus». <lb/> Et opposite
+            quarum ambarum subiectum est intentio uniuersalis <lb/> accepta absque clausura,
+            nominantur indefinite: uerbi gratia «homo est <lb/> albus», «homo non est albus». Et
+            opposite quarum ambarum subiec <wb/>
+            <lb/> tum est intentio uniuersalis accepta cum clausura, sunt tres: aut ut sit <lb/>
+            unaqueque oppositarum cui adiungitur clausura uniuersalis, aut ut sit <lb/> unaqueque
+            earum ambarum cui coniungitur clausura particularis, aut <lb/> ut coniungatur uni
+            ipsarum ambarum clausura uniuersalis et alii parti <wb/>
+            <lb/> cularis. Et ille quidem quarum unicuique coniungitur clausura uniuersa <wb/>
+            <lb/> lis, nominantur contrarie: uerbi gratia «omnis homo est albus», «nullus <lb/> homo
+            est albus». Et ille quarum uni coniungitur clausura uniuersalis et <lb/> alii
+            particularis, nominantur contradictorie, que sunt duorum modo <wb/>
+            <lb/> rum: aut ut sit uniuersalis coniuncta affirmatiue et particularis con <wb/>
+            <lb/>
+            <pb n="23" ed="FT3_pre_release"/> iuncta negatiue: uerbi gratia «omnis homo | est
+            albus», «non om|nis <lb/> homo est albus», aut «quidam homo non est albus», quoniam
+            negatiua <lb/> particularis interpretatur hiis duabus interpretationibus; aut ut sit e
+            <lb/> conuerso, scilicet quod coniungatur clausura uniuersalis negatiue et <lb/>
+            particularis affirmatiue: | ut *uerbi gratia* «quidam homo est albus», <lb/> «nullus
+            homo est albus». Sed ille quarum unicuique coniungitur clau <wb/>
+            <lb/> sura particularis, nominantur subcontrarie: uerbi gratia «quidam homo <lb/> est
+            albus», «quidam homo non est albus». Erunt ergo modi opposita <wb/>
+            <lb/> rum secundum affirmationem et negationem sex: singularium, indefini <wb/>
+            <lb/> tarum et contradictoriarum, et harum duo sunt modi, et contrariarum <lb/> et
+            subcontrariarum. Et non diuiduntur enuntiationes ex parte coniunc <wb/>
+            <lb/> tionis clausure cum predicato, quia clausura cum adiungitur predicato <lb/> est
+            falsa enuntiatio aut superflua; et falsa quidem, uerbi gratia <lb/> «omnis homo est omne
+            animal»; superflua uero, sicut cum dicimus <lb/> «omnis homo est quoddam animal». <lb/>
+            [24] Et postquam stabiliti sunt modi enuntiationum, dicemus quod singu <wb/>
+            <lb/> lares quidem diuidunt uerum a falso semper, scilicet: quia cum falsa est <lb/>
+            <pb n="24" ed="FT3_pre_release"/> una ambarum, uera est alia, et cum uera est una
+            ipsarum, falsa est alia; <lb/> et non est possibile ut aggregentur simul neque super
+            ueritatem neque <lb/> super falsitatem: uerbi gratia «Petrus exiuit», «Petrus non
+            exiuit»; et <lb/> illud est manifestum per se secundum uiam inquisitionis (inductionis).
+            <lb/> Et similiter contradictorie diuidunt uerum a falso in omnibus materiis. <lb/> Sed
+            contrarie diuidunt uerum a falso in necessaria et impossibili, et sunt <lb/> | ambe
+            false simul in contingenti, neque est possibile ut simul sint ambe <lb/> uere; sed cum
+            uera est una, falsa est alia. Et subcontrarie diuidunt <lb/> uerum a falso etiam in
+            necessaria et impossibili, et sunt simul uere in <lb/> contingenti, et cum una est
+            falsa, reliqua est uera de necessitate. Et <lb/> exemplum falsitatis ambarum
+            contrariarum simul in contingenti est <lb/> sermo noster «omnis homo est albus», «nullus
+            homo est albus». Et <lb/> exemplum ueritatis ambarum | subcontrariarum est sermo noster
+            «qui <wb/>
+            <lb/> dam homo est albus», «quidam homo non est albus». Sed indefinite <lb/>
+            <pb n="25" ed="FT3_pre_release"/> iam possibile est quod sint ambe uere simul in materia
+            contingenti; et <lb/> iam possibile est ut sit iudicium earum iudicium contrariarum. Et
+            causa <lb/> in illo est quia <hi rend="italic">a</hi> et + <hi rend="italic">b</hi> + et
+            quod stat loco earum in aliis linguis <lb/> aliquando significant super hoc quod
+            significant clausure uniuersales et <lb/> quandoque significant super hoc quod
+            significant clausure particulares. <lb/> Cum ergo significant super hoc quod significant
+            clausure uniuersales, <lb/> est potentia *uel uis* eius sicut uis contrariarum. Et cum
+            significant <lb/> super hoc quod significant clausure particulares, est uis eius sicut
+            uis <lb/> subcontrariarum. Et illud est quia iam possibile est ut sint ambe uere <lb/>
+            simul «homo est albus», «homo non est albus», cum significant <hi rend="italic">a</hi>
+            et <lb/> + <hi rend="italic">b</hi> + quod significat clausura particularis; et iam
+            possibile est ut sint <lb/>
+            <pb n="26" ed="FT3_pre_release"/> ambe false, cum significant <hi rend="italic">a</hi>
+            et + <hi rend="italic">b</hi> + quod significat clausura uniuersa <wb/>
+            <lb/> lis. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="6"/>
+            <anchor type="chunk" subtype="chunk_start" n="7"/> [25] Et possibile est quidem ut
+            reperiantur modi harum oppositarum in <lb/> dispositione | qua disponantur ex diuisione
+            sua ueri et falsi semper, et <lb/> ut sint uere quedam ipsarum simul, et sint false
+            quedam ipsarum simul, <lb/> cum obseruatur in eis ut accipiatur affirmationi uni ipsarum
+            negatio <lb/> una et negationi uni affirmatio una, cum reliquis condicionibus que <lb/>
+            dicuntur, non cum accipitur | affirmationi uni plus quam una negatio, <lb/> ita ut
+            accipiatur affirmatiue uniuersali negatiua uniuersalis et negatiua <lb/> particularis,
+            sicut si accipiamus oppositum sermonis nostri «omnis <lb/> homo est albus», «nullus homo
+            est albus» et «non omnis homo est <lb/> albus», aut accipiatur negatiue uniuersali
+            affirmatiua particularis et <lb/> affirmatiua uniuersalis, ita ut accipiamus oppositum
+            sermonis nostri <lb/> «nullus homo est albus», «quidam homo est albus», «omnis homo est <lb/>
+            <pb n="27" ed="FT3_pre_release"/> albus». Et est quidem illud ita, quia negatio una
+            quippe est negatio <lb/> affirmationis unius et similiter affirmatio una est affirmatio
+            unius <lb/> negationis. Et significatio super illud est quod negatiua quidem negat <lb/>
+            intentionem predicati eiusdem quam affirmauit affirmatiua a re subiecti <lb/> eiusdem
+            cui affirmauit affirmatiua, equaliter *siue* sit illud subiectum <lb/> ex intentionibus
+            uniuersalibus aut | ex intentionibus singularibus, cui <lb/> coniungitur clausura
+            uniuersalis aut particularis; quoniam si est predi <wb/>
+            <lb/> catum in affirmatione preter predicatum in negatione, et subiectum in <lb/> ea
+            preter subiectum in negatione, est illi affirmationi negatio alia, atque <lb/> illi
+            negationi affirmatio alia. Et affirmatio et negatio erit una, cum est <lb/> id quod
+            significat eam dictio predicati et subiecti in ambabus unius <lb/> intentionis,
+            equaliter *siue* sit subiectum intentio particularis aut <lb/> uniuersalis, coniungatur
+            cum intentione uniuersali clausura uniuersalis | <lb/> aut non coniungatur cum ea: uerbi
+            gratia «omnis homo est albus», <lb/> «non omnis homo est albus», «homo est albus», «homo
+            non est <lb/> albus», cum ponimus quod «homo» et «albus» significent super unam <lb/>
+            intentionem. <lb/>
+            <pb n="28" ed="FT3_pre_release"/> [26] Et cum est dictio subiecti in ambabus aut
+            predicati non significans <lb/> super intentionem unam, non est affirmatio una neque
+            negatio una; <lb/> uerbi gratia, si posuit ponens homini et equo nomen unum quod sit
+            <lb/> uerbi gratia «tunica», et dicat «tunica est alba», «tunica non est alba», <lb/>
+            non erit hec affirmatio una, neque hec negatio una. Et illud est quia <lb/> sermo noster
+            tunc «tunica est alba» significat super duas affirmationes, <lb/> quoniam significat
+            super hoc quod significat «homo est albus» et <lb/> «equus est albus», que sunt due
+            enuntiationes, non una. Et similiter <lb/> sermo noster «tunica non est alba» significat
+            super duas negationes, <lb/> que sunt sermo noster «equus non est albus» et «homo non
+            est albus». <lb/> Et est quidem illud ita, propterea quia fuit dictio equiuoca, que est
+            <lb/> sermo noster «tunica». Et propter hoc enuntiatio cuius predicatum aut <lb/>
+            subiectum aut | ambo simul est nomen equiuocum, non est una sed <lb/> enuntiationes
+            multe, quarum numerus est numerus intentionum <lb/> quas significat nomen equiuocum. Et
+            cum sit hoc ita, ergo oppositarum <lb/> que erunt ex huiusmodi enuntiationibus nominum
+            equiuocorum <wb/>
+            <lb/> scilicet contradictoriarum et singularium -, non oportet ut sit una <lb/> duarum
+            uera et altera falsa. Et dicetur in eo quod ueniet post, | quando <lb/> erunt
+            enuntiationes quarum subiectum et predicatum | est plurium <lb/> intentionum, enuntiatio
+            una et quando non erunt. <lb/>
+            <pb n="29" ed="FT3_pre_release"/> [27] Hic ergo oportet quod tres dispositiones
+            condicionentur in oppositis, <lb/> et tunc inueniuntur in oppositione sicut disposuimus.
+            Vna quarum est <lb/> quod sit predicatum et subiectum in ambabus unum ex omnibus <lb/>
+            partibus, non quod sit acceptum in una qualibet earum in una parte et <lb/> in alia
+            preter illam partem. Et secunda est ut sit affirmatio in ambabus <lb/> una et negatio
+            una. Et tertia est ut ponatur oppositum affirmationi uni <lb/> negatio una. Ergo iam
+            ostensum est ex hoc quando erunt opposite, et <lb/> quot sunt modi oppositarum, et
+            qualis est earum dispositio in opposi <wb/>
+            <lb/> tione. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="7"/>
+            <anchor type="chunk" subtype="chunk_start" n="8"/> [28] Et dicemus quod harum
+            oppositarum, que diuidunt uerum et falsum <lb/> semper in omnibus materiis, sunt
+            singulares et contradictorie. In rebus <lb/> quidem inuentis in tempore presenti et
+            inuentis in preterito, oportet <lb/> ergo de necessitate quod sit diuisio ipsarum in
+            uerum et falsum, ita ut <lb/> sit una duarum in seipsa uera et altera falsa, siue
+            *equaliter* sciamus <lb/>
+            <pb n="30" ed="FT3_pre_release"/> ueram a falsa aut non sciamus. Et illud est quia esse
+            Petrum inuentum <lb/> nunc aut non inuentum, manifestum est per se quod unus horum <lb/>
+            sermonum de necessitate est uerus et alter falsus, siue complete sciamus <lb/> ueritatem
+            a falsitate aut non, cum sit complete inuentionis in seipso. Et <lb/> similiter est res
+            | in rebus preteritis et in rebus necessariis, in quibus non <lb/> condicionatur in
+            inuentione ipsarum tempus. <lb/> [29] Sed rerum quidem inuentarum in tempore futuro que
+            sunt res <lb/> possibiles, non est diuisio in uerum et falsum secundum complementum
+            <lb/> in seipsis. Et illud est quod res in huiusmodi oppositis in hac materia <lb/> non
+            euadit a diuisione: quidem ut sint diuise in ueritatem et falsita <wb/>
+            <lb/> tem, aut non sint. Deinde si sint diuise in ueritatem et | falsitatem, ergo <lb/>
+            <pb n="31" ed="FT3_pre_release"/> illud est secundum complementum, aut | preter
+            complementum. Et si <lb/> sint non diuise in uerum et falsum, aut sunt quidem ambe
+            opposite uere <lb/> simul, aut ambe false simul, aut inuenitur in ambabus utrumque
+            simul. <lb/> [30] Si ergo omnis affirmatio et negatio diuidit uerum a falso secundum
+            <lb/> complementum in se, oportet in omni re quod sit inuenta aut non <lb/> inuenta;
+            oportet ergo secundum hoc, cum dicit homo de re aliqua de <lb/> rebus futuris, quod
+            erit, et dicit alius, quod non erit, quod sit unus <lb/> duorum sermonum uerus et alter
+            falsus. Et illud est quia non est <lb/> possibile ut inueniantur due res simul, scilicet
+            esse et non esse. Et est <lb/> quidem natura inuenti *entis* sequens sermonem uerum, et
+            sermo <lb/> uerus sequens ipsum, quoniam, si dicit homo de re quadam quod est <lb/>
+            alba, et est ueridicus, oportet quod extra animam sit res alba; et si est <lb/> falsus,
+            oportet quod sit non alba. Et si est sermo noster quod ipsa non <lb/> est alba, et est
+            uerus, oportet quod sit extra animam non alba; et si est <lb/> falsus, oportet quod sit
+            extra animam alba. Et similiter est conuersum <lb/> huius. Et est quia, si est res extra
+            animam alba, oportet quod sit sermo <lb/>
+            <pb n="32" ed="FT3_pre_release"/> uerus de ea quod est alba, et falsus quod non est
+            alba; et si est res extra <lb/> animam non alba, sermo uerus in ipsa est quod non est
+            alba, et falsus <lb/> quod est alba. <lb/> [31] Si ergo affirmatio et negatio opposite
+            separant uerum a falso in rebus <lb/> futuris, secundum quod una duarum sit perfecte
+            inuentionis in se, ergo <lb/> et res future necessarie sunt in inuentione earum et non
+            erit hic aliquid <lb/> inuentum per accidens et preter causam completam, neque inuenitur
+            <lb/> aliquid de quo dicatur quod sit possibile ut sit et quod non sit, sed erit <lb/>
+            essentia rei aut non essentia necessario. Et illud est necessarium propter <lb/>
+            sermonem ueri et falsi in una oppositarum completum in se. Et illud, <lb/> quia non
+            transit ut exeat ex ipsis ad inuentionem | illud quod est <lb/> non uerum, ex
+            affirmatione sit aut negatione; quia si transit *est <lb/> possibile* illud, non est
+            uerum in una oppositarum perfecte inuentionis <lb/> in se. Et cum non erit uerum aut
+            falsum in oppositis perfecte inuentio <wb/>
+            <lb/> nis in se, est possibilis essentia rei et non essentia | eius secundum <lb/>
+            <pb n="33" ed="FT3_pre_release"/> exemplum unum, quod quemadmodum, cum est possibilis
+            essentia rei <lb/> aut non essentia eius super exemplum unum, non erit uerum et falsum
+            <lb/> in oppositis dictis de eis perfecte inuentionis in se; et non erit res in <lb/>
+            affirmatione magis quam in negatione, neque in negatione magis quam <lb/> ipsa sit in
+            affirmatione; et non fit sic propter affirmantem illam neque <lb/> propter negantem
+            illam. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="8"/>
+            <anchor type="chunk" subtype="chunk_start" n="9"/> [32] Et opus est secundum hoc, si sit
+            aliquid ex rebus album in aliquo <lb/> tempore, quod sit sermo in eo, priusquam fiat
+            album, quod fiet album, <lb/> sermo uerus et | necessarius. Et similiter erit sermo in
+            omni re futura, <lb/> antequam sit, quod erit, sermo uerus, quemadmodum est in ea in
+            <lb/> instanti sue essentie, donec sit ueritas sermonis, quod ipsum est inuen <wb/>
+            <lb/> tum in inuento presenti, sicut ueritas sermonis, quod ipsum erit in <lb/> futuro.
+            Ergo cum sit illud ita, non est possibile in re possibili, quod est <lb/> non inuentum
+            nunc et dicitur in ea quod inuenietur, ut non inueniatur. <lb/>
+            <pb n="34" ed="FT3_pre_release"/> Et illud quod est non possibile quin inueniatur,
+            impossibile est quin <lb/> inueniatur. Et illud quod impossibile est quin inueniatur,
+            oportet quod <lb/> inueniatur. Et quod oportet, est necessarium in essentia. Omnia ergo
+            <lb/> sunt necessarie inuentionis. Cum ergo sit ita, non est hic aliquid quod <lb/>
+            renouetur per accidens, neque aliquid paratum ut sit et non sit. Et illud <lb/> est quod
+            illud quod renouatur per accidens, est secundum hanc disposi <wb/>
+            <lb/> tionem, scilicet quia esse eius non est oportunum necessarium, quem <wb/>
+            <lb/> admodum id cuius esse aut non esse est oportunum de necessitate, <lb/> non
+            renouatur per accidens. <lb/> [33] Et etiam non transit ut dicamus quod affirmatio et
+            negatio aggregen <wb/>
+            <lb/> tur in rebus futuris (donec sint uere simul), et non auferuntur ab eis <lb/>
+            (donec sint ambe false simul); uerbi gratia, ut sit sermo noster in <lb/> aliquo quod
+            est possibile ut sit, et sermo noster quod est possibile <lb/> quod non sit, ueri simul
+            aut falsi simul. Quoniam, si essent falsi simul, <lb/>
+            <pb n="35" ed="FT3_pre_release"/> sequeretur ex hoc quod non sint contradictorie
+            diuidentes uerum a falso <lb/> in omnibus rebus. Et hoc est cu|ius iam ostensum est
+            contrarium. Et <lb/> similiter sequitur, si sint ambo simul ueri. Et etiam quia
+            sequitur, si <lb/> fuerint ambo ueri simul, ut sit aliquid inuentum et priuatum simul,
+            <lb/> quod est impossibile, cum hoc quod aufertur etiam natura possibilis. Et <lb/> si
+            essent ambo falsi simul, sequeretur ut sit aliquid non inuentum neque <lb/> priuatum.
+            <lb/> [34] Et hoc est quod sequitur ex impossibili, si posuerimus oppositas, que <lb/>
+            diuidunt uerum a falso in omnibus materiis, diuidentes ea secundum <lb/> complementum in
+            rebus futuris, aut non diuidentes, si sint uere simul <lb/> aut false simul. Et est
+            manifestum quod sequuntur repugnantie multe <lb/> ad sublationem nature possibilis et
+            positionem nostram quod res future <lb/> omnes sunt necessarie. Quarum prima est quod
+            destruitur cogitatio ad <lb/>
+            <pb n="36" ed="FT3_pre_release"/> auferendum aliquid ut cadat aut conatus ad bonum
+            uenturum: in esse <lb/> illius quod apparet homini quod, si faciat illud quod oportet,
+            erit quod <lb/> oportet, et si non faciat illud quod oportet, non erit quod oportet, est
+            <lb/> res falsa et credulitas corrupta, donec consequatur hoc ex repugnantia: <lb/>
+            quod, si uidet homo aliquis in aliquo renouabili et iudicat quod illud <lb/> renouabitur
+            in decem milibus annorum, uerbi gratia, | et incipiat in <lb/> numeratione causarum
+            affirmationis renouationis illius et esse eius in <lb/> hac distantia longa (si uiuat in
+            ea homo), et uideat alius in hac eadem <lb/> distantia in | impossibilitate renouationis
+            | eius et speculetur in toto isto <lb/> tempore in numeris causarum que prohibent
+            renouationem eius, erit <lb/>
+            <pb n="37" ed="FT3_pre_release"/> actio uniuscuiusque ipsorum inutilis et uana et
+            cogitatio cadens sine <lb/> intentione. Et illud est quia uerum ipsorum duorum in se
+            oportet de <lb/> necessitate ut sit inuentum, equaliter cogitet unus ipsorum in uanitate
+            <lb/> ipsius, et alius in essentia ipsius, aut non cogitet aliquis ipsorum in illo;
+            <lb/> quoniam oportet, secundum hoc, quod non sit uoluntas causa renoua <wb/>
+            <lb/> tionis alicuius rei, sed omnia currant cursu eorum per naturam et <lb/> secundum
+            quod est eis ex una duarum contradictoriarum, et si non <lb/> uideat uidens in
+            inuentione rei ex illo aut prohibeat inuentionem ipsius. <lb/> Et erit iudicium illius
+            qui uidit in re decem milibus annorum, iudicium <lb/> illius qui uidit in ea tempore
+            paruo, quodcumque sit tempus; sed erit <lb/> iudicium eius iudicium illius qui non uidet
+            in ea penitus. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="9"/>
+            <anchor type="chunk" subtype="chunk_start" n="10"/>
+            <pb n="38" ed="FT3_pre_release"/> [35] Et hec omnia sunt in fine repugnantie et diuersa
+            ab eo in quo creati <lb/> sumus. Et illud est quod nos uidemus, quod hic sunt res renoua <wb/>
+            <lb/> tionis quarum principium est cogitatio et acceptio desiderii ad ipsa. <lb/> Iamque
+            apparet etiam in rebus que fiunt, quod in eis sunt res que <lb/> secundum suam naturam
+            sunt apte ut sit ex eis aliquid et eius opposi <wb/>
+            <lb/> tum equaliter, scilicet quod est possibile ut sint ex eis res aut non sint <lb/>
+            secundum equalitatem, et hoc ex parte agentis et recipientis simul. Et <lb/> exemplum
+            illius est quia uestis iam possibile est ut dilanietur antequam <lb/> perueniat ei
+            inueteratio, et iam possibile est in ea ut non dilanietur sed <lb/> inueteretur. Et
+            illud est quod possibile harum duarum intentionum in <lb/> ueste est secundum
+            equalitatem ex parte agentis et recipientis. Et <lb/>
+            <pb n="39" ed="FT3_pre_release"/> similiter currit res in omnibus rebus generatis in hac
+            materia, in quibus <lb/> est hec species possibilitatis et potentie. <lb/> [36] Et cum
+            sit hoc ita, manifestum est quod non sunt omnes res <lb/> necessarie, sed apparet quod
+            res sunt duobus modis: aut necessarie aut <lb/> possibiles. Et possibiles sunt tribus
+            modis: aut possibiles secundum <lb/> equalitatem (et sunt in quibus non est inuentio rei
+            dignior priuatione <lb/> eius, neque priuatio eius dignior | inuentione ipsius); aut
+            possibiles <lb/> secundum plurimum (et sunt in quibus est unum oppositorum dignius <lb/>
+            ut sit quam secundum *&lt;secundum&gt; inuentionem* et erit renouatio <lb/> secundi
+            secundum minus); et huic generi inueniuntur due species simul <lb/> ex possibili,
+            scilicet que est secundum plus et que est secundum <lb/> minus. <lb/> [37] Et
+            necessariarum quidem sunt necessarie absolute: et ille sunt res <lb/> inuente semper aut
+            priuate | semper; et necessarie non absolute: et ille <lb/> sunt res inuente necessario
+            in tempore quo est earum essentia aut res <lb/> quarum priuatio est necessaria in
+            tempore in quo sunt priuate. Et iste <lb/>
+            <pb n="40" ed="FT3_pre_release"/> sunt duorum modorum: aut res quarum predicata sunt
+            necessarie <lb/> inuentionis in suis subiectis, dum durant subiecta eorum inuenta (uerbi
+            <lb/> gratia: inuentio rationis homini cuidam, cum inuenitur ille homo), aut <lb/> res
+            priuate, dum durant subiecta earum non inuenta, et res <lb/> quidem inuente dum durant
+            ipse inuente (uerbi gratia: inuentio <lb/> hominis dum durat inuentus). <lb/> [38] Et
+            cum sint hee diuisiones nature inuenti et oporteat ut sit pars <lb/> negationis et
+            affirmationis ad uerum et falsum conueniens ei quod est <lb/> inuentum extra animam,
+            manifestum est ergo | quod propositiones de <lb/> futuro que separant uerum a falso in
+            omnibus materiis, ipse quidem <lb/> diuidunt uerum a falso in modis rerum necessariarum
+            secundum com <wb/>
+            <lb/> plementum in se, scilicet super hoc quod uerus illorum duorum et falsus <lb/>
+            completur in se extra animam, etsi non compleatur nobis scientia <lb/> ipsorum et
+            ignoremus quomodo sit res in eo. Sed in materia quidem <lb/>
+            <pb n="41" ed="FT3_pre_release"/> contingenti in rebus futuris, etiam ipse diuidunt
+            uerum a falso. Et illud <lb/> est quia oportet ut inueniatur | una duarum
+            contradictoriarum in eo <lb/> quod est futurum, sed non determinate *secundum
+            complementum* in <lb/> se, uerum secundum quod sunt in natura ipsarum ex priuatione
+            deter <wb/>
+            <lb/> minationis, sicut sunt ipse apud nos. Et propter hoc non est possibile ut <lb/>
+            determinetur in hoc genere scientia, cum sit res in seipsa ignota. Verum <lb/> possibile
+            quod est secundum plus, non ad utrumlibet, una quidem <lb/> oppositarum dignior est ut
+            sit uera quam secunda, cum sit essentia eius <lb/> dignior quam non essentia. Et in hoc
+            genere, possibile est ut compleatur <lb/> scientia in renouatione renouandi ante ipsius
+            renouationem, scilicet in <lb/> renouatione de cuius proprietate est ut renouetur
+            secundum plus. <lb/> Comprehendit ergo omnia opposita, de quorum duorum proprietate est
+            <lb/> ut diuidant uerum a falso, &lt;...&gt; in rebus futuris in materia <lb/>
+            contingenti, non secundum complementum. Sed in contingenti quidem <lb/> illo quod est
+            secundum equalitatem, non est unum oppositorum | <lb/>
+            <pb n="42" ed="FT3_pre_release"/> dignius ut sit uerum quam aliud. Sed in eo quod est
+            possibile secundum <lb/> plus, unum oppositorum dignius est ut sit uerum quam aliud. Et
+            in <lb/> contingenti quidem secundum minus: ut sit falsum unum oppositorum, <lb/>
+            dignius est quam secundum. <lb/> [39] Iam ergo manifestum est ex hoc quomodo diuidunt
+            opposita uerum <lb/> et falsum in omnibus rebus. Et illud in eis de quarum proprietate
+            est ut <lb/> diuidant uerum a falso semper. Et ipsa sunt contradictoria et singularia. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="10"/>
+            <anchor type="chunk" subtype="chunk_start" n="11"/>
+            <anchor type="chapter" subtype="chapter_end" n="Differentia 2" lvl="1"/>
+            <anchor type="chapter" subtype="chapter_start" n="Differentia 3" lvl="1"/>
+            <head>&lt;Differentia secunda*&gt; [sic!]</head> [40] Et postquam enuntiationum quedam
+            sunt binarie (et sunt ille quarum <lb/> predicatum est uerbum) et quedam trinarie (et
+            sunt ille quarum predica <wb/>
+            <lb/> tum est nomen), et nominantur quidem ille quarum predicatum est <lb/> uerbum
+            binarie (quia sunt composite ex predicato et subiecto tantum) et <lb/> nominantur ille
+            quarum predicatum est nomen trinarie (quia sunt <lb/>
+            <pb n="43" ed="FT3_pre_release"/> composite ex subiecto et uerbo coniunctiuo et
+            predicato), et [est nomen <lb/> et] nomen et uerbum, ex quibus componuntur
+            enuntiationes, aut sunt <lb/> determinata aut non determinata, manifestum est ergo quod
+            omnis <lb/> enuntiatio binaria est composita: aut ex nomine finito *et determinato*
+            <lb/> et uerbo finito (sicut sermo noster «homo inuenitur»), aut ex nomine <lb/>
+            infinito et uerbo infinito (sicut sermo noster «non homo non inueni <wb/>
+            <lb/> tur»), aut ex nomine finito et uerbo infinito (sicut sermo noster «homo <lb/> non
+            inuenitur»), aut ex | nomine infinito et uerbo finito (sicut sermo <lb/> noster «non
+            homo inuenitur»). Verum uerbum infinitum non currit <lb/> consuetudo ut agatur in
+            similibus hiis enuntiationibus, scilicet binariis. <lb/> Et illud est quia non
+            discernitur in eis locus partis negatiue a loco partis <lb/> declinationis, cum sit
+            locus partis negatiue in ipsis ipse idem locus partis <lb/> declinationis. Et propter
+            hoc non inuenitur in linguis in quibus | aguntur <lb/>
+            <pb n="44" ed="FT3_pre_release"/> declinate, enuntiatio binaria in qua sit uerbum
+            infinitum. Et propter <lb/> hoc cadunt ex modis istis enuntiationum quatuor duo modi:
+            modus in <lb/> quo est nomen predicati et subiecti infinitum, et modus in quo est <lb/>
+            nomen predicati infinitum. Et remanent duo modi. Erunt ergo opposi <wb/>
+            <lb/> tiones que sunt in eis due et propositiones quatuor. Cum ergo multipli <wb/>
+            <lb/> cauerimus has duas combinationes oppositionum in sex paria opposi <wb/>
+            <lb/> tionum precedentium, erunt oppositiones in enuntiationibus binariis <lb/> duodecim
+            et enuntiationes uiginti quatuor. Et quia in unaquaque <lb/> enuntiationum binariarum
+            aut est uerbum significans cum tempore <lb/> presenti aut futuro aut preterito, cum ergo
+            multiplicauerimus hec tria in <lb/> uiginti quatuor enuntiationes, erunt enuntiationes
+            inuente in isto genere <lb/> septuaginta et due enuntiationes et triginta sex
+            oppositiones. Si ergo <lb/> multiplicauerimus eas in tres materias, que sunt contingens
+            et necessaria <lb/>
+            <pb n="45" ed="FT3_pre_release"/> et impossibilis, erunt propositiones aggre|gate ex hoc
+            ducente et sexde <wb/>
+            <lb/> cim. <lb/> [41] Sed enuntiationes quidem trinarie sunt duplum enuntiationum bina <wb/>
+            <lb/> riarum et oppositiones earum duplum oppositionum ipsarum. Et illud <lb/> est quia
+            proueniunt | in eis modi quatuor oppositionum, scilicet: modus <lb/> in quo erit nomen
+            subiecti et nomen predicati finitum (et est que scitur <lb/> per simplicem, sicut sermo
+            noster «homo inuenitur iustus», «homo non <lb/> inuenitur iustus»); et modus in quo
+            erunt ambo nomina infinita (sicut <lb/> sermo noster «non homo inuenitur non iustus»,
+            «non homo non <lb/> inuenitur non iustus»); et duo modi reliqui, scilicet quorum unus
+            est <lb/> finitus et alius infinitus, et illud est, ut sit subiectum aut predicatum, et
+            <lb/> eorum oppositi. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="11"/>
+            <anchor type="chunk" subtype="chunk_start" n="12"/> [42] Et enuntiationes trinarie,
+            quarum subiectum est nomen finitum et <lb/> predicatum earum aut nomen finitum aut
+            infinitum, cum ponuntur cum <lb/>
+            <pb n="46" ed="FT3_pre_release"/> ipsarum oppositis in figura habente quatuor latera, et
+            ponuntur oppo <wb/>
+            <lb/> site ipsarum super duo latera in latitudine lamine, et non opposite super <lb/>
+            duo latera que sunt in longitudine tabule, ita ut sit affirmatiua simplex <lb/> cum
+            negatiua declinata super latus unum et negatiua simplex cum <lb/> affirmatiua declinata
+            super latus unum etiam, inuenitur dispositio enun <wb/>
+            <lb/> tiationum declinatarum cum simplicibus in consecutione, sicut disposi <wb/>
+            <lb/> tio enuntiationum priuatiuarum cum simplicibus in consecutione. Et <lb/> non
+            inuenitur dispositio priuatiuarum ex declinatis, sicut dispositio <lb/> declinatarum ex
+            simplicibus, et illud in omnibus modis oppositionum <lb/> sex. Et uolo in
+            enuntiationibus priuatiuis hic enuntiationes, quarum <lb/> predicatum significat
+            priuationem cuius precessit descriptio, sicut sermo <lb/> noster «homo est ignorans»,
+            aut perturpius duorum contrariorum, <lb/> sicut sermo noster «homo est iniustus».
+            Consideremus ergo de hoc <lb/> primo in indefinitis et ponamus eas in figura habente
+            quatuor latera, <lb/> sicut condicionauimus, et ponamus etiam priuatiuas sub declinatis, <lb/>
+            <pb n="47" ed="FT3_pre_release"/> sicut posuimus declinatas cum simplicibus, et illud ut
+            addamus figure <lb/> habenti quatuor latera figuram aliam configuratam figure
+            &lt;...&gt; in <lb/> uno laterum ipsius; uerbi gratia, quia nos ponemus figuram a b g d,
+            et <lb/> ponamus figuram ei continuam | g d e z, et ponamus super latus a b <lb/>
+            affirmatiuam simplicem et oppositam eius, que sunt «homo inuenitur <lb/> iustus», «homo
+            non inuenitur | iustus», et super latus g d negatiuam <lb/> declinatam et eius
+            oppositam, que sunt «homo non inuenitur non <lb/> iustus», «homo inuenitur non iustus»,
+            et super latus e z negatiuam <lb/> priuatiuam et eius oppositam, que sunt «homo non
+            inuenitur iniustus», <lb/> «homo in|uenitur iniustus». Cum ergo considerantur hee
+            enuntiationes <lb/> secundum hanc positionem: <lb/>
+            <anchor type="table" subtype="start"/>
+            <anchor type="table" subtype="row_start"/> a homo inuenitur iustus <anchor type="table"
+                subtype="cell_break"/> b homo non inuenitur iustus <anchor type="table"
+                subtype="row_end"/>
+            <anchor type="table" subtype="row_start"/> g homo non inuenitur non iustus <anchor
+                type="table" subtype="cell_break"/> d homo inuenitur non iustus <anchor type="table"
+                subtype="row_end"/>
+            <anchor type="table" subtype="row_start"/> e homo non inuenitur iniustus <anchor
+                type="table" subtype="cell_break"/> z homo inuenitur iniustus <anchor type="table"
+                subtype="row_end"/>
+            <anchor type="table" subtype="end"/>
+            <lb/>
+            <pb n="48" ed="FT3_pre_release"/> inueniuntur ille que sunt super latera ipsius in
+            latitudine lamine non <lb/> consequentes, propterea quia sunt opposite. Iamque sciuisti
+            in eo quod <lb/> precessit dispositionem ipsarum in oppositione. <lb/> [43] Et cum
+            consideratur illud quod est super latus ipsius in longitudine <lb/> tabule, inuenitur
+            negatiua declinata consequens in ueritate affirmatiuam <lb/> simplicem et non
+            conuertitur res in eis. Et illud est quia, cum uerus est <lb/> sermo noster | «homo
+            inuenitur iustus», uerum est dictum nostrum <lb/> «homo non inuenitur non iustus». Et
+            non sequitur, cum uerum est <lb/> dictum nostrum «homo non inuenitur non iustus», ut sit
+            uerum dictum <lb/> nostrum «homo inuenitur iustus», quia dictum nostrum «homo non <lb/>
+            inuenitur non iustus» est uerum de homine iusto et de homine non <lb/> disposito per
+            iustitiam neque per iniustitiam, qui est paruulus, et de <lb/> homine non ciuili. Ergo
+            negatiua declinata communioris est ueritatis <lb/> quam affirmatiua simplex, propterea
+            quia ipsa est uera de tribus et <lb/> affirmatiua simplex de uno. Sed cum inuenitur
+            commune, non sequitur <lb/> ut inueniatur proprium, sicut sequitur ex inuentione proprii
+            inuentio <lb/>
+            <pb n="49" ed="FT3_pre_release"/> communis. Verbi gratia «animal» et «homo»: homo namque
+            cum <lb/> inuenitur, inuenitur animal; sed non sequitur, cum inuenitur animal, ut <lb/>
+            inueniatur homo. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="12"/>
+            <anchor type="chunk" subtype="chunk_start" n="13"/> [44] Et negatiua quidem simplex cum
+            affirmatiua declinata inuenitur in <lb/> ueritate per conuersum huius, scilicet quod
+            negatiua simplex sequitur <lb/> affirmatiuam declinatam et non conuertitur; et illud est
+            quia negatiua <lb/> simplex communioris est ueritatis quam affirmatiua declinata, cum
+            sit <lb/> dictum nostrum «homo non inuenitur iustus» uerum de homine crudeli <lb/> et de
+            homine qui non est iniustus neque iustus (qui est non ciuilis) | et <lb/> de paruulo.
+            Sed dictum nostrum «homo inuenitur non iustus» uerum <lb/> est de iniusto tantum,
+            propterea quia dictum nostrum «non iustus» <lb/> significat priuationem et priuatio est
+            ablatio alicuius rei ab eo de cuius <lb/> proprietate est ut inueniatur in eo in tempore
+            illo de cuius proprietate <lb/> est ut inueniatur ei in illo, sicut diffinitum est
+            prius. Ergo affirmatiua <lb/> declinata uerificatur per unum et negatiua simplex per
+            tria. <lb/> [45] Sed cum consideratur quidem consequentia ipsarum in falsitate, <lb/>
+            inuenitur res secundum conuersum huius, scilicet quia affirmatiua sim <wb/>
+            <lb/>
+            <pb n="50" ed="FT3_pre_release"/> plex sequitur ex negatiua declinata. Et illud est quia
+            negatiua declinata <lb/> est proprioris falsitatis quam affirmatiua simplex, quoniam
+            dictum <lb/> nostrum «homo inuenitur iustus» est falsum | de iniusto et de homine <lb/>
+            qui non est iustus neque iniustus. Sed dictum nostrum «homo non <lb/> inuenitur non
+            iustus» est quidem falsum de iniusto tantum. Et similiter <lb/> componitur dispositio in
+            consequentia negatiue simplicis cum affirma <wb/>
+            <lb/> tiua declinata in falsitate, e conuerso consequentie ipsarum in ueritate, <lb/>
+            scilicet quod consequens in eis redit consecuta. <lb/> [46] Et cum consideratur
+            priuatiua cum simplicibus in hac consequentia, <lb/> inuenitur dispositio ipsarum in
+            uero et falso sicut dispositio declinate <lb/> cum simplici. Verum quidem, ille que sunt
+            super dyametrum qui <lb/> est dyametrum A D, sunt contrarie ex parte materiarum, et tu
+            scies <lb/> dispositionem ipsarum in eo quod est futurum. <lb/> [47] Et cum ponuntur
+            reliqui modi oppositarum hac positione, inuenitur <lb/> dispositio ipsarum in
+            consequentia dispositio una, scilicet contradicto <wb/>
+            <lb/> riarum, et singularium, et contrariarum, et subcontrariarum. Sed dispo <wb/>
+            <lb/>
+            <pb n="51" ed="FT3_pre_release"/> sitio quidem illarum que sunt super dyametros in modis
+            diuersificatur. <lb/> Et illud quia ipsarum quedam sunt, que sunt possibiles ut sint
+            <lb/> uere ambe simul, et ipsarum quedam, que sunt possibiles ut sint <lb/> false ambe
+            simul. Et Aristotiles non rememoratur istarum, nisi illarum <lb/> quarum rememorati
+            sumus tantum. Et reseruauit sermonem in eis ad <lb/> librum sillogismi. Et canon
+            communis in scientia harum consequentia <wb/>
+            <lb/> rum est quod omnes propositiones istarum (que sunt conuenientes in <lb/>
+            quantitate - que est signum - et diuersificantur in qualitate - que est <lb/> negatio et
+            affirmatio -) sunt consequentes se, scilicet quod communior <lb/> ipsarum sequitur
+            propriorem. Sed ille quidem in quibus non est conse <wb/>
+            <lb/> quentia, sunt opposite secundum modum | contrarietatis et secundum <lb/> modum
+            contradictoriarum, sicut dictum est. <lb/>
+            <pb n="52" ed="FT3_pre_release"/> [48] Et enuntiationum trinariarum, cum accipitur
+            subiectum per nomen <lb/> infinitum et predicatum aliquando per nomen finitum et
+            aliquando per <lb/> nomen infinitum, renouantur in hoc genere simplices | et declinate,
+            <lb/> affirmatiue et negatiue, preter predictas. Et erunt simplices in eis, quarum <lb/>
+            predicatum est nomen finitum (sicut fuit in modo primo simplicium); et <lb/>
+            declinatarum, quarum predicatum est nomen infinitum. Et illud est quo <wb/>
+            <lb/> niam animaduertentia propositionis in esse ipsam simplicem aut declina <wb/>
+            <lb/> tam est ex parte | predicati, non ex parte subiecti. Erit ergo simplex <lb/>
+            affirmatiua in hoc genere sicut dictum nostrum «non homo inuenitur <lb/> iustus», et
+            eius negatiua «non homo non inuenitur iustus». Et erit <lb/> declinata ipsius
+            affirmatiua dictum nostrum «non homo inuenitur non <lb/> iustus»; et erit negatiua «non
+            homo non inuenitur non iustus». Et est <lb/> manifestum quod iste due opposite, que
+            renouantur in hoc genere <lb/> trinariarum - scilicet quarum subiectum est nomen
+            infinitum - sunt <lb/> preter oppositas que renouantur in modo propositionum quarum
+            <lb/> subiectum est nomen finitum, quia subiectum istarum est priuatio <lb/>
+            <pb n="53" ed="FT3_pre_release"/> subiecti illarum. Iamque expositi sunt modi
+            priuationis, quos significat <lb/> nomen infinitum in alio loco. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="13"/>
+            <anchor type="chunk" subtype="chunk_start" n="14"/> [49] Et isti modi enuntiationum, cum
+            fiunt negatiui, non stabit pars <lb/> negatiua loco partis *littere* declinationis in
+            eis, neque currit una <lb/> earum a compari suo. | Sed oportet quod ordinetur littera
+            *uel parti <wb/>
+            <lb/> cula* negationis in eis: aut in habentibus signa, cum signo (sicut est <lb/>
+            dispositio in modo primo enuntiationum trinariarum); aut in indefinitis <lb/> et
+            singularibus, cum uerbo inuentionis. Sed pars quidem declinationis <lb/> ordinatur in
+            eis semper cum subiecto, donec sit quidem in enuntiationi <wb/>
+            <lb/> bus simplicibus huius generis iterata pars negationis bis (et hoc cum <lb/> signo
+            in enuntiationibus significatis et cum subiecto, et cum uerbo <lb/>
+            <pb n="54" ed="FT3_pre_release"/> inuentionis et cum subiecto in indefinitis et
+            singularibus); sed in decli <wb/>
+            <lb/> natis iteratur ter: cum signo et uerbo inuentionis, &lt;...&gt;, et tertio cum
+            <lb/> predicato. Et non currit una partium negationis in eis ab alia. Verbi <lb/>
+            gratia, quia negatio dicti nostri &lt;...&gt; «omnis non homo inuenitur non <lb/>
+            iustus» est dictum nostrum «non omnis non homo inuenitur non <lb/> iustus». Et illud per
+            hoc ut inueniamus in hoc cum parte negationis in <lb/> tribus locis, non per hoc ut
+            inueniamus cum ea in duabus locis, ita ut <lb/> dicamus «non omnis homo inuenitur non
+            iustus». <lb/> [50] Et similiter est dispositio in binariis que sunt in hoc genere,
+            scilicet in <lb/> simplicibus ipsarum, quoniam iam diximus quod non inuenitur ex eis
+            <lb/> declinata secundum significationes linguarum scitarum. Quoniam pars <lb/>
+            <pb n="55" ed="FT3_pre_release"/> negationis in hoc etiam oportet ut ordinetur in eis
+            bis, semel cum <lb/> subiecto et semel cum signo in habentibus signum, aut cum uerbo
+            ipso <lb/> in singularibus | et indefinitis; neque sufficit in uno eorum absque <lb/>
+            secundo. Verbi gratia: quia quemadmodum negat dictum nostrum <lb/> «omnis homo ambulat»
+            (et est cuius subiectum est nomen finitum) <lb/> dictum nostrum «non omnis homo
+            ambulat», similiter negat dictum <lb/> nostrum «omnis non homo ambulat» dictum nostrum
+            «non omnis non <lb/> homo ambulat», non dictum nostrum «non omnis homo ambulat» <lb/>
+            neque «non omnis homo non ambulat». Quoniam pars negationis non <lb/> stabit loco partis
+            declinationis, neque pars declinationis stabit loco <lb/> illius, cum unaqueque ipsarum
+            auferat ab enuntiatione aliquid preter id <lb/> quod auferat alia. Et illud est quia
+            pars negationis in habentibus signa <lb/> aufert quidem iudicium uniuersale, quod
+            continet signum uniuersale, et <lb/> iudicium particulare, quod continet signum
+            particulare. Sed pars qui <wb/>
+            <lb/>
+            <pb n="56" ed="FT3_pre_release"/> dem declinationis aufert subiectum uniuersale, non
+            iudicium uniuersale. <lb/> Et illud est quia signum uniuersale coniunctum cum
+            enuntiatione non <lb/> significat quod intentio subiecti est uniuersalis, ut auferat
+            ablatio eius <lb/> ablationem intentionis uniuersalis subiecti, sed significat quidem
+            quod <lb/> iudicium intentionis uniuersalis est uniuersale. Et illud est manifestum
+            <lb/> in indefinitis, quoniam non esse eas non habentes signa est ex eo quod <lb/> non
+            facit oportere ut sint intentiones subiecti in eis uniuersales, cum sit <lb/>
+            significatio dictionum super eas significatio uniuersalis; uerbi gratia <lb/> «homo est
+            | iustus», «homo non est iustus». Dictio enim que est <lb/> «homo» significat
+            intentionem uniuersalem, quamuis non coniungatur <lb/> ei dictio «omnis»; et si esset
+            dictio «omnis», que significaret quod <lb/> intentio est uniuersalis, esset dictio
+            «homo» non significans intentionem <lb/> uniuersalem, nisi quando | coniungeretur ei
+            «omnis». Et propter hoc <lb/> oportet ut coniungatur pars negationis in enuntiationibus
+            signi <wb/>
+            <lb/>
+            <pb n="57" ed="FT3_pre_release"/> ficatis, quarum subiecta sunt nomina infinita,
+            consequentes sint aut <lb/> diuerse, cum signo, et redeat pars negatiua | secundo cum
+            subiecto; et si <lb/> erunt declinate, redeat tertio cum predicato. Et si erunt non
+            declinate, <lb/> sufficit reditio eius cum subiecto. Iamque uenient loca in materia
+            <lb/> contingenti in quibus est partis declinationis potentia, potentia partis <lb/>
+            negationis in diuisione ueritatis; et uenient loca in quibus non sequitur <lb/> illud.
+            <lb/> [51] Et locus quidem in quo est potentia partis declinationis, potentia <lb/>
+            partis negationis, est enuntiationes singulares, cum sint subiecta ipsa <wb/>
+            <lb/> rum inuenta et in tempore, de cuius proprietate est ut disponantur per <lb/>
+            habitum et priuationem oppositam; uerbi gratia, quia, cum queritur <lb/> an Sortes est
+            iustus aut non iustus, et erit responsio in eo uera quod <lb/>
+            <pb n="58" ed="FT3_pre_release"/> non est iustus, et respondet respondens loco dicti
+            nostri quod ipse non <lb/> est iustus, quod ipse est non iustus, quoniam potentia dicti
+            nostri <lb/> hic «non iustus» est potentia dicti nostri «non est iustus», cum sit <lb/>
+            «Sortes iustus» aut «non iustus», | cum accidit quod inueniantur in eo <lb/> condiciones
+            predicte, diuidentes uerum a falso, sicut diuidit ea dictum <lb/> nostrum «Sortes est
+            iustus», aut «non est iustus». <lb/> [52] Iamque possibile est in huiusmodi loco (sicut
+            dicunt expositores) cum <lb/> erit intentio querentis ut concedatur a respondente
+            propositio affirma <wb/>
+            <lb/> tiua et responderit ei per negatiuam, ut accipiat propositionem declina <wb/>
+            <lb/> tam equipollentem negatiue loco ipsius, et proficiet in ea, cum posuerit <lb/> eam
+            in sillogismo, in loco in quo proficit ei affirmatiua, non negatiua, <lb/> sicut est
+            minor in figura prima; quoniam minor, cum est negatiua in <lb/>
+            <pb n="59" ed="FT3_pre_release"/> figura prima, non proficit per eam in conclusione,
+            sicut ostendetur in <lb/> libro sillogismi. Iamque prodest querenti per hanc cautelam et
+            cum <lb/> uoluerit concludere neganti aliquid contradictorium. Sed quod exposui <wb/>
+            <lb/> mus nos in hoc loco, est ostensio in intentione huius libri. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="14"/>
+            <anchor type="chunk" subtype="chunk_start" n="15"/> [53] Sed locus quidem in quo non est
+            potentia partis declinationis, cum <lb/> coniungitur cum habitu, potentia partis
+            negatiue in diuisione ueri et <lb/> falsi, est enuntiationes uniuersales in hac materia,
+            sicut si queratur an <lb/> omnis homo est sapiens aut non omnis homo est sapiens, et
+            respon <wb/>
+            <lb/> deatur loco dicti eius «non omnis homo est sapiens», «omnis homo <lb/> est non
+            sapiens». Et illud est quia illud quod opponitur dicto nostro <lb/> «omnis homo est
+            sapiens» oppositione qua separatur uerum a falso <lb/>
+            <pb n="60" ed="FT3_pre_release"/> semper, est dictum nostrum «non omnis homo est
+            sapiens», non dictum <lb/> nostrum «omnis homo est non sapiens», cum sit dicti nostri
+            «sapiens» <lb/> et «non sapiens» potentia, potentia contrariarum, que sunt dictum <lb/>
+            nostrum «omnis homo est sapiens», «nullus homo est sapiens»; et <lb/> contrarie sunt
+            ambe false simul in hac materia, ut ostensum est prius. <lb/> [54] Et oppositio que est
+            inter nomen finitum et nomen infinitum, et <lb/> uerbum finitum et infinitum, non est ex
+            genere oppositionis affirmatio <wb/>
+            <lb/> nis et negationis, quoniam dictum nostrum «non homo» non significat <lb/> in
+            linguis in quibus usitantur huiusmodi nomina id quod significat <lb/> dictum nostrum
+            «non est homo», quoniam dictum nostrum «non est <lb/> homo» significat subiectum a quo
+            negatur humanitas, quamuis non sit <lb/> euidens in hoc dicto. Est ergo propter hoc
+            sermo compositus. Et <lb/> similiter significat dictum nostrum «non est sanus». Sed
+            dictum nos <wb/>
+            <lb/> trum «non homo» et «non sanus» non significat quidem negationem, <lb/> cum dicitur
+            absque coniunctione nominis neque uerbi euidentis, sed <lb/> significat dictum nostrum
+            «non homo» priuationem | humanitatis et <lb/> dictum nostrum «non sanus» priuationem
+            sanitatis, que est intentio <lb/> simplex, quam significat | «egritudo». Et apparet quod
+            non est signi <wb/>
+            <lb/> ficatio eius significatio negationis, eo quod negatio est uera aut falsa. <lb/>
+            <pb n="61" ed="FT3_pre_release"/> Sed dictum nostrum «non homo» quidem non est uerum
+            neque falsum. <lb/> | Et illud est quia, cum est dictum nostrum «homo» non uerum neque
+            <lb/> falsum donec &lt;...&gt; coniungatur cum eo «inuenitur», cum eo quod <lb/>
+            significat habitum et formam inuentam, dignius est ut sit dictum <lb/> nostrum «non
+            homo» non significans uerum aut falsum, cum non <lb/> significat inuentionem finitam,
+            sed significat inuentionem infinitam. <lb/> [55] Et enuntiationum quarum subiectum est
+            nomen infinitum, inuenitur <lb/> dispositio simplicium ex ipsis et | declinatarum
+            consequentium se, sicut <lb/> dispositio simplicis cum declinata in enuntiationibus
+            quarum subiectum <lb/> est nomen finitum. Et illud est quod «omnis non homo inuenitur
+            non <lb/> iustus» (que est declinata affirmatiua in hoc genere) est significans id <lb/>
+            quod significat dictum nostrum «non inuenitur aliquid ex eo quod est <lb/> non homo
+            iustum», que est negatiua simplex. Et non est inter modum <lb/> enuntiationum, scilicet
+            illarum quarum subiectum est nomen infinitum <lb/> et inter modum enuntiationum quarum
+            subiectum est &lt;...&gt; finitum <lb/> consequentia neque oppositio. <lb/>
+            <pb n="62" ed="FT3_pre_release"/> [56] Et cum mutatur ordo nominis subiecti aut
+            predicati aut uerbi copu <wb/>
+            <lb/> lantis in enuntiationibus trinariis, aut nomen subiecti aut predicati <wb/>
+            <lb/> aut uerbi - in binariis, ita ut precedat ex eis de cuius proprietate est ut <lb/>
+            sequatur &lt;...&gt; inueniatur in eo ante, et uniuersaliter, ut permutetur <lb/> ordo
+            ipsorum et remaneat predicatum in eis predicatum et subiectum, <lb/> subiectum,
+            enuntiatio remanet una et eadem, seruata ueritate si fuerit <lb/> uera, aut falsitate si
+            fuerit falsa. Et exemplum illius est dictum nostrum <lb/> «inuenitur homo iustus»,
+            «inuenitur iustus homo», quoniam ista enun <wb/>
+            <lb/> tiatio est una et eadem, et cum dicitur «Sortes stat» et «stat Sortes», <lb/>
+            quoniam nisi essent enuntiationes in quibus non diuersificantur nisi <lb/> partes earum
+            secundum prioritatem et posterioritatem enuntiationes <lb/> une, sequeretur quod esset
+            uni enuntiationi plus una negatione. Iamque <lb/> manifestum est quod non est uni
+            affirmationi nisi una negatio. Et illud <lb/>
+            <pb n="63" ed="FT3_pre_release"/> est quia, si non dicitur «homo iustus inuenitur» idem
+            cum dicto nostro <lb/> «inuenitur iustus homo» enuntiatio una sed enuntiationes due
+            <lb/> diuerse intentione, et est negatio dicti nostri «inuenitur homo iustus» <lb/>
+            dictum nostrum «non inuenitur homo iustus», et negatio dicti nostri <lb/> «homo iustus
+            inuenitur» «homo iustus non inuenitur», et &lt;---&gt; <lb/> negatio dicti nostri
+            «inuenitur homo iustus», sequitur ut inueniantur | <lb/> dicto nostro «inuenitur homo
+            iustus» due negationes, quarum una est <lb/> dictum nostrum «non inuenitur homo iustus»
+            et alia est «non inuenitur <lb/> iustus homo», et est negatio enuntiationis quam
+            posuimus esse diuerse <lb/> intentionis a dicto nostro «inuenitur homo iustus» et est
+            dictum <lb/> nostrum «inuenitur iustus homo». Iamque manifestum est quod nomen <lb/> et
+            uerbum, que sunt partes enuntiationis, cum mutatur ordo in dicto a <lb/> consuetudine
+            currente in illa lingua, scilicet ab ordine qui est pulchrior, <lb/>
+            <pb n="64" ed="FT3_pre_release"/> et remanet predicatum predicatum et subiectum
+            subiectum, quod rema <wb/>
+            <lb/> net illa enuntiatio eadem. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="15"/>
+            <anchor type="chunk" subtype="chunk_start" n="16"/> [57] Et cum affirmatur nomen unum
+            nominibus multis aut affirmantur <lb/> nomina multa nomini uni, aut negatur unum nomen a
+            nominibus <lb/> multis aut negantur nomina multa a nomine uno, non erit illa affirma <wb/>
+            <lb/> tio affirmatio una neque illa negatio negatio una: sicut, cum affirmatur <lb/>
+            nomen unum nomini uni aut negatur ab eo, non est una affirmatio <lb/> neque una negatio
+            donec &lt;...&gt; sit intentio, quam significat dictio illa <lb/> &lt;...&gt;, una,
+            sicut dictum est in hiis que precesserunt, nisi fuerint illa <lb/> nomina | multa
+            significantia unam intentionem. Et illud, ut sint illa <lb/> nomina &lt;...&gt; synonyma
+            - et sunt quorum unumquodque significat <lb/> eandem intentionem - aut sit quod
+            significant nomina multa partes <lb/> diffinitionis aut descriptionis unius rei, sicut
+            dictum nostrum «homo est <lb/> animal», «homo est rationale», quoniam aggregatum ex hiis
+            duobus <lb/> predicatis est diffinitio hominis, et illud est quoniam homo est <lb/>
+            animal rationale; et similiter etiam si est descriptio eius, uerbi gratia «homo est
+            <lb/> animal» et «homo est bipes», quoniam aggregatum est descriptio <lb/>
+            <pb n="65" ed="FT3_pre_release"/> hominis, que est «animal bipes». Et dictio «homo»
+            significat significa <wb/>
+            <lb/> tione aggregata id quod significat unusquisque duorum sermonum <lb/> separatim. Si
+            ergo erunt predicata multa aggregatio quorum non est <lb/> unum, non erit affirmatio
+            eorum affirmatio una neque negatio eorum <lb/> negatio una. Et similiter, si erunt
+            subiecta multa de quibus predicatur <lb/> predicatum unum, non est illa affirmatio una |
+            neque negatio una. Et <lb/> exemplum illius est predicatio nostra de homine, quoniam |
+            ipse est <lb/> albus et quod ambulat, quoniam ista duo, cum predicantur coniuncta <lb/>
+            de homine et dicitur «homo albus ambulat», non significat unam <lb/> intentionem nisi
+            per accidens. Et dispositio in hoc est sicut dispositio in <lb/> predicato, quod est
+            dictio equiuoca, significans plus una intentione, | <lb/> cum predicatur de subiecto
+            uno, et de omni subiecto, quod est dictio <lb/> equiuoca, cum predicatur unum predicatum
+            significans intentionem <lb/> unam, scilicet quia, sicut enuntiatio cuius predicatum est
+            dictio <lb/> equiuoca non est enuntiatio una, neque enuntiatio cuius subiectum est <lb/>
+            secundum huiusmodi dispositionem est enuntiatio una, similiter est <lb/>
+            <pb n="66" ed="FT3_pre_release"/> dispositio in enuntiatione in qua affirmantur
+            intentiones multe per <lb/> nomina diuersa subiecto uni, aut illa in qua affirmatur unum
+            predica <wb/>
+            <lb/> tum subiectis multis que significantur per nomina diuersa, cum non erit <lb/>
+            coniunctum ex illis predicatis aut subiectis multis intentio una. <lb/> [58] Et
+            enuntiationes quarum subiectum aut predicatum est nomen <lb/> equiuocum, postquam sunt
+            enuntiationes multe, non est oportunum ut <lb/> sit questio dialectica &lt;...&gt;
+            responsio una, et si erunt omnes intentio <wb/>
+            <lb/> nes quas significat nomen equiuocum subiectum, de quo sit uerum <lb/> predicatum
+            unum, aut erunt omnes intentiones quas significat nomen <lb/> equiuocum predicatum, uere
+            de subiecto uno, aut erunt intentiones <lb/> multe ipse predicatum, aut est dictio
+            predicati et subiecti significans, <lb/> scilicet unaqueque ipsarum, intentiones
+            *secundum intentiones* multas, <lb/> nisi quia omnes intentiones quas significat dictio
+            predicati sunt uere de <lb/> omnibus intentionibus quas significat dictio subiecti,
+            sicut ostensum est <lb/> in libro Topicorum. Quia responsio secundum uiam dialectice
+            *uel <lb/>
+            <pb n="67" ed="FT3_pre_release"/> topice* non est ut aptentur querenti questiones, ut
+            intelligantur ille <lb/> intentiones de quibus dicitur illud nomen equiuocum, cum sit
+            respon <wb/>
+            <lb/> dens et querens in uno ordine scientie rei de qua disputant. Sed intentio <lb/>
+            querentis secundum uiam topice est ut concedatur a respondente una <lb/> pars
+            contradictionis, quam uult ponere propositionem qua destruat <lb/> positionem
+            respondentis. Cum ergo queret querens a respondente in <lb/> topica propositione
+            equiuoce dictionis, et concedet illi respondens unam <lb/> partem contradictionis et
+            ponet querens ex una illarum intentionum <lb/> propositionem ex qua conatur concludere
+            quod intendit destruere apud <lb/> respondentem, est respondenti tunc ut dicat «non
+            concedo hanc inten <wb/>
+            <lb/> tionem, sed quam concedo est intentio hec et hec». Et non proderit <lb/> querenti
+            tunc concessio respondentis ei unam partem | contradictionis. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="16"/>
+            <anchor type="chunk" subtype="chunk_start" n="17"/> [59] Sed questio quidem secundum
+            uiam doctrine iam erit per nomen <lb/> equiuocum, quia intentio doctoris est adaptare
+            questionem cum distinc <wb/>
+            <lb/>
+            <pb n="68" ed="FT3_pre_release"/> tione eius quod significat illud nomen equiuocum. Et
+            ideo non erit hec <lb/> questio dialectica, quia hec species questionis iam indicat
+            oportunam <lb/> diuisionem eius quod significat nomen equiuocum, sicut si querat <lb/>
+            querens quid est oculus, | ad respondentem spectat ut dicat quod <lb/> significat multas
+            intentiones, scilicet oculum animalis, et oculum <lb/> *fontem* aque, et oculum *corpus*
+            solis, et aliud. Sed questio <lb/> dialectica, ex qua querit quidem querens unam partem
+            contradictionis, <lb/> ut concedatur ei una duarum (sicut si querat an hoc est hoc, aut
+            non est <lb/> hoc), iam oportet ut sit questio determinata, ut sit responsio que cadit
+            <lb/> super eam determinata, et hoc erit quidem per nomen uniuocum. <lb/> [60] Et ex quo
+            sunt predicata multa que predicantur de subiecto uno, <lb/> inuenta sequentia
+            dispositiones quatuor (aut predicata que cum sepa <wb/>
+            <lb/> rantur sunt uera, et cum aggregantur uera, et est aggregatum ex eis <lb/>
+            predicatum unum, et sunt illa de quibus diximus quod coniunctum ex <lb/> eis erit
+            enuntiatio una; aut predicata [multa] que cum separantur sunt <lb/>
+            <pb n="69" ed="FT3_pre_release"/> uera, et cum aggregantur sunt uera, sed aggregatum |
+            ex eis non est <lb/> predicatum unum nisi per accidens; aut predicata que cum separantur
+            <lb/> sunt uera, et cum aggregantur erit sermo derisio et superfluitas; aut <lb/>
+            predicata que cum separantur sunt uera et cum coniunguntur sunt <lb/> falsa), oportet ut
+            demus canonem quo differantur hec predicata quedam <lb/> a quibusdam, postquam
+            ostenderimus quod non est necesse ut [sit] quod <lb/> uerificatur diuise, uerificetur
+            composite, ita ut non comprehendatur in <lb/> hoc falsitas neque superfluum. <lb/> [61]
+            Et dicemus igitur quod non sequitur quod sint omnia predicata <lb/> uerificata diuise,
+            uerificata composite, ita ut non sit sermo derisibilis <lb/> neque superfluus. Et illud
+            ostenditur ex materiis et ex eo quod sequitur <lb/> hanc positionem, si concesserimus
+            eam, ex repugnantibus: ex materiis <lb/> quidem, quia iam uerificatur de Sorte quod ipse
+            est medicus et quod est <lb/>
+            <pb n="70" ed="FT3_pre_release"/> circumspectus, id est subtilis, et non sequitur ut
+            uerificentur de eo due <lb/> res simul, donec dicamus de eo quod ipse est medicus
+            circumspectus; et <lb/> repugnantium quidem | que sequuntur ipsum qui dicit quod omne
+            quod <lb/> uerificatur diuise, uerificatur composite, preter quod sequatur sermo <wb/>
+            <lb/> nem derisio, unum est quod, si est dictum nostrum de Sorte quod est <lb/> homo,
+            uerum et quod est albus, uerum, oportet ut sit dictum aggregati <lb/> ex eis uerum,
+            scilicet quod sit Sortes homo albus, et si est predicatio <lb/> nostra de ipso etiam
+            quod est homo albus et quod est albus, ita ut sint <lb/> duo predicata separata, ergo
+            iam oportet ut uerificetur de eo quod ipse <lb/> est homo albus albus. Et similiter, cum
+            acceperimus hoc dictum loco <lb/> predicati unius separati et acceperimus dictum primum
+            loco predicati <lb/> separati, uerificabitur de eo quod est | homo albus homo albus
+            albus, <lb/> preter quod sit in sermone ridiculositas nec superfluum, et si uadat res
+            <lb/> in infinitum; et hoc est repugnans. Et etiam si, cum predicantur de eo <lb/>
+            separata multa, sequitur ut uerificentur de eo omnes compositiones que <lb/>
+            <pb n="71" ed="FT3_pre_release"/> accidunt ex illis separatis, scilicet cum componuntur
+            quedam eorum <lb/> cum quibusdam, et sunt infinite, ergo uerificantur de subiecto uno
+            res <lb/> multe infinite, sicut si | uerificatur de eo quod est homo et quod est <lb/>
+            albus et quod ambulat, oportet ut uerificentur de eo quod est homo <lb/> albus ambulat
+            et quod est homo homo albus ambulat et quod est homo <lb/> homo homo albus ambulat; et
+            similiter quod est albus albus ambulat <lb/> ambulat; ergo erunt predicata uera de eo
+            infinita. Iam ergo ostensum <lb/> est ex hoc, quod non omne quod uerificatur diuise,
+            uerificatur compo <wb/>
+            <lb/> site, sicut uidebatur multis antiquorum. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="17"/>
+            <anchor type="chunk" subtype="chunk_start" n="18"/> [62] Et postquam iam ostensum est
+            hoc, tunc etiam consideremus quando <lb/> erit ex intentionibus multis que predicantur
+            de intentione una, et ex <lb/> intentione una que predicatur de intentionibus multis,
+            enuntiatio una <lb/> (et illud per hoc ut sit aggregatum ex illis intentionibus multis
+            intentio <lb/> una et uera) et quando non erit. Dicamus ergo quod, quando non erit <lb/>
+            predicatio illarum intentionum multarum de subiecto [in ea] predicatio <lb/> per
+            accidens, neque est una earum inclusa in alia neque contenta ab ea <lb/>
+            <pb n="72" ed="FT3_pre_release"/> (scilicet quod sit condicio contenta in habente
+            condicionem, et quanto <lb/> magis ut sit condicio ipsa eadem habens condicionem: sicut
+            si dicamus <lb/> quod Sortes albus albus, cum non erit illud secundum modum succur <wb/>
+            <lb/> rere), quoniam coniunctum ex illis intentionibus erit intentio una. Sed <lb/> cum
+            est quidem predicatio eius per accidens (sicut dictum nostrum de <lb/> Sorte quod est
+            albus et quod ambulat), quoniam non est coniunctum ex <lb/> eis intentio una. Et
+            similiter cum est secunda contenta a prima, quo <wb/>
+            <lb/> niam sermo tunc est superfluus, sicut dictum nostrum de Sorte quod est <lb/> homo
+            uiuus, secundum modum expositionis hominis per uiuum, quo <wb/>
+            <lb/> niam dictio «homo» iam comprehendit «uiuum» et propter hoc est <lb/> colligatio
+            nostra ipsius cum uiuo ridiculositas e contrario colligationis <lb/> generis cum
+            differentia. Et cum | expoliantur predicata separata ab hiis <lb/> dispositionibus
+            (scilicet a predicatione que est per accidens et ut non sit <lb/> unum eorum clausum in
+            alio), erit enuntiatio una, sicut dictum nostrum <lb/> de homine quod est animal et est
+            bipes. <lb/> [63] Sed res que uerificantur coniuncte in predicatione de aliqua re, cum <lb/>
+            <pb n="73" ed="FT3_pre_release"/> ligatur quedam cum quadam: sunt quarum quedam
+            uerificantur cum <lb/> separantur, et quedam non | uerificantur. Et uerificantur ille in
+            quibus <lb/> coniunguntur duo. Quorum unum est, ut non comprehendatur in <lb/> aliquo
+            condicionato in dicto aliquid oppositum rei que condicionatur in <lb/> eo et ligatur cum
+            eo, et hoc quocumque modo accidat ex modis <lb/> oppositis quatuor, siue sit manifesta
+            illa oppositio ei ex significatione <lb/> illius nominis (sicut est dictum nostrum
+            «animal mortuum», quoniam <lb/> mortuum est contrarium animali ex parte significationis
+            huius nominis, <lb/> scilicet nominis «animal»), aut sit manifestatio illa non ex parte
+            signi <wb/>
+            <lb/> ficationis nominis, sed ex parte significationis diffinitionis aut descrip <wb/>
+            <lb/> tionis (uerbi gratia «homo mortuus», quoniam euidens est quidem <lb/> quod homo
+            est oppositum mortuo ex parte diffinitionis ipsius, in qua <lb/> dicitur quod est animal
+            rationale); cum ergo includitur oppositio in <lb/> huiusmodi colligationibus,
+            falsificantur cum separantur, quoniam ueri <wb/>
+            <lb/> ficatur de mortuo quod est homo mortuus et non uerificatur de eo quod <lb/>
+            <pb n="74" ed="FT3_pre_release"/> est homo. Et condicio secunda est ut non sit
+            predicatio colligati de <lb/> subiecto per accidens (id est propter aliud ab ipso), sed
+            per se (id est <lb/> propter seipsum), quia cum est predicatum per accidens, secundum
+            <lb/> istum modum falsificatur cum separatur: uerbi gratia «Homerus est <lb/> inuentus
+            uersificator» aut «inuentus opinabilis», quoniam cum <lb/> separatur hoc et dicitur
+            «Homerus est inuentus», est falsum cum sit <lb/> nunc priuatus. Et causa in hoc est |
+            quia dictio dicti nostri «est <lb/> inuentus» predicatur de Homero ex parte qua est
+            opinabilis aut uersi <wb/>
+            <lb/> ficator, non predicatione prima propter se, id est absolute. Et dictum <lb/>
+            nostrum in eo quod est inuentus, ex parte qua est in mente opinatus, <lb/> est dictum
+            uerum. Et propter hoc possibile est in eo, cum accipitur <lb/> secundum hanc partem
+            dictio «inuentus», ut uerificetur de priuato, <lb/> sicut dictio «non inuentus» cum
+            predicatur de aliquo propter aliud <lb/> uerificatur de re inuenta et non uerificatur de
+            ipsa cum predicatur de <lb/> ipsa propter se (sicut est dictum nostrum de Petro cui
+            innuitur quod est <lb/> non inuentus paries, quoniam non uerificatur de eo quod ipse non
+            est <lb/> inuentus absolute, sicut non uerificatur de priuato quod ipse est inuen <wb/>
+            <lb/> tus absolute). Ergo cum non comprehenditur *uel clauditur* in condi <wb/>
+            <lb/>
+            <pb n="75" ed="FT3_pre_release"/> cione ut quod ligatur opponatur rei ligate, cum
+            significatur super rem <lb/> colligatam per diffinitionem eius aut nomen ipsius, neque
+            est ibi predi <wb/>
+            <lb/> catio propter aliud, oportet quidem, cum diuiduntur huiusmodi in <lb/>
+            predicatione, ut uerificentur diuise sicut uerificantur composite. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="18"/>
+            <anchor type="chunk" subtype="chunk_start" n="19"/>
+            <anchor type="chapter" subtype="chapter_end" n="Differentia 3" lvl="1"/>
+            <anchor type="chapter" subtype="chapter_start" n="Differentia 4" lvl="1"/>
+            <head>Differentia tertia [sic!]</head> [64] Et ex quo sunt enuntiationum quedam habentes
+            | modos et quedam <lb/> non habentes modos (et modus est dictio significans qualitatem
+            inuen <wb/>
+            <lb/> tionis predicati in subiecto: uerbi gratia «homo necesse est ut sit animal», <lb/>
+            aut «possibile est ut sit philosophus») sunt que generum dictionum modo <wb/>
+            <lb/> rum duo modi: quorum unus est necessarius et quod sequitur ipsum <lb/> secundum
+            modum consequentie et numeratur cum eo (et est oportunus <lb/> et impossibilis, qui
+            etiam est una partium eius, cum sit necessarium aut <lb/> necessarie inuentionis aut
+            necessarie priuationis, quod est impossibile), <lb/> et secundus est possibilis et quod
+            sequitur ipsum secundum modum <lb/>
+            <pb n="76" ed="FT3_pre_release"/> consequentie et numeratur cum eo (uerbi gratia:
+            contingens), iam ergo <lb/> oportet ut consideremus in oppositis huius generis que sunt
+            et in <lb/> consequentibus etiam ipsius; et illud in declinatis et etiam in simplici <wb/>
+            <lb/> bus. Et fiunt quidem dictiones modorum duo modi, quia intenditur | <lb/> quidem in
+            eis ut sint significationes ipsarum equiperantes enti, cuius <lb/> sunt due diuisiones:
+            scilicet aut in potentia aut in actu. Et necessarium <lb/> dicitur de eo quod est in
+            actu et possibile dicitur de eo quod est in <lb/> potentia. Consideremus ergo in
+            oppositis earum primo, deinde in <lb/> consequentibus. <lb/> [65] Et dicamus quod iam
+            apparet in principio estimationis quod littera <lb/> *pars* negationis oportet ut
+            ponatur in huiusmodi enuntiationibus <lb/> cum dictione inuentionis, que est copula, non
+            cum predicato, secun <wb/>
+            <lb/> dum dispositionem enuntiationum non habentium modos. Et illud est <lb/> quia
+            negatio dicti nostri «homo inuenitur iustus» est dictum nostrum <lb/> «homo non
+            inuenitur iustus», non dictum nostrum «homo inuenitur <lb/> non iustus». Et illud est ex
+            quo affirmatio et negatio diuidunt uerum a <lb/>
+            <pb n="77" ed="FT3_pre_release"/> falso in omnibus rebus, ergo si posuimus quod negatio
+            dicti nostri <lb/> «homo inuenitur iustus» sit dictum nostrum «homo inuenitur non <lb/>
+            iustus», oportet similiter in hiis duobus dictis ut diuidant uerum a falso <lb/> in
+            omnibus rebus, donec oporteat, si est dictum nostrum in ligno: uerbi <lb/> gratia, quod
+            inuenitur iustus, falsum, ergo erit uerum de eo quod <lb/> ipsum inuenitur non iustus.
+            Sed postquam fuit dictum nostrum «ius <wb/>
+            <lb/> tum» et «non iustum» separantia uerum et falsum de homine tantum, <lb/> ergo iam
+            oportet, si est uerum quod lignum inuenitur non iustum, ut sit <lb/> uerum de eo quod
+            lignum sit homo non iustus; et hoc est in fine <lb/> impossibilitatis. <lb/> [66] Et cum
+            est littera negationis quidem posita in enuntiationibus trinariis <lb/> et binariis cum
+            uerbo, iam putatur quod dispositio in enuntiationibus <lb/> habentibus modos est hec
+            dispositio; et erit secundum hoc negatio dicti <lb/> nostri de re quod possibile est ut
+            inueniatur, dictum nostrum quod <lb/> possibile est quod non inueniatur, absque hoc quod
+            iam apparet quod <lb/> uerificetur de re eadem ut dicatur in ea quod possibile est ut
+            inuenia <wb/>
+            <lb/> tur et possibile est ut non inueniatur. Et exemplum illius est quod <lb/> illud
+            quod possibile est ut incidatur, possibile est ut non incidatur; et <lb/>
+            <pb n="78" ed="FT3_pre_release"/> quod possibile est ut ambulet, possibile est ut non
+            ambulet. Et illud est <lb/> quia possibile est illud quod non est necessarie
+            inuentionis. Et propter <lb/> hoc iam | est possibile in eo ut inueniatur et ut non
+            inueniatur. Et ex <lb/> quo sunt opposita in quibus non est possibile ut coniungantur
+            super <lb/> uero in re una, ergo manifestum est quod non est negatio dicti nostri <lb/>
+            «possibile est ut inueniatur» dictum nostrum «possibile est ut non <lb/> inueniatur».
+            <lb/> [67] Cum ergo ostensum sit quod pars negationis in hiis enuntiationibus <lb/>
+            (scilicet habentibus modos) non oportet ut ponatur non cum predicato <lb/> neque cum
+            uerbo inuentionis, ergo iam oportet ut ponatur cum modo. | <lb/> Erit ergo negatio dicti
+            nostri de re quod est possibile ut inueniatur <lb/> dictum nostrum quod non est
+            possibile ut inueniatur. Et hec est res <lb/> in omnibus modis quos numerauimus, et hoc
+            est oportunum, quoniam, <lb/> quemadmodum in enuntiationibus non habentibus modum,
+            fuimus <lb/> quidem coniungantes partem negationis cum re que est in predicatione <lb/>
+            loco forme (que est uerbum inuentionis), non cum re que est loco <lb/> materie (que est
+            predicatum), similiter hic quidem ponitur pars negatio <wb/>
+            <lb/> nis in re que est &lt;...&gt; loco uerbi inuentionis in non habentibus modos <lb/>
+            <pb n="79" ed="FT3_pre_release"/> ex predicato; quod est modus. Et illud est quia uerbum
+            inuentionis, <lb/> ex quo est in enuntiationibus non habentibus modos significans <lb/>
+            qualitatem dispositionis predicati ex subiecto, fit uerbi inuentionis <lb/> proportio ad
+            predicatum in huiusmodi enuntiationibus proportio forme <lb/> ad materiam. Et ex quo est
+            hec proportio eadem ipsa proportio modi <lb/> ad uerbum inuentionis (et illud est quia
+            iam significat qualitatem <lb/> inuentionis predicati ad subiectum), est proportio eius
+            etiam ad uerbum <lb/> inuentionis proportio forme ad materiam. Et cum sint proportiones
+            due <lb/> eedem et sit pars negationis ibi posita cum uerbo, oportet ergo ut <lb/>
+            ponatur hic cum modo. <lb/> [68] Et uniuersaliter manifestum est per se quod negatio
+            dicti nostri <lb/> «possibile est ut inueniatur» est dictum nostrum «non possibile est
+            ut <lb/> inueniatur», cum hee due sint diuidentes uerum et falsum semper. Sed <lb/>
+            dictum nostrum quidem «possibile est ut inueniatur» et «quod non <lb/> inueniatur» non
+            sunt contradictoria sed consequentia se. Et similiter <lb/> negatio dicti nostri
+            «possibile est quod non inueniatur» (que est decli <wb/>
+            <lb/> nata possibilis) est dictum nostrum «non possibile est ut non inuenia <wb/>
+            <lb/> tur». Et negatio dicti nostri «oportet ut inueniatur» est dictum nostrum <lb/>
+            «non oportet ut in|ueniatur». Et negatio dicti nostri «oportet ut non <lb/> inueniatur»
+            (que est declinata necessaria) est dictum nostrum «non <lb/> oportet ut non inueniatur».
+            Et similiter negatio dicti nostri «impossi <wb/>
+            <lb/>
+            <pb n="80" ed="FT3_pre_release"/> bile est ut inueniatur», dictum nostrum «non
+            impossibile est ut inuenia <wb/>
+            <lb/> tur»; et negatio dicti nostri «impossibile est ut non inueniatur», dictum | <lb/>
+            nostrum «non impossibile est ut non inueniatur». Et hec sunt enuntia <wb/>
+            <lb/> tiones opposite in hoc genere. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="19"/>
+            <anchor type="chunk" subtype="chunk_start" n="20"/> [69] Sed consequentes quidem sunt
+            sicut si dicam: affirmatiuam quidem <lb/> possibilem simplicem (que est dictum nostrum
+            «possibile est ut inuenia <wb/>
+            <lb/> tur») hanc enim consequuntur due: negatiua impossibilis (sicut dictum <lb/>
+            nostrum «non est impossibile ut inueniatur») et negatiua necessarii <lb/> (que est
+            dictum nostrum «non est necessarium ut inueniatur»). Sed <lb/> affirmatiuam possibilem
+            declinatam (uerbi gratia «possibile est ut non <lb/> inueniatur») quidem sequuntur
+            secundum famositatem et magis scitum <lb/> due: quarum una est negatiua necessaria
+            declinata (que est dictum <lb/> nostrum «non oportet ut non inueniatur») et secunda est
+            negatiua <lb/> impossibilis declinata (que est dictum nostrum «non impossibile est ut
+            <lb/> non inueniatur»). Et negatiuam possibilem simplicem (que est dictum <lb/> nostrum
+            «non possibile est ut inueniatur») consequuntur quidem due <lb/> etiam: quarum una est
+            affirmatiua necessaria declinata (que est dictum <lb/> nostrum «oportet *uel necesse
+            est* ut non inueniatur») et secunda est <lb/> affirmatiua impossibilis simplex (que est
+            dictum nostrum «impossibile <lb/> est ut inueniatur»). Et negatiuam quidem possibilem
+            declinatam (uerbi <lb/>
+            <pb n="81" ed="FT3_pre_release"/> gratia «non est possibile ut non inueniatur» sequuntur
+            due: una <lb/> quarum est affirmatiua necessaria simplex (que est dictum nostrum <lb/>
+            «oportet ut inueniatur») et secunda affirmatiua impossibilis declinata <lb/> (que est
+            dictum nostrum «impossibile est ut non inueniatur»). <lb/> [70] Ponamus ergo oppositas
+            ipsarum in latitudine tabule et consequentes <lb/> quasdam sub quibusdam; et perueniet
+            illud secundum hanc designatio <wb/>
+            <lb/> nem: <lb/>
+            <anchor type="table" subtype="start"/>
+            <anchor type="table" subtype="row_start"/> Possibile est ut inueniatur <anchor
+                type="table" subtype="cell_break"/> Non possibile est ut inueniatur <anchor
+                type="table" subtype="row_end"/>
+            <anchor type="table" subtype="row_start"/> Non oportet ut inueniatur <anchor
+                type="table" subtype="cell_break"/> Oportet ut non inueniatur <anchor type="table"
+                subtype="row_end"/>
+            <anchor type="table" subtype="row_start"/> Non impossibile est ut inueniatur <anchor
+                type="table" subtype="cell_break"/> Impossibile est ut inueniatur <anchor
+                type="table" subtype="row_end"/>
+            <anchor type="table" subtype="row_start"/> Possibile est ut non inueniatur <anchor
+                type="table" subtype="cell_break"/> Non possibile est ut non inueniatur <anchor
+                type="table" subtype="row_end"/>
+            <anchor type="table" subtype="row_start"/> Non oportet ut non inueniatur <anchor
+                type="table" subtype="cell_break"/> Oportet ut inueniatur <anchor type="table"
+                subtype="row_end"/>
+            <anchor type="table" subtype="row_start"/> Non impossibile est ut non inueniatur <anchor
+                type="table" subtype="cell_break"/> Impossibile est ut non inueniatur <anchor
+                type="table" subtype="row_end"/>
+            <anchor type="table" subtype="end"/>
+            <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="20"/>
+            <anchor type="chunk" subtype="chunk_start" n="21"/> [71] Cum ergo considerauerimus hanc
+            consequentiam famosam et inse <wb/>
+            <lb/> quemur eam, inueniemus dictum nostrum «impossibile» et dictum nos <wb/>
+            <lb/> trum «non impossibile» consequentia dictum | nostrum «possibile» <lb/> et «non
+            possibile», scilicet quod contradictoria ipsorum sequuntur <lb/> contradictoriam, id est
+            affirmatiua in eis sequitur negatiuam, nisi quia <lb/> illud est secundum conuersionem,
+            scilicet quod negatiua ex impossibili <lb/> sequitur affirmatiuam de possibili et
+            affirmatiua de impossibili sequitur <lb/> negatiuam de possibili. <lb/>
+            <pb n="82" ed="FT3_pre_release"/> [72] Sed enuntiationum quidem necessariarum
+            consequentes ad possibiles <lb/> non sunt contradictorie sed contrarie, scilicet
+            contraria affirmatiue <lb/> necessarie, que est contradictoria negatiue necessarie. Et
+            illud est quia <lb/> non est negatio dicti nostri «necesse est ut non inueniatur»,
+            consequens <lb/> ex dicto nostro «non est possibile ut inueniatur», dictum nostrum «non
+            <lb/> necesse est ut inueniatur», quod est consequens ex dicto nostro «possi <wb/>
+            <lb/> bile est ut inueniatur». Et illud est quoniam ambo iam possibile est ut <lb/>
+            uerificentur de re una et eadem. De eo namque quod oportet ut non <lb/> inueniatur
+            uerificatur «non oportet ut inueniatur». Sed dictum nos <wb/>
+            <lb/> trum «oportet ut non inueniatur» est contrarium dicti nostri «oportet <lb/> ut
+            inueniatur», quod est contradictorium dicti nostri «non oportet ut <lb/> inueniatur».
+            <lb/> [73] Et causa in hoc quod | sequitur possibile negatiuum &lt;...&gt; affirma <wb/>
+            <lb/> tiuum necessarium declinatum et sequitur negatiuum possibile declina <wb/>
+            <lb/> tum affirmatiuum necessarium simplex, est quod impossibile est contra <wb/>
+            <lb/>
+            <pb n="83" ed="FT3_pre_release"/> rium necessario inuento, etsi sit uis eorum in
+            necessitate uis una. Et ex <lb/> quo est quod negatiuam possibilem simplicem sequitur
+            impossibilis <lb/> affirmatiua simplex et est impossibilis affirmatiua simplex contraria
+            <lb/> affirmatiue necessarie simplici, sequitur de necessitate quod sequatur <lb/> eam
+            contraria affirmatiue necessarie simplicis, que est affirmatiua neces <wb/>
+            <lb/> saria declinata. Et postquam sequitur negatiuam possibilem declinatam <lb/>
+            impossibilis declinata affirmatiua et est impossibilis declinata affirma <wb/>
+            <lb/> tiua contraria necessarie declinate affirmatiue, oportet ut sequatur eam <lb/> ex
+            necessitate contrarium necessarie declinate affirmatiue, que est neces <wb/>
+            <lb/> saria simplex affirmatiua. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="21"/>
+            <anchor type="chunk" subtype="chunk_start" n="22"/> [74] Sed cum experitur hoc, iam
+            putatur quod dispositio in hoc quod <lb/> sequitur possibile ex necessario, est sicut
+            dispositio eius quod sequitur <lb/> ipsum ex impossibili, scilicet quod contradictorium
+            ipsarum sequitur <lb/> contradictorium, uerum secundum alium modum a primo, quod osten <wb/>
+            <lb/> dit estimatio ipsarum. Et erit consequentia ex dicto nostro «possibile <lb/> est
+            ut inueniatur» dictum nostrum «non necesse est ut non inueniatur» <lb/> (quod est
+            contradictorium dicti nostri «necesse est ut non inueniatur», <lb/>
+            <pb n="84" ed="FT3_pre_release"/> quod sequitur ex dicto | nostro «non possibile est ut
+            inueniatur»), non <lb/> dictum nostrum «non necesse est ut inueniatur». Et erit sequens
+            ex <lb/> dicto nostro «possibile est ut non inueniatur» de necessitate dictum <lb/>
+            nostrum «non necesse ut inueniatur», non dictum nostrum «non <lb/> necesse ut non
+            inueniatur», sicut posuimus illud in positione prima. <lb/> [75] Et quomodo quidem
+            appareat quod sequens ex dicto nostro «possi <wb/>
+            <lb/> bile est ut inueniatur» sit dictum nostrum «non necesse est ut non <lb/>
+            inueniatur», non dictum nostrum «non necesse est ut inueniatur», <lb/> illud ordinabitur
+            super ostensionem, quod dictum nostrum «possibile <lb/> est ut inueniatur» est sequens
+            ex dicto nostro «necesse est ut inuenia <wb/>
+            <lb/> tur». Et qualiter quidem ostendatur hoc, est per hoc quod dicam: et <lb/> illud
+            est quia, cum dicto nostro «necesse est ut inueniatur», uerificatur <lb/> aut dictum
+            nostrum «possibile est ut inueniatur», aut dictum nostrum <lb/> «non possibile est ut
+            inueniatur», quoniam dictum nostrum «possibile <lb/> est ut inueniatur» est
+            contradictorium dicto nostro «non possibile est ut <lb/> inueniatur», et contradictoria
+            diuidunt uerum et falsum super omnes <lb/> res. Ergo si non est uerum cum eo dictum
+            nostrum «possibile est ut <lb/> inueniatur», tunc erit uerum cum eo «non possibile est
+            ut inueniatur»; <lb/>
+            <pb n="85" ed="FT3_pre_release"/> uerum, si est uerum cum eo dictum nostrum «non
+            possibile est ut <lb/> inueniatur», est uerum cum eo dictum nostrum «impossibile est ut
+            <lb/> inueniatur», cum hoc sequatur dictum nostrum «non possibile ut <lb/> inueniatur»;
+            et cum est uerum cum eo dictum nostrum «impossibile est <lb/> ut inueniatur», sequitur
+            ex hoc ut sit quod est necesse ut inueniatur <lb/> impossibile ut inueniatur, et hoc est
+            falsum quod non est possibile. <lb/> | Ergo uerum cum dicto nostro «necesse est ut
+            inueniatur» est dictum <lb/> nostrum «possibile est ut inueniatur», quoniam cum est
+            falsum unum <lb/> contradictoriorum est uerum aliud. <lb/> [76] Et cum firmatum est quod
+            dictum nostrum «possibile est ut inuenia <wb/>
+            <lb/> tur» sequitur dictum nostrum «necesse est ut inueniatur», dico ergo quod <lb/>
+            consequens ex dicto nostro «possibile est ut inueniatur» ex proposi <wb/>
+            <lb/> tionibus necessariis est negatiua declinata, que est dictum nostrum | <lb/> «non
+            necesse est ut non inueniatur». Demonstratio eius est quoniam <lb/> non euacuatur quin
+            sit sequens hanc - scilicet ex possibili simplici <lb/> affirmatiua - negatiua
+            necessaria simplex, aut affirmatiua necessaria <lb/>
+            <pb n="86" ed="FT3_pre_release"/> simplex, aut affirmatiua necessaria declinata, aut
+            negatiua necessaria <lb/> declinata. Et si est negatiua necessaria simplex, quemadmodum
+            posui <wb/>
+            <lb/> mus - et est dictum nostrum «non est necesse ut inueniatur» <wb/>
+            <lb/> iamque fuit possibilis simplex affirmatiua sequens ex necessaria simplici, <lb/>
+            sequetur ut sequatur ex necessaria simplici contradictoria eius que est <lb/> negatiua
+            simplex, quia ueniet dictum ita: quod necessarium est ut <lb/> inueniatur, possibile est
+            ut inueniatur, et quod est possibile ut inuenia <wb/>
+            <lb/> tur, non est necesse ut inueniatur. Ergo quod est necesse ut inueniatur, <lb/> non
+            necesse est ut inueniatur, quod falsum est et impossibile, quia non <lb/> est possibile
+            ut duo contradictoria sint simul uera. <lb/> [77] Et cum non sequatur ex ea negatiua
+            necessaria simplex, non remanet <lb/> ut sequatur ex ea nisi affirmatiua necessaria
+            simplex aut declinata, aut <lb/> necessaria negatiua declinata. Sed affirmatiuarum
+            necessariarum simpli <wb/>
+            <lb/> cium aut declinatarum non uerificatur una cum affirmatiua possibili. Et <lb/>
+            illud est quia illud quod est possibile ut inueniatur, est possibile ut <lb/>
+            <pb n="87" ed="FT3_pre_release"/> inueniatur | et non inueniatur; et illud quod est
+            possibile ut inueniatur <lb/> et non inueniatur, non est necesse ut inueniatur neque
+            necesse est ut non <lb/> inueniatur. Et illud est manifestum per se. Ergo cum sit
+            necesse ut <lb/> sequatur una enuntiationum necessariarum quatuor possibilem simpli <wb/>
+            <lb/> cem, et iam ostensum est quod tres ipsarum non sequuntur eam, non <lb/> remanet ut
+            sit sequens eam nisi dictum nostrum «non est necesse ut <lb/> non inueniatur», que est
+            negatiua necessaria declinata. Et illud est <lb/> necesse etiam, quia non accidit ex hoc
+            impossibile quod accidit in eo <lb/> quod precessit ex positione nostra quod ex
+            possibili sequitur negatiua <lb/> necessaria, quoniam iam sequitur dictum nostrum
+            «necesse est | ut <lb/> inueniatur» dictum nostrum «non necesse est ut non inueniatur»,
+            cum <lb/> sint uere simul de re una. <lb/> [78] Verum iam accidit dubitatio in eo quod
+            exposuimus, quod dictum <lb/> nostrum «possibile est ut inueniatur» sequitur ex dicto
+            nostro «necesse <lb/> est ut inueniatur». Et illud est quia, si non sequitur ipsum, ergo
+            eius <lb/> contradictorium. Et eius contradictorium est aut dictum nostrum «non <lb/>
+            possibile ut inueniatur», aut dictum nostrum «possibile ut non inuenia <wb/>
+            <lb/> tur». Verum, si sequitur ipsum dictum nostrum «non possibile ut <lb/>
+            <pb n="88" ed="FT3_pre_release"/> inueniatur», sequitur impossibile | precedens, cuius
+            expleuimus rememo <wb/>
+            <lb/> rationem. Et si sequitur ipsum dictum nostrum «possibile est ut non <lb/>
+            inueniatur», sequitur ut sit illud quod est necesse ut inueniatur, possi <wb/>
+            <lb/> bile ut non inueniatur; et hoc est falsum et impossibile. Ergo ex hoc <lb/> dicto
+            oportet ut sit sequens ex dicto nostro «necesse est ut inueniatur» <lb/> dictum nostrum
+            «possibile est ut inueniatur». Verum, cum posuerimus, <lb/> quod illud ex quo sequitur
+            dictum nostrum «possibile est ut inuenia <wb/>
+            <lb/> tur», et est illud quod possibile est ut inueniatur, possibile [est] ut non <lb/>
+            inueniatur, iam ergo sequitur ut sit quod est necesse ut inueniatur, <lb/> possibile ut
+            inueniatur et ut non inueniatur; et hoc est falsum et <lb/> impossibile. Et quando fuit
+            dictum primum affirmans *et probans* ut sit <lb/> sequens ex dicto nostro «necesse est
+            ut inueniatur» dictum nostrum <lb/> «possibile est ut inueniatur», et secundum destruens
+            ut possibile sequa <wb/>
+            <lb/> tur necessarium et sit consequens ex eo, manifestum est ergo quod <lb/> oportet ut
+            sit, quod affirmat dictum nostrum ex natura possibilis, quod <lb/> sequitur ex
+            necessario, preter id quod negat secundum. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="22"/>
+            <anchor type="chunk" subtype="chunk_start" n="23"/>
+            <pb n="89" ed="FT3_pre_release"/> [79] Possibile ergo dicitur de plus uno modo; et illud
+            est etiam manifes <wb/>
+            <lb/> tum per inductionem, quoniam apparet quod non omne id quod dicitur <lb/> quod est
+            possibile ut faciat hoc aut recipiat, in eo est potentia ut non <lb/> faciat et ut
+            faciat. Et illud est quia res de quibus dicimus quod in eis <lb/> est potentia actiua
+            inueniuntur secundum duos modos: aut potentia <lb/> coniuncta rationi - et est illa que
+            interpretatur electio *uel beneplaci <wb/>
+            <lb/> tum* - aut potentia non coniuncta rationi - sicut est calefactio ignis <lb/> et
+            frigefactio niuis. Et in potentia quidem coniuncta rationi est possibile <lb/> ut faciat
+            duo contraria, scilicet ut faciat et ut non faciat; et exemplum <lb/> illius est
+            ambulatio, quia in homine est potentia ut ambulet et ut non <lb/> ambulet equaliter. Sed
+            in potentia non coniuncta rationi est potentia ad <lb/> unum contrariorum tantum; et
+            exemplum illius est ignis, quoniam in | <lb/> ipso est potentia ad calefaciendum tantum,
+            non ad non calefaciendum <lb/>
+            <pb n="90" ed="FT3_pre_release"/> nisi per accidens; et illud est aut cum non inuenit
+            subiectum eius <lb/> recipiens caliditatem, aut cum impedit eum impedimentum ab actione
+            <lb/> que inest ei per naturam in illo subiecto; et iam inuenitur in potentiis <lb/>
+            passiuis non rationalibus quod recipit opposita equaliter. Et cum sit <lb/> hoc ita,
+            ergo non omne possibile est possibile ut recipiat res | oppositas. <lb/> [80] Neque
+            etiam est possibile ex eo quod dicitur uniuoce, ut sit una spe <wb/>
+            <lb/> cies. Sed nomen «possibile» est ex eo quod dicitur equiuoce. Et illud | <lb/> est
+            quia iam dicimus possibile in eo quod est inuentum in actu. Et <lb/> dictum nostrum in
+            eo quod est possibile, est cum intentione quod hec <lb/> dispositio inuenta ei in actu
+            iam fuit possibilis ei; et si non, &lt;...&gt; <lb/> recepisset eam. Et hoc iam dicitur,
+            etsi non precessit possibilitas in ea <lb/> actu in tempore, ut inueniatur aliquid cum
+            hac dispositione. Et ex eo <lb/> quod dicitur in eo quod est possibile, cum intentione
+            quod de eius <lb/>
+            <pb n="91" ed="FT3_pre_release"/> proprietate est ut inueniatur in futuro. Et hec
+            possibilitas quidem <lb/> inuenitur in rebus mobilibus tantum, corruptibiles sint, aut
+            incorrupti <wb/>
+            <lb/> biles, nisi quia illius quod est ex eo in rebus non corruptibilibus <lb/>
+            renouatio est necessaria, sicut ortus solis cras, et illius | quod est <lb/> ex eo in
+            rebus corruptibilibus non est essentia necessaria. <lb/> [81] Et modus quidem secundus
+            possibilis inuenitur in rebus immobilibus. <lb/> Et hic modus possibilis est qui
+            sequitur necessarium. Sed modus <lb/> quidem primus non sequitur necesse et illud est
+            quod fuit ex eo in rebus <lb/> corruptibilibus. Sed iam simile est *et uidetur* ut
+            dicatur quod possi <wb/>
+            <lb/> bile, cum sit communius quam necesse - et illud est quia ipsum cadit <lb/> super
+            necesse et super eo quod non est necesse -, iam ergo oportet ut <lb/> sit sequens ex eo,
+            sicut sequitur communius magis proprium, scilicet <lb/> sicut sequitur animal hominem.
+            <lb/> [82] Dixit: et cum iam sint manifesti modi possibilis, iam oportet ut <lb/>
+            <pb n="92" ed="FT3_pre_release"/> ponamus primo quod est super quod cadit equatio in hac
+            consequen <wb/>
+            <lb/> tia, dictum nostrum «necesse est ut inueniatur», «non est necesse ut <lb/>
+            inueniatur», cum sit hoc principium hiis omnibus. Deinde consideremus <lb/> quod
+            sequitur hoc ex hiis enuntiationibus residuis. <lb/> [83] Dixit: et hec res iam agitur
+            in libro sillogismi. Distulit ergo rem ad <lb/> illum locum. Et est quidem necesse
+            principium hiis, quia res necessarie <lb/> sunt sempiterne inuentionis in actu, sicut
+            ostensum est in scientiis <lb/> speculatiuis. Et postquam sunt res sempiterne priores,
+            oportet ut sint <lb/> res que sunt in actu priores rebus que sunt in actu quandoque et
+            in <lb/> potentia quandoque. Et propter hoc quedam inuentorum inueniuntur <lb/> in actu
+            absque potentia, sicut inuentum primum. Et quedam in actu <lb/> quandoque et in potentia
+            quandoque, et sunt res generabiles et corrup <wb/>
+            <lb/>
+            <pb n="93" ed="FT3_pre_release"/> tibiles. Et quedam cum potentia tantum absque eo quod
+            euacuent <lb/> ipsam, sicut motus, et in summa inuentio infiniti secundum quod est <lb/>
+            infinitum, sicut ostensum est in scientia naturali. <lb/> [84] Ergo hec est summa quam
+            loquitur in enuntiationibus habentibus <lb/> modos. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="23"/>
+            <anchor type="chunk" subtype="chunk_start" n="24"/>
+            <anchor type="chapter" subtype="chapter_end" n="Differentia 4" lvl="1"/>
+            <anchor type="chapter" subtype="chapter_start" n="Differentia 5" lvl="1"/>
+            <head>Differentia quarta [sic!]</head> [85] Dixit: ex quo sunt orationes opposite, aut
+            opposite secundum affi <wb/>
+            <lb/> rmationem et negationem, aut opposite per hoc quod materie ipsarum <lb/> sunt
+            contrarie - et sunt orationes quarum predicata sunt contraria -, <lb/> et inuenitur in
+            illis quarum predicata sunt contraria, que similantur <lb/> modis quinque oppositarum,
+            que sunt ex parte affirmationis et negatio <wb/>
+            <lb/> nis quarum | precessit dictum; ergo iam oportet ut consideremus hic <lb/> que
+            harum orationum sunt magis opposite et longioris differentie in <lb/>
+            <pb n="94" ed="FT3_pre_release"/> credulitate: an | contrarie secundum uiam
+            affirmationis et negationis, <lb/> aut contrarie secundum uiam credulitatis contrarii;
+            uerbi gratia: si dicto <lb/> nostro «omnis homo est iustus» opponuntur dicta duo, quorum
+            unum <lb/> est «nullus homo est iustus» - quod est oppositum secundum modum <lb/>
+            negationis -, et secundum est dictum nostrum «omnis homo est <lb/> iniustus» - quod est
+            oppositum secundum modum contrarietatis; et <lb/> quid istorum est fortioris
+            contrarietatis dicto nostro «omnis homo est <lb/> iustus»: utrum dictum nostrum «nullus
+            homo est iustus», aut dictum <lb/> nostrum «omnis homo est iniustus»? <lb/> [86] Et
+            dicemus quia, cum sint dictiones quidem significantes intentiones <lb/> existentes in
+            anima iamque inuenitur in mente credulitas rei alicuius et <lb/> credulitas contrarii
+            eius, aut credulitas rei alicuius et credulitas negatio <wb/>
+            <lb/> nis ipsius, et est manifestum quoniam quidem dicitur in oratione quod <lb/> est
+            contraria orationi | aut opposita ei ex parte oppositionis credulita <wb/>
+            <lb/> tum que sunt in anima, aut in credulitate contrarii aut in credulitate <lb/>
+            negationis. Et cum ita sit res, iam ergo oportet ut consideremus que <lb/> credulitas
+            est in fine contrarietatis et diuersitatis ad credulitatem ueri et <lb/>
+            <pb n="95" ed="FT3_pre_release"/> falsi: an credulitas contrarii eius aut credulitas
+            negationis ipsius? Et <lb/> exemplum illius est: cum crediderimus in re aliqua quod est
+            bona et est <lb/> credulitas uera, sicut nostra credulitas in uita quod ipsa est bona,
+            erunt <lb/> igitur due credulitates hic false opposite ei: una quarum est quod est <lb/>
+            mala et alia quod ipsa non est bona. Que ergo harum duarum credulita <wb/>
+            <lb/> tum falsarum in uita est illa que est in fine contraria in mente <lb/> credulitati
+            uere, que est dictum nostrum «uita est bona»: utrum <lb/> credulitas nostra quod ipsa
+            est mala, aut credulitas nostra quod ipsa <lb/> non est bona? <lb/> [87] Dicemus ergo
+            quod contrarietates inuente in credulitate, scilicet que <lb/> est in fine differentie
+            in eo, ei similatur contrarietas inuenta extra <lb/> animam in materiis. Et utrum
+            oportet ut sit illud quod est ex rebus <lb/> maioris contrarietatis extra animam, [sit]
+            fortioris contrarietatis in credu <wb/>
+            <lb/> litate aut non. <lb/> [88] Et dicemus: postquam sunt due res que sunt contrarie
+            extra animam <lb/> secundum duo contraria minoris contrarietatis | in credulitate quam <lb/>
+            <pb n="96" ed="FT3_pre_release"/> due res que contrariantur secundum unum contrarium aut
+            sunt cum illo <lb/> non contrarie in credulitate, immo secundum plurimum sunt conse <wb/>
+            <lb/> quentes se (sicut credulitas nostra quod uita est bona et mors est mala <wb/>
+            <lb/> iste enim due orationes sunt contrarie secundum predicatum et <lb/> subiectum
+            extra animam -), manifestum est ergo quod non est causa <lb/> contrarietatis inuente in
+            credulitate contrarietas inuenta extra animam, <lb/> quoniam si esset causa eius, esset
+            quod est magis contrarium extra animam <lb/> dignius ut sit contrarium in credulitate;
+            ergo cuius contrarium <lb/> est in credulitate propter materias est dignius ut non sit
+            ipsum contra <wb/>
+            <lb/> rium absolute in credulitate. Sed contrarietas quidem que inuenitur in <lb/>
+            credulitate ex parte affirmationis et negationis, non est inuenta | in ea <lb/> propter
+            aliud, sed propter se et propter dispositionem inuentam in ea in <lb/> mente. Et illa in
+            quibus est contrarietas per se, digniora sunt ut sint <lb/> contraria quam illa in
+            quibus est contrarietas propter aliud. <lb/> [89] Et etiam quoniam, cum est apud nos
+            credulitas de aliqua re, quod sit <lb/> bona, et est credulitas uera, non omnis
+            credulitas falsa que est apud nos <lb/>
+            <pb n="97" ed="FT3_pre_release"/> de illa re est credulitas contraria illi credulitati
+            (sicut si sit apud nos de <lb/> ea quod ipsa est aliquid aliud ex eo quod non est ei
+            inuentum, aut <lb/> quod non est aliquid aliud, ex eo quod inuenitur ei, que sunt in
+            <lb/> credulitate infinite). Sed credulitas quidem contraria illi credulitati de <lb/>
+            illa est una, et est credulitas quam uidimus diuidentem uerum et falsum <lb/> semper cum
+            credulitate prima. Et iste sunt credulitates que ponuntur <lb/> partes contradictionis
+            in quesito. Deinde cadit post illud in eis dubita <wb/>
+            <lb/> tio: que illarum duarum sit uera et que falsa. Sed inter credulitates <lb/> quidem
+            quas possibile est | simul esse falsas de subiecto uno et eodem <lb/> aut ueras simul,
+            non est possibile ut cadat dubitatio, neque ponuntur <lb/> partes contradictionis in
+            quesito, ita ut ueritas in una earum sit determi <wb/>
+            <lb/> nate inuentionis in se, quamuis non sit apud nos determinate. Et <lb/> manifestum
+            est quod credulitas que opponitur inuento secundum ueri <wb/>
+            <lb/> tatem, est credulitas &lt;...&gt; ex qua erit generatio; et est negatio. Et <lb/>
+            <pb n="98" ed="FT3_pre_release"/> illud est quia generatio quidem est ex non inuento ad
+            inuentum et <lb/> corruptio ex inuento ad non inuentum. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="24"/>
+            <anchor type="chunk" subtype="chunk_start" n="25"/> [90] Et credulitas quidem que est in
+            rebus in quibus est alteratio, que est <lb/> transmutatio ex contrariis, est minus
+            contraria in credulitate, cum sit <lb/> priuatio fortius opposita inuento quam
+            contrarium contrario, cum <lb/> contrarium est inuentum quoddam. Et propter illud non
+            est generatio <lb/> ex ente nisi per accidens. Et etiam quia credulitas que est cum
+            negatione <lb/> facit necessariam remotionem credulitatis affirmationis per se, cum sit
+            <lb/> quidditas negationis ut remoueat affirmationem, que est sculpens <lb/>
+            *annuntians* rei essentiam. Et credulitas quidem contrarii predicati in <lb/> re, in qua
+            creditur essentia predicati, non facit necessariam quidditas <lb/> eius remotionem
+            affirmationis, cum sit &lt;...&gt; renouatio contrarii in <lb/> subiecto necessariam
+            faciens per se remotionem contrarii eius oppositi <lb/> illi; sed est quidem res per
+            accidens ex renouatione illius in subiecto, <lb/> scilicet ut remoueatur contrarium per
+            positionem contrarii alterius in <lb/> eo; uerbi gratia: ut auferatur caliditas ab aqua
+            per positionem frigidita <wb/>
+            <lb/> tis in ea, est proportio|natum frigiditati per intentionem secundam aut <lb/>
+            <pb n="99" ed="FT3_pre_release"/> per accidens. Et illud est quia remotio hic est
+            renouata ex inuentione et <lb/> remotio per negationem est quidem remotio renouata a
+            negatione per <lb/> se. Et ex quo quidem sequitur remotio affirmationis per se,
+            &lt;...&gt; <lb/> dignius contrarietate inuenta in credulitate, quam quod ex quo erunt
+            <lb/> credulitas per accidens aut intentionem secundam, et est completioris <lb/>
+            contrarietatis et fortioris. Et si erunt duo contraria diuersa in fine <lb/>
+            diuersitatis et erit contrarium quod est in mente rei affirmate ex <lb/> contradictione
+            fortius quam contrarium quod est ei ex credulitate <lb/> contrarii inuenti extra animam,
+            manifestum est ergo quod credulitas <lb/> contradictionis est credulitas contraria
+            affirmationis absolute et etiam <lb/> quia credulitas de re que est bona, quod sit mala,
+            est credulitas quam <lb/> sequitur credulitas alia que est quod non est bona. Sed
+            credulitatem de <lb/> eo quod est bonum, quod non est bonum, non | sequitur eam
+            credulitas <lb/> alia, scilicet quod est mala. Et si est illud ita, tunc non inuenitur
+            <lb/> credulitas contraria in rebus non habentibus contrarium. <lb/> [91] Ergo
+            credulitas negationis est magis communis contrarietatis affirma <wb/>
+            <lb/> tionis quam credulitas contrarii; et ipsa est contraria per se, cum <lb/>
+            <pb n="100" ed="FT3_pre_release"/> inueniatur in rebus habentibus contrarium et non
+            habentibus, quoniam <lb/> oportet ut sit credulitas que est contraria per naturam
+            affirmationi, | <lb/> ipsa credulitas inuenta contraria in omni loco, non in loco preter
+            <lb/> locum. Et credulitas communis que est in omni loco et per se contraria, <lb/> est
+            fortius contraria quam credulitas que est in quodam loco et <lb/> quodam | non, cum sit
+            communius prius per naturam quam proprium. <lb/> Et propter hoc, cum inuenitur proprium,
+            inuenitur commune et non <lb/> conuertitur illud, scilicet cum inuenitur commune, ut
+            inueniatur pro <wb/>
+            <lb/> prium. Ergo cum sit contrarium in credulitate ei quod non habet <lb/> contrarium
+            negatio, ergo oportet ut sit contrarium in omni loco nega <wb/>
+            <lb/> tio, scilicet illud quod est in fine. <lb/> [92] Et etiam quia credulitas de eo
+            quod est bonum quod ipsum est <lb/> bonum, et credulitas de eo quod non est bonum quod
+            ipsum non est <lb/> bonum, ambe sunt credulitates uere. Et credulitas in eo quod non est
+            <lb/> bonum quod ipsum est bonum, aut in eo quod est bonum quod <lb/> ipsum non est
+            bonum, sunt credulitates false. Et ego miror que <lb/> credulitas est contraria
+            credulitati nostre in eo quod non est bonum <lb/> quod ipsum non est bonum (que est
+            credulitas uera), quoniam non <lb/>
+            <pb n="101" ed="FT3_pre_release"/> euacuatur hoc a tribus dispositionibus: una quarum
+            est ut sit contraria <lb/> ei credulitas contrarii eius (et est credulitas in eo quod
+            non est bonum <lb/> quod ipsum est malum); et secunda est ut sit contraria negatio <lb/>
+            contrarii (que est credulitas in eo quod non est bonum quod non est <lb/> malum); et
+            tertia est ut sit contraria credulitas in eo quod non est <lb/> bonum quod est bonum.
+            Sed credulitas quidem contrarii eius non est <lb/> contraria ei. Et illud est quia iam
+            est possibile ut sint ambe uere, <lb/> quoniam multe res ex eis que non sunt bone, sunt
+            male. Et credulitas <lb/> quidem negationis contrarii eius non est etiam credulitas
+            contraria ei, <lb/> cum iam sint uere simul in re una; quoniam de linea est uerum quod
+            <lb/> non est bona neque mala, et uniuersaliter de eo de cuius proprietate est <lb/> ut
+            non disponatur per unum horum duorum contrariorum. Et cum sit <lb/> hoc ita, ergo
+            credulitas contraria credulitati nostre in eo quod non est <lb/> bonum quod ipsum non
+            est bonum, est credulitas nostra in eo quod <lb/> non est bonum quod ipsum est bonum. Et
+            cum est credulitas que est <lb/> in fine contrarietatis credulitati nostre in eo quod
+            non est bonum quod <lb/> non est bonum, credulitas nostra in eo quod ipsum est bonum,
+            ergo <lb/> contrarium quod est in ultimo differentie credulitatis nostre in eo quod <lb/>
+            <pb n="102" ed="FT3_pre_release"/> est bonum quod ipsum est bonum, est credulitas nostra
+            in eo quod <lb/> non est bonum, | non credulitas nostra in eo quod est malum; <lb/>
+            quoniam, si est affirmatio contrarium quod est in ultimo negationi, <lb/> oportet ut sit
+            ex ipsa in ultimo elongationis. Et cum est hoc ita et est <lb/> contrarium quidem eius
+            contrarium unum, ergo contrarium affirmatio <wb/>
+            <lb/> nis, quod est in ultimo, est negatio. <lb/>
+            <anchor type="chunk" subtype="chunk_end" n="25"/>
+            <anchor type="chunk" subtype="chunk_start" n="26"/> [93] Dixit: et non est differentia
+            in hiis exemplis que egimus hic ex | <lb/> enuntiationibus contrariis ex parte
+            negationis et affirmationis inter hoc <lb/> quod ratiocinatur in subiecto ipsarum
+            articulato cum <hi rend="italic">a</hi> et <hi rend="italic">l</hi> aut ratioci <wb/>
+            <lb/> natur in ipso incluso cum clausura uniuersali, quoniam de <hi rend="italic">a</hi>
+            et <hi rend="italic">l</hi> iam <lb/> diximus quod significat super id quod significat
+            clausura uniuersalis. <lb/> Ergo non est differentia secundum hanc intelligentiam, ut |
+            dicamus <lb/> quod contrarium credulitatis in eo quod est bonum: quod non est <lb/>
+            bonum, aut dicamus quod contrarium credulitatis in omni eo quod est <lb/> bonum: quod
+            nihil ex eo est bonum. Et illud est quia affirmatio et <lb/>
+            <pb n="103" ed="FT3_pre_release"/> negatio, que sunt credulitates contrarie, inueniuntur
+            quidem in anima <lb/> intentioni uniuersali. <lb/> [94] Et si est illud quod exit per
+            dictionem significans id quod est in anima <lb/> ex credulitate ex contrariis, est ex
+            manifesto quod contrarium affirma <wb/>
+            <lb/> tionis in dictione quidem est negatio in dictione illi intentioni uniuersali <lb/>
+            eidem quam significat affirmatio, cum significetur illa intentio uniuersa <wb/>
+            <lb/> lis in affirmatione et negatione per dictionem uniuersalem, que est <lb/>
+            clausura. Et exemplum illius est quia contrarium dicti nostri «omnis <lb/> homo est
+            bonus» est dictum nostrum «nullus homo est bonus». <lb/> [95] Et est manifestum quod
+            credulitates de quibus dicitur hic quod sunt <lb/> contrarie, quod non est possibile ut
+            sint credulitates uere, cum sit non <lb/> possibile ut sit uerum contrarium uero, sicut
+            non est credulitas uera <lb/> credulitati uere, neque dictio contradictoria dictioni,
+            cum sint utreque <lb/> significantes intentionem que est in anima uera. Sed credulitates
+            con <wb/>
+            <lb/> trarie quidem sunt in oppositis secundum affirmationem et negationem <lb/> et ex
+            illis in contradictoriis et contrariis in materia necessaria. Et illud <lb/> est quia in
+            multis ex oppositis, iam possibile est, sicut dictum est, ut sint <lb/>
+            <pb n="104" ed="FT3_pre_release"/> uere simul; et sunt indefinite et subcontrarie. | Sed
+            in contrariis quidem <lb/> non est possibile ut sint ambe uere simul in aliquo uno et
+            eodem, neque <lb/> est possibile ut sint ambe false in materia necessaria, cum non
+            expolie <wb/>
+            <lb/> tur subiectum [unum] eorum. <lb/> [96] Hic completur expositio intentionum quas
+            continet iste liber per <lb/> gratiam Dei. Sequitur illum liber Aneleticorum Priorum qui
+            est liber <lb/>
+            <anchor type="chapter" subtype="chapter_end" n="Differentia 5" lvl="1"/>
+            <anchor type="chunk" subtype="chunk_end" n="26"/>
+        </body>
+    </text>
+</TEI>

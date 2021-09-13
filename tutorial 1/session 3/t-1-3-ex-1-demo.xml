@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-A.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TAN-A xmlns="tag:textalign.net,2015:ns" id="" TAN-version="">
+   <head>
+      <name></name>
+      <license></license>
+      <vocabulary-key></vocabulary-key>
+      <resp></resp>
+      <file-resp></file-resp>
+      <change when="" who=""></change>
+      <to-do></to-do>
+   </head>
+   <body></body>
+</TAN-A>

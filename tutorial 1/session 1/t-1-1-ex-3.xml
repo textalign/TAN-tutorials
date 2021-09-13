@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
+
+<!-- EXERCISE 3 -->
+
+<TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:fill.me,2021:out" TAN-version="">
+   <head>
+      <!-- Ignore the <head>; go down to the <body>. -->
+      <name/>
+      <license licensor="" which=""/>
+      <vocabulary-key/>
+      <resp who="" roles=""/>
+      <file-resp who=""/>
+      <change when="2021-09-08" who=""/>
+      <to-do/>
+   </head>
+   <body>
+      <!-- Drawing from exercise 1, populate the <body> with <item>s with vocabulary relevant to your
+         corpus. -->
+      
+      <!-- Prob. 1 -->
+      <!-- Add the <item> for yourself -->
+      
+      <!-- Prob. 2 -->
+      <!-- Add the <item> for the conceptual work in your corpus -->
+      
+      <!-- Prob. 3 -->
+      <!-- Add <item>s for the books, manuscripts, and other material objects in your corpus -->
+      
+      <!-- Prob. 4 -->
+      <!-- Add at least one more <item> pertaining to some concept that is shared by your TEI files -->
+      
+      
+   </body>
+</TAN-voc>

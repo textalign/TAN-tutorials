@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise>
+   <!-- EXERCISE 2 -->
+   <!-- Adjusting the TAN-TEI head -->
+   
+   <!-- Prob. 1: Adjusting a TAN-TEI head -->
+   <!-- Take your TAN-TEI file from exercise 1, and convert adjust the TAN <head>. Observe the following steps,
+      using the demonstration as a guide (as well as the TAN-voc file you created in session 1):
+      * complete <name>
+      * complete <license>; remember, the license covers the transcription, and may be different from the source
+      * add <vocabulary> pointing to the TAN-voc file you made; try it by hand at first, but then learn the
+      two shortcuts[1]
+      * finish the responsibility statements
+      * finish the <to-do> list
+   -->
+   
+   
+   
+   <!-- [1] Two quick 'n' easy ways to link to another file in TAN:
+            A. Schematron Quick Fixes
+               - Inside the linking element, use @href, e.g., <vocabulary href=""/>
+               - When your cursor is inside the "" press ctrl+space for autofill of your local drive, and
+               find your file
+               - Validate your file
+               - Alt+1 or click the red light bulb
+               - Choose the fix that inserts the IRI + name pattern
+            B. Oxygen Author
+               - Open up the TAN Oxygen project file
+               - Open your file
+               - Change to Author mode
+               - Use the menu items / context menu to insert a linking element
+               - Follow the prompts
+   -->
+</exercise>

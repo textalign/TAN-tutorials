@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise>
+   <!-- EXERCISE 1 -->
+   <!-- Adjusting the TEI body -->
+   
+   <!-- Prob. 1: Adjusting a TEI body -->
+   <!-- Take one of your TEI files, and convert everything but the <head> to TAN. Observe the following steps,
+      using the demonstration as a guide:
+      * point to the two TAN-TEI schemas
+      * add @TAN-version and @id to the root element; think hard about the tag URN you need to use for the
+      value of @id
+      * add TAN's <head>, but let it remain empty for now
+      * be sure <body> has an @xml:lang
+      * make sure your <div>s are set up to reflect the primary reference system you've adopted.
+   -->
+   
+</exercise>

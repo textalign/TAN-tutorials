@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>TAN Tutorial 1, Session 1</title>
+        <link rel="stylesheet" href="../../.core/js/reveal.js/dist/reset.css"><!--  --></link>
+        <link rel="stylesheet" href="../../.core/js/reveal.js/dist/reveal.css"><!--  --></link>
+        <link rel="stylesheet" href="../../.core/js/reveal.js/dist/theme/white.css"
+            ><!--  --></link>
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../../.core/js/reveal.js/plugin/highlight/monokai.css"><!--  --></link>
+        <link rel="stylesheet" type="text/css" href="../../.core/css/tutorials.css" />
+        <style></style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <section>
+                        <h1>TAN Tutorial 1</h1>
+                        <h2>Preparing a TEI Corpus for the Text Alignment Network</h2>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Session 1</h1>
+                        <h2>Vocabulary</h2>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Objectives</h1>
+                    </section>
+                    <section>
+                        <ol>
+                            <li>Learn how TAN handles vocabulary and semantic-based
+                                identification</li>
+                            <li>Create a TAN-voc file </li>
+                            <li>Understand TAN metadata structures and principles </li>
+                            <li>Understand validation phases, and how to interpret validation
+                                reports</li>
+                        </ol>
+                    </section>
+                </section>
+                
+                <section>
+                    <section>
+                        <h1>Discussion</h1>
+                        <h2>Semantics, Vocabulary, URIs</h2>
+                        <aside class="notes">
+                            <div>Need to cover:</div>
+                            <ul>
+                                <li>Names</li>
+                                <li>Global names: URIs/IRIs</li>
+                                <li>Community names</li>
+                                <li>Tag URNs</li>
+                                <li>Local nicknames</li>
+                            </ul>
+                        </aside>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1><a href="t-1-1-ex-1.xml">Exercise 1</a></h1>
+                    </section>
+                </section>
+                
+                <section>
+                    <section>
+                        <h1>Discussion</h1>
+                        <h2>TAN-voc</h2>
+                        <aside class="notes">
+                            <div>Need to cover:</div>
+                            <ul>
+                                <li>TAN formats: quantity, principles</li>
+                                <li>Why a TAN-voc file? Reason: DRY</li>
+                                <li>Why "vocabulary"?</li>
+                            </ul>
+                        </aside>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1><a href="t-1-1-ex-2.xml">Exercise 2</a></h1>
+                    </section>
+                </section>
+                
+                <section>
+                    <section>
+                        <h1>Discussion</h1>
+                        <h2>TAN-voc body</h2>
+                        <aside class="notes">
+                            <div>Need to cover:</div>
+                            <ul>
+                                <li>TAN formats: body</li>
+                                <li>RNC validation</li>
+                            </ul>
+                        </aside>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1><a href="t-1-1-ex-3.xml">Exercise 3</a></h1>
+                    </section>
+                </section>
+
+
+                <section>
+                    <section>
+                        <h1>Discussion</h1>
+                        <h2>TAN metadata</h2>
+                        <aside class="notes">
+                            <div>Need to cover:</div>
+                            <ul>
+                                <li>Metadata principles</li>
+                                <li>schematron validation</li>
+                            </ul>
+                        </aside>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Exercise 4</h1>
+                        <div><a href="t-1-1-ex-4-demo.xml">Demonstration</a></div>
+                        <div><a href="t-1-1-ex-4-demo-result.xml">Result of demonstration</a></div>
+                        <div><a href="t-1-1-ex-4.xml">Your turn</a></div>
+                    </section>
+                </section>
+                
+                <section>
+                    <section>
+                        <h1>TAN-voc tips and tricks</h1>
+                    </section>
+                    <section>
+                        <ul>
+                            <li>For help in some attributes, type: ???</li>
+                            <li>Looking for vocabulary?<ul>
+                                <li>subdirectory vocabulary</li>
+                                <li>Guidelines appendix</li>
+                            </ul></li>
+                        </ul>
+                    </section>
+                </section>
+                
+                <section>
+                    <section>
+                        <h1>Reminders</h1>
+                    </section>
+                    <section>
+                        <h2>General</h2>
+                        <ul>
+                            <li>Local vocabulary overrules TAN vocabulary</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Name making</h2>
+                        <ul>
+                            <li><code>@xml:id</code>: case sensitive, no spaces</li>
+                            <li><code>&lt;name></code>: case insensitive, spaces = hyphen = underscore</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Name calling</h2>
+                        <ul>
+                            <li><code>@which</code>: only one value, from a <code>&lt;name></code></li>
+                            <li>other attributes: many values, space delimited (use underscore to substitute for spaces in names)</li>
+                        </ul>
+                    </section>
+                </section>
+                
+                <section>
+                    <section><h1>Recap</h1></section>
+                    <section>
+                        <h2>What we've learned</h2>
+                        <ol>
+                            <li>How TAN handles vocabulary and semantic-based identification</li>
+                            <li>How to make a TAN-voc file </li>
+                            <li>TAN metadata structures and principles </li>
+                            <li>How to use and interpret validation</li>
+                        </ol>
+                    </section>
+                </section>
+                <section>
+                    <section><h1>General discussion</h1></section>
+                </section>
+                <section>
+                    <section><h1>Finish, evaluate exercises</h1></section>
+                </section>
+                
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="../../.core/js/reveal.js/dist/reveal.js"></script>
+        <script src="../../.core/js/reveal.js/dist/reveal.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/zoom/zoom.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/notes/notes.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/search/search.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/markdown/markdown.js"></script>
+        <script src="../../.core/js/reveal.js/plugin/highlight/highlight.js"></script>
+        <script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+    </body>
+</html>

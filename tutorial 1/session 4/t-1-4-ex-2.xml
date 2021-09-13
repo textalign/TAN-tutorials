@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise>
+   <!-- EXERCISE 2 -->
+   <!-- Configure Parabola -->
+   
+   <!-- Prob. 1: configure Parabola -->
+   <!-- Back up ../../../TAN-2021/applications/Parabola/Parabola.xsl then open it. Try different 
+      settings for the following parameters, each time running the Oxygen transformation scenario
+      APP: Parabola, run as-is on your TAN-A file:
+         * $distribute-vocabulary
+         * $tei-should-be-plain-text
+         * $preferred-html-title
+         * $preferred-html-subtitle
+         * $ad-hoc-insertions
+   -->
+   
+   <!-- Prob. 2: configure Parabola -->
+   <!-- Back up ../../../TAN-2021/applications/Parabola/Parabola%20configuration%201.xsl then open it.
+      From the list of parameters above, copy one or more from the master Parabola file and paste them
+      into your configuration file. Change the settings of your chosen parameters, and run the Oxygen
+      transformation scenario APP: Parabola, run configuration 1.
+   -->
+   
+   
+</exercise>

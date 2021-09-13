@@ -1,0 +1,147 @@
+/* FONTS */
+@font-face
+{
+   font-family: "Rosario";
+   src: url('../fonts/Rosario-Regular.ttf');
+}
+@font-face{
+   font-family: "Rosario";
+   src: url("../fonts/Rosario-Bold.ttf");
+   font-weight: bold;
+}
+@font-face{
+   font-family: "Rosario";
+   src: url("../fonts/Rosario-Italic.ttf");
+   font-style: italic, oblique;
+}
+@font-face{
+   font-family: "Rosario";
+   src: url("../fonts/Rosario-BoldItalic.ttf");
+   font-weight: bold;
+   font-style: italic;
+}
+@font-face{
+   font-family: "Sorts Mill Goudy";
+   src: url("../fonts/SortsMillGoudy-Regular.ttf") format("truetype");
+   font-style: normal;
+}
+@font-face{
+   font-family: "Sorts Mill Goudy";
+   src: url("../fonts/SortsMillGoudy-Italic.ttf") format("truetype");
+   font-style: italic;
+}
+@font-face
+{
+   font-family: noto;
+   src: url('../fonts/NotoSansSyriacEstrangela-Regular.ttf') format('truetype');
+}
+@font-face
+{
+   font-family: antinoou;
+   src: url('../fonts/Antinoou.ttf') format('truetype');
+}
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3,
+th,
+.toc p,
+div[class ^= list-of] p,
+.rosario,
+.rights,
+.index-from-ref{
+   color: sienna;
+   font-family: 'Rosario';
+}
+p,
+td,
+span,
+div,
+dl,
+dt{
+   font-family: 'Sorts Mill Goudy';
+}
+*:lang(syr){
+   font-family: noto, 'Serto Urhoy', 'Estrangelo Nisibin';
+   text-align: right;
+}
+*:lang(cop){
+   font-family: antinoou;
+}
+*:lang(grc){
+   font-family: 'Minion Pro', 'Garamond Premiere Pro', 'Gentium Plus', serif;
+}
+/* alignment */
+#quick-links {
+    display: flex;
+    justify-content: center;
+}
+/* text size, leading */
+p,
+li,
+#index-body,
+span{
+   font-size: 18pt;
+   line-height: 150%;
+}
+.test{
+   font-size: 12pt;
+}
+.remark,
+td,
+dt,
+.programlisting,
+.div[class ^= list-of]{
+   font-size: 12pt;
+   line-height: 120%
+}
+
+/* colors, strength */
+#quick-links > div:hover {
+    background: lightgray;
+}
+#quick-links > div{
+    background: tan;    
+}
+.index-to-ref,
+#quick-links > div{
+   font-weight: bold
+}
+.emphasis{
+   font-variant: small-caps;
+   font-weight: bold;
+   color: sienna;
+}
+.alert{
+   color: red;
+   text-align: center
+}
+
+/* borders */
+#quick-links > * {
+    border: 2px solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+
+/* padding, margin, alignment */
+#quick-links > * {
+    padding: 0px 10px;
+}
+body{
+   margin: 2%;
+}
+#index-body div{
+    margin: 15px 0px;
+}
+h1{
+   text-align: center;
+}
+
+.imgfloat{
+   float: left;
+   padding: 0px 10px;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exercise>
+   <!-- EXERCISE 3 -->
+   <!-- Write claims -->
+   
+   <!-- Prob. 1: claims -->
+   <!-- Using the TAN-A file created in the last session, develop the <body> to make claims (annotations). Experiment.
+      See what options Oxygen allows you to do. Check the validation reports. Start with a simple claim for refers_to.
+      Remember, to point to a specific passage, you must use <subject> and <object>, not @subject or @object.
+   -->
+   
+   
+   <!-- Prob. 2: claims -->
+   <!-- Create a nested claim (a claim within a claim).  -->
+   
+   
+   <!-- Prob. 3: claims -->
+   <!-- Create a claim with the verb "lacks_text".  -->
+   
+   
+</exercise>

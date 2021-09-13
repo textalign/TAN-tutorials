@@ -1,0 +1,517 @@
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"
+    type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+          <rs type="textType">Decree</rs> of Cyrene for the citizenship of the Thereans, Therean 'decree' and founders' oath</title>
+                <editor>Inscriptions of Greek Cyrenaica</editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Università di Bologna</authority>
+                <idno type="filename">IGCyr011000</idno>
+        <idno type="TM">738200</idno>
+        <idno type="localID">igcyr011000</idno>
+        <idno type="URI">https://igcyr.unibo.it/igcyr011000</idno>
+
+
+                <availability>
+                    <p>
+            <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International</ref> License.</p>                     <p>All citation, reuse or distribution of this work must contain a link back to DOI: <ref target="http://doi.org/10.6092/UNIBO/IGCYRGVCYR">http://doi.org/10.6092/UNIBO/IGCYRGVCYR</ref> and the filename (IGCyr000000 or GVCyr000), as well as the year of consultation.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+            <repository>Cyrene Museum</repository> <idno type="invNo">8</idno>
+          </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>High tapering <material>marble </material> <objectType>stele</objectType>, in two adjacent pieces, broken away on top, worn out on main side; rectangular cramp sinking on top
+                                        (<dimensions>
+                                            <width atLeast="0.55" atMost="0.62">0.55-0.62</width>
+                                            <height>1.53</height>
+                                            <depth atLeast="0.28" atMost="0.30">0.28-0.30</depth>
+                                        </dimensions>).</p>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                  <rs type="execution" key="scalpro">Inscribed</rs> on face.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>
+                <height>0.02</height> lines 1 and 23; <height>0.013</height> elsewhere; carefully cut, but not stoichedon as Ferri thought.</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>
+                <placeName ref="http://pleiades.stoa.org/places/373778" key="http://www.slsgazetteer.org/909">Cyrene</placeName>: 
+                                <rs type="monuList" key="http://www.slsgazetteer.org/1228">Sanctuary of Apollo</rs>.</origPlace>
+                            <origDate evidence="lettering" notBefore="-0400" notAfter="-0366" precision="medium">Beginning of the fourth century B.C.</origDate>
+                        </origin>
+                        
+                            
+                                <provenance type="found" when="1922" resp="Ferri">
+                                    <p>Found by Ferri in 1922 at
+                                        <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/373778" key="http://www.slsgazetteer.org/909">Cyrene</placeName>, 
+                                        reused as a step leading to the southern cold pool of the <rs type="monuList" key="http://www.slsgazetteer.org/1227">Byzantine Baths</rs>.
+                                   </p>
+                                </provenance>
+                                <provenance type="observed" when="1976" when-iso="2010" resp="CDL">
+                                    <p>Seen by Dobias-Lalou many times between 1976 and 2010 in <placeName type="modernSpot" ref="http://www.geonames.org/" key="Shahat">Shahat</placeName>: <rs type="monuList" key="http://www.slsgazetteer.org/933">Cyrene Museum</rs>.</p>
+                                </provenance>
+                            
+                        
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+            <classDecl>
+                <taxonomy>
+                    <category xml:id="photograph">
+                        <catDesc>Digital or digitized photographs</catDesc>
+                    </category>
+                    <category xml:id="representation">
+                        <catDesc>Digitized other representations</catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ar">Arabic</language>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="grc-Latn">Transliterated Greek</language>
+                <language ident="el">Modern Greek</language>
+                <language ident="he">Hebrew</language>
+                <language ident="it">Italian</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="InsLib">
+                    <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+                    <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+                    <term>
+                        <placeName type="modernFindspot" ref="http://www.geonames.org/" key="Shahat">Shahat</placeName>
+                    </term>
+                </keywords>
+            </textClass>
+        <creation>Transcription from stone (CDL).</creation>
+    </profileDesc>
+        <revisionDesc>
+            <change when="2017-02-06" who="Alice">added Italian translation</change>
+            <change when="2016-08-26" who="Alice">checked</change>
+            <change when="2016-07-27" who="CDL">text lemmatized</change>
+            <change when="2015-01-07" who="CDL">completed apparatus, added English translation</change>
+            <change when="2013-05-30" who="Ljuba">corrected all the lb n=? break no</change>
+            <change when="2013-05-30" who="Ljuba">checked, updated and in case corrected physDesc, history, and textClass</change>
+            <change when="2013-01-31" who="GB Ljuba">moved text-constituted-from to profileDesc/creation</change>
+            <change when="2012-04-08" who="CDL">lemma, apparatus, French translation</change>
+            <change when="2012-04-05" who="CDL">text markup</change>
+            <change when="2011-12-13" who="Pietro">mailmerged from IGCYR catalogo unificato</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface> </surface>
+    </facsimile>
+    <text>
+        <body>
+      <div type="bibliography">
+                <head>Bibliography</head>
+              
+                <p>
+          <bibl>
+            <ptr target="#ferri1925"/>, pp. <citedRange>19-24</citedRange>, and pl. II,2</bibl>, and
+                    <bibl>
+            <ptr target="#oliverio1928a"/>, pp. <citedRange>222-232</citedRange>, and pl. X-XII</bibl>; 
+                    <bibl>
+            <ptr target="#maas1929"/>
+          </bibl>;
+                    whence <bibl>
+            <title>SEG</title>, <citedRange>9.3</citedRange>
+          </bibl>;
+                    <bibl>
+            <ptr target="#wilhelm1951"/>, pp. <citedRange>5-7</citedRange>
+          </bibl>, whence
+                    <bibl>
+            <ptr target="#robertBE"/>, <citedRange>1953.252</citedRange>
+          </bibl> 
+                    and <bibl>
+            <title>SEG</title>, <citedRange>13.617</citedRange>
+          </bibl>;
+                    <bibl>
+            <ptr target="#chamoux1953"/>, pp. <citedRange>105-111</citedRange>
+          </bibl>;
+                    <bibl>
+            <ptr target="#graham1960"/>
+          </bibl>, and 
+                    <bibl>
+            <ptr target="#jeffery1961a"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>20.714</citedRange>
+          </bibl>;
+                    <bibl>
+            <ptr target="#meiggs-lewis1969"/>, n. <citedRange>5</citedRange>
+          </bibl>;
+                    <bibl>
+            <ptr target="#cdl1994"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>43.1185</citedRange>
+          </bibl>.</p>
+                
+                    <p>Amongst an overwhelming bibliography, only the most significant studies are retained here: 
+                    <bibl>
+            <ptr target="#dušanić1978"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>28.1565</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#hansen1984"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>34.1643</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#casevitz1985"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>35.1837</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#malkin1986"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>36.1569</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#gpc1987"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>37.1668</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#gasperini1990"/>, pp. <citedRange>22-33</citedRange>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>40.1596</citedRange>
+          </bibl>;
+                    <bibl>
+            <ptr target="#hölkeskamp1993"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>43.1184</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#walter1993"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>43.1275</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#vaneffenterre-ruzé1994"/>, n. <citedRange>41</citedRange>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>44.1735</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#moggi1995"/>
+          </bibl>;
+                    <bibl>
+            <ptr target="#dickie1996"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>46.2387</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#gasperini1997"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>47.2164</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#gabrielsen1997"/>, pp. <citedRange>120-123, 141-154</citedRange>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>47.2251</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#nafissi1999"/>, pp. <citedRange>252-253</citedRange>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>49.2359</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#zimmermann1999"/>, pp. <citedRange>135-142</citedRange>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>49.2504</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#criscuolo2001"/>
+          </bibl>, whence <bibl>
+            <title>SEG</title>, <citedRange>51.2209</citedRange>
+          </bibl>; 
+                    <bibl>
+            <ptr target="#criscuolo2007"/>
+          </bibl>, and <bibl>
+            <ptr target="#cdlBE"/>, <citedRange>2008.606</citedRange>
+          </bibl>, 
+                    whence <bibl>
+            <title>SEG</title>, <citedRange>57.1999</citedRange>
+          </bibl>;
+                    <bibl>
+            <ptr target="#alonsodeniz2014"/>
+          </bibl>;
+                    <bibl>
+            <ptr target="#cdl2017b"/>, p. <citedRange>186-187</citedRange>
+          </bibl>.</p>
+            </div>
+      <div type="edition" xml:lang="grc" xml:space="preserve">
+                <head>Text</head>
+                <ab>
+                    <lb n="1"/><persName type="divine" key="Theos"><w lemma="θεός">Θεός</w></persName>. <persName type="divine" key="Agathe Tyche"><name>Τύχα</name> <rs type="epithet" key="Agathe"><w lemma="ἀγαθός">Ἀγαθά</w></rs></persName>.
+                    <lb n="2"/><persName type="attested" key=""><name>Δᾶμις</name> <persName type="attested" key=""><name nymRef="#Βαθυκλῆς">Βαθυκλεῦς</name></persName></persName>
+                        <w lemma="λέγω">ἦιπε</w>· <w lemma="περί">περὶ</w> <w lemma="ὅς1" type="relative">ὧν</w> <w lemma="λέγω">λέγοντι</w> τοὶ <placeName type="ethnic" nymRef="#Θηραῖος">Θηραῖο<supplied reason="lost">ι</supplied></placeName>
+                    <lb n="3"/><persName type="attested" key=""><name>Κλευδάμας</name> <persName type="attested" key=""><name nymRef="#Εὐθυκλῆς">Εὐθυκλεῦς</name></persName></persName>, 
+                        <w>ὅπως</w> ἁ <w>πόλις</w> <w lemma="ὀρθόω">ὀρθῶται</w> καὶ ὁ <w>δ<supplied reason="lost">ᾶ</supplied><lb n="4" break="no"/>μος</w> <w lemma="εὐτυχέω">εὐτυχῆι</w> ὁ <placeName type="ethnic" nymRef="#Κυραναῖος">Κυραναίων</placeName>, 
+                        <w lemma="ἀποδίδωμι">ἀποδόμεν</w> τοῖς <placeName type="ethnic" nymRef="#Θηραῖος">Θηραίοις</placeName> τ<lb n="5" break="no"/>ὰμ <w lemma="πολιτήια">πολιτήιαν</w> <w lemma="κατά">κατὰ</w> τὰ <w lemma="πάτριος">πάτρια</w>, <w lemma="ὅς1" type="relative">τὰ</w> οἱ <w lemma="πρόγονος">πρόγονοι</w> <w lemma="ποιέω">ἐποιήσαν<lb n="6" break="no"/>το</w>, <w lemma="ὅς1" type="relative">οἵ</w> τε <placeName type="city" nymRef="#Κυράνα">Κυράναγ</placeName> <w lemma="κατοικίζω">κα<supplied reason="lost">τώ</supplied>ικιξαν</w> 
+                    <placeName type="city" nymRef="#Θήρα">Θήραθε</placeName> καὶ οἱ ἐν <placeName type="city" nymRef="#Θήρα">Θήραι</placeName> <w lemma="μένω"><supplied reason="lost">μέ</supplied><lb n="7" break="no"/>νοντες</w>, <w lemma="καθώς">καθὼς</w> <persName type="divine" key="Apollo">Ἀπόλλων</persName> <w lemma="δίδωμι">ἔδωκε</w> <persName type="attested" key=""><name nymRef="#Βάττος">Βάττωι</name></persName> καὶ τοῖς <placeName type="ethnic" nymRef="#Θηραῖος">Θηρ<supplied reason="lost">αί</supplied><lb n="8" break="no"/>οις</placeName> τοῖς <w lemma="κατοικίζω">κατοικίξαισι</w> <placeName type="city" nymRef="#Κυράνα">Κυράναν</placeName> 
+                        <w lemma="εὐτυχέω">εὐτυχὲν</w> <w lemma="ἐμμένω">ἐμμένοντας</w> το<supplied reason="lost">ῖς</supplied>
+                    <lb n="9"/><w lemma="ὅρκιον">ὁρκίοις</w>, <w lemma="ὅς1">τὰ</w> οἱ <w lemma="πρόγονος">πρόγονοι</w> <w lemma="ποιέω">ἐποιήσαντο</w> <w lemma="αὐτός">αὐτοὶ</w> <w lemma="ποτί">ποτ’</w> 
+                        <w lemma="αὐτός">αὐτός</w>, <w>ὅκ<supplied reason="lost">α</supplied></w>
+                    <lb n="10"/>τὰν <w lemma="ἀποικία">ἀποικίαν</w> <w lemma="ἀποστέλλω">ἀπέστελλον</w> <w lemma="κατά">κατὰ</w> τὰν <w lemma="ἐπίταξις">ἐπίταξιν</w> τῶ <persName type="divine" key="Apollo Archagetas"><name nymRef="#Ἀπόλλων">Ἀπό<supplied reason="lost">λ</supplied><lb n="11" break="no"/>λωνος</name> τῶ <rs type="epithet" key="Archagetas"><name nymRef="#Ἀρχαγέτας">Ἀρχαγέτα</name></rs></persName>· <persName type="divine" key="Agathe Tyche"><rs type="epithet" key="Agathe"><w lemma="ἀγαθός">Ἀγαθᾶι</w></rs> <name nymRef="#Τύχα">Τύχαι</name></persName>· <w lemma="δοκέω">δεδόχθαι</w> τῶι <w lemma="δᾶμος">δάμω<supplied reason="lost">ι</supplied></w>·
+                    <lb n="12"/><w lemma="καταμένω">κατα<unclear>μ</unclear><supplied reason="lost">ῆ</supplied>ναι</w> <placeName type="ethnic" nymRef="#Θηραῖος">Θηραίοις</placeName> 
+                        <w lemma="ἶσος">ἴσαμ</w> <w lemma="πολιτήια">πολιτήιαν</w> καὶ <w lemma="ἐν">ἐγ</w> <placeName type="city" nymRef="#Κυράνα">Κυράναι</placeName>  <w lemma="κατά">κα<lb n="13" break="no"/>τὰ</w> τὰ <w lemma="αὐτός">αὐτά</w>· <w lemma="ποιέω">ποιέσθαι</w> δὲ <w lemma="πάς">πάντας</w> <placeName type="ethnic" nymRef="#Θηραῖος">Θηραῖος</placeName> τὸς <w lemma="ἐπιδαμέω">ἐπιδ<unclear>α</unclear>μ<unclear>έ</unclear><supplied reason="lost">ν</supplied><lb n="14" break="no"/>τας</w> <w lemma="ἐν">ἐγ</w> <placeName type="city" nymRef="#Κυράνα">Κυράναι</placeName> τὸν <w lemma="αὐτός">αὐτὸν</w> <w lemma="ὅρκος">ὅρκον</w>, 
+                        <w lemma="ὅσπερ">ὅμπερ</w> τοὶ <w lemma="ἄλλος">ἄλλοι</w> <w lemma="ποκά">πο<supplied reason="lost">κ</supplied><lb n="15" break="no"/>ὰ</w> <w lemma="διόμνυμι"><unclear>διώμο</unclear>σαν</w>· <unclear>καὶ</unclear> <w lemma="καθίσταμι">καταστᾶμεν</w> <w>ἐς</w> 
+                        <w lemma="φυλά">φυλὰν</w> καὶ <w lemma="πάτρα">πάτραν</w> <w>ἐς</w> <num value="9"><g type="alphabetic">θ</g></num> <surplus>ε</surplus>
+                    <lb n="16"/><num value="9"><w lemma="ἐννῆ">ἐννῆα</w></num> <w lemma="ἑταιρήια">ἑταιρῆιας</w>. <w lemma="καταγράφω">Καταγράφεν</w> δὲ <w lemma="ὅδε">τόδε</w> τὸ <w lemma="ψάφισμα">
+                        ψάφισμα</w> <w>ἐν</w> <w lemma="στάλα">στάλ<supplied reason="lost">αν</supplied></w>
+                    <lb n="17"/><w lemma="λύγδινος">λυγδίναν</w>, <w lemma="τίθημι">θέμεν</w> τὰν <w lemma="στάλα">στάλαν</w> <w>ἐς</w> τὸ <w lemma="ἱαρόν">ἱαρὸν</w> τὸ
+                        <w lemma="πατρῷος">πατρῶιον</w> τ<supplied reason="lost">ῶ</supplied>                    
+                    <lb n="18"/><persName type="divine" key="Apollo Pythios"><name nymRef="#Ἀπόλλων">Ἀπόλλωνος</name> τῶ <rs type="epithet" key="Pythios"><name nymRef="#Πύθιος">Πυθίω</name></rs></persName>, 
+                        <w lemma="καταγράφω">καταγράφεν</w> καὶ τὸ <w>ὅρκιον</w> <w>ἐς</w> τὰν <w lemma="στάλα">στάλ<supplied reason="lost">αν</supplied></w>,
+                    <lb n="19"/><w lemma="ὅς1" type="relative">τὸ</w> οἱ <w lemma="οἰκιστήρ">οἰκιστῆρες</w> <w lemma="ποιέω">ἐποιήσαντο</w> <w lemma="καταπλέω">καταπλεύσαντες</w> <placeName type="country" nymRef="#Λιβύα">Λιβύανδε</placeName> <w lemma="σύν"><supplied reason="lost">σὺ</supplied><lb n="20" break="no"/>μ</w> <persName type="attested" key=""><name nymRef="#Βάττος">Βάττωι</name></persName> <placeName type="city" nymRef="#Θήρα">Θήραθε</placeName> <placeName type="city" nymRef="#Κυράνα">Κυράνανδε</placeName>. Τό <w>κα</w> <w>ἀνάλωμα</w> <w lemma="ὅς1">τὸ</w> <w lemma="δέω">δέηι</w> 
+                        <w>ἐς</w> τ<supplied reason="lost">ὸν</supplied> <w lemma="λᾶος"><supplied reason="lost">λ</supplied><lb n="21" break="no"/>ᾶον</w> <w lemma="ἤ">ἢ</w> <w>ἐς</w> τὰγ <w lemma="καταγραφά">καταγραφάν</w>, <supplied reason="lost">τ</supplied>οὶ
+                        <w lemma="ἐφίσταμι">ἐπιστάντες</w> <w lemma="ἐπί">ἐπὶ</w> τὸς <w lemma="ἀπόλογος">ἀπολόγος</w> <w lemma="κομίζω"><supplied reason="lost">κο</supplied><lb n="22" break="no"/>μισάσθων</w> <w lemma="ἀπό">ἀπὸ</w> τᾶν <persName type="divine" key="Apollo"><name nymRef="#Ἀπόλλων">Ἀπόλλωνος</name></persName> <w lemma="πρόσοδος">προσόδων</w>.
+                    <lb n="23"/><w lemma="ὅρκιον">Ὅρκιον</w> τῶν <w lemma="οἰκιστήρ">οἰκιστήρων</w>.
+                    <lb n="24"/><w lemma="δοκέω"><supplied reason="lost">Ἔ</supplied>δοξε</w> τᾶι <w lemma="ἐκκλησία">ἐκκλησίαι</w>· <w lemma="ἐπεί">ἐπεὶ</w> <persName type="divine" key="Apollo"><name>Ἀπόλλων</name></persName> <w lemma="αὐτοματίζω">αὐτομάτιξεν</w> <persName type="attested" key=""><name nymRef="#Βάττος">Β<supplied reason="lost">άτ</supplied><lb n="25" break="no"/>τωι</name></persName> καὶ <placeName type="ethnic" nymRef="#Θηραῖος">Θηραίοις</placeName> <w lemma="ἀποικίζω">ἀποι<supplied reason="lost">κίξαι</supplied></w> 
+                        <placeName type="city" nymRef="#Κυράνα">Κυράναν</placeName>, <w lemma="ὁριστός">ὁριστὸν</w> <w lemma="δοκέω">δοκεῖ</w> <placeName type="ethnic" nymRef="#Θηραῖος">Θη<supplied reason="lost">ραί</supplied><lb n="26" break="no"/><supplied reason="lost">ο</supplied>ις</placeName> <w lemma="ἀποπέμπω">ἀποπέμπε<unclear>ν</unclear></w> <w>ἐς</w> τὰν <placeName type="country" nymRef="#Λιβύα"><supplied reason="lost">Λιβ</supplied>ύαν</placeName> <persName type="attested" key=""><name nymRef="#Βάττος">Βάττομ</name></persName> μὲν <w lemma="ἀρχαγέτας">ἀρχαγέτα<supplied reason="lost">ν</supplied></w>
+                    <lb n="27"/><supplied reason="lost">τε</supplied> καὶ <w lemma="βασιλεύς">βασιλῆα</w>· <w lemma="ἑταῖρος">ἑταίρους</w> δὲ <placeName type="ethnic" nymRef="#Θηραῖος">Θηραίους
+                        </placeName> <w lemma="πλέω">πλέν</w> <w lemma="ἐπί">ἐπὶ</w> τᾶι <w lemma="ἶσος">ἴσα<supplied reason="lost">ι</supplied></w> <supplied reason="lost">κ</supplied><lb n="28" break="no"/>αὶ τᾶι <w lemma="ὁμοῖος">ὁμοίαι</w> <w lemma="παρ">π<unclear>α</unclear><supplied reason="lost">ρ</supplied></w> <w lemma="ἕκαστος"><supplied reason="lost">ἕκαστον</supplied></w> <w lemma="οἶκος"><unclear>οἶ</unclear>κον</w>· <w lemma="υἱός">υἱὸν</w> δὲ <w lemma="εἷς">ἕνα</w> <w lemma="καταλέγω">καταλ<supplied reason="lost">έ</supplied><lb n="29" break="no"/>γεσθαι</w>· τός τε <w lemma="ἄλλος">ἄλλος</w> <w lemma="πολιάτας"><supplied reason="lost">πολιάτας</supplied></w> τοὺς <w lemma="ἡβάω">ἡβῶντας</w>,
+                        καὶ τῶν <w lemma="ἄλλος"><supplied reason="lost">ἄλ</supplied><lb n="30" break="no"/><supplied reason="lost">λ</supplied>ων</w> <placeName type="ethnic" nymRef="#Θηραῖος">Θηραίων</placeName> <w lemma="ἐλεύθερος">ἐλευθέρος</w> 
+                        <w lemma="ὅς1"><supplied reason="lost">ὅ</supplied></w> <w><supplied reason="lost">κα</supplied></w> <w lemma="λῶ"><supplied reason="lost">λῆι</supplied></w> <w lemma="πλέω">πλέν</w>. 
+                        <w lemma="αἰ">Αἰ</w> μὲν δέ <w>κα</w> <w lemma="κατέχω">κατέχ<supplied reason="lost">ων</supplied><lb n="31" break="no"/>τι</w> τὰν <w lemma="οἰκισία">οἰκισίαν</w> οἱ <w lemma="ἄποικος">ἄποικοι</w>, <supplied reason="lost">τῶν</supplied> <placeName type="ethnic" nymRef="#Θηραῖος"><supplied reason="lost">Θηραίων</supplied></placeName> τὸγ <w lemma="καταπλέω">καταπλέον<supplied reason="lost">τα</supplied></w>
+                    <lb n="32"/><w lemma="ὕστερος">ὕστερον</w> <w>εἰς</w> <placeName type="country" nymRef="#Λιβύα">Λιβύαν</placeName> <supplied reason="lost">καὶ</supplied> <w lemma="πολιτήια"><supplied reason="lost">
+                        π</supplied><unclear>ο</unclear><supplied reason="lost">λιτήιας</supplied></w> καὶ <w lemma="τιμά">τιμᾶμ</w> <w lemma="πεδέχω">πεδέχ<supplied reason="lost">εν</supplied></w>
+                    <lb n="33"/>καὶ <w lemma="γᾶ">γᾶς</w> τᾶς <w lemma="ἀδέσποτος">ἀδεσπότω</w> <w lemma="ἀπολαγχάνω"><supplied reason="lost">ἀπολαγ</supplied>χάνεν</w>. <w lemma="αἰ">Αἰ</w> δέ 
+                        <w>κα</w> μὴ <w lemma="κατέχω">κατ<supplied reason="lost">έχ</supplied><lb n="34" break="no"/>ωντι</w> τὰν <w lemma="οἰκισία">οἰκισίαν</w> μ<unclear>η</unclear><supplied reason="lost">δὲ τὰν</supplied> <w lemma="πόλις"><supplied reason="lost">
+                            πό</supplied><unclear>λ</unclear>ιν</w> <w lemma="δύναμαι">δύνανται</w> <w lemma="ἐπικτίζω">ἐπικτί<supplied reason="lost">ζε</supplied><lb n="35" break="no"/>ν</w>, <w lemma="ἀλλά">ἀλλὰ</w> <w lemma="ἀνάγκα">ἀνάγκαι</w> <w lemma="ἄχθομαι">ἀχθῶντι</w>, <w lemma="ἔτος"><unclear>ἔτη</unclear></w> <w lemma="ἐπί">ἐπὶ</w> 
+                        <num type="cardinal" value="5"><w>πέντε</w></num> <w>ἐκ</w> τᾶς <w lemma="γᾶ">γᾶς</w> <w lemma="ἄπειμι">ἀπίμ<supplied reason="lost">εν</supplied></w>
+                    <lb n="36"/><w>ἀδιέως</w> <placeName type="city" nymRef="#Θήρα">Θήρανδε</placeName> <w lemma="ἐπί">ἐπὶ</w> τὰ <w lemma="αὐτός">αὐτῶγ</w> <w lemma="χρῆμα">χρήματα</w> 
+                        καὶ <w lemma="εἰμι">ἦμεμ</w> <w lemma="πολιάτας">πολι<unclear>ά</unclear><supplied reason="lost">τ</supplied><lb n="37" break="no"/>ας</w>.<w lemma="ὅς1" type="relative">Ὁ</w> δέ <w>κα</w> μὴ <w lemma="λῶ">λῆι</w> <w lemma="πλέω">πλὲν</w> <w lemma="ἀποστέλλω">ἀποστελλοίσας</w> τᾶς 
+                        <w lemma="πόλις">πόλιος</w>, <w>θανά<supplied reason="lost">σι</supplied><lb n="38" break="no"/>μος</w> <w lemma="εἰμι">τένται</w> καὶ τὰ <w lemma="χρῆμα">χρήματα</w> <w lemma="εἰμι">ἔστω</w> <w lemma="αὐτός">αὐτοῦ</w> 
+                        <w lemma="δαμόσιος">δαμόσια</w>.Ὁ δὲ <w lemma="ἀποδέκομαι">ἀπ<lb n="39" break="no"/>οδεκόμενος</w> <w lemma="ἤ">ἢ</w> <w lemma="ἀδηίζω">ἀδήιζων</w> <w lemma="ἤ">ἢ</w> <w lemma="πατήρ">πατὴρ</w> <w lemma="υἱός">υἱὸν</w> <w lemma="ἤ">ἢ</w> <w lemma="ἀδελφεός">ἀδελφεὸς</w> <w lemma="ἀδελφεός">ἀδελ<lb n="40" break="no"/>φεὸν</w> <w lemma="πάσχω">παισεῖται</w> <w lemma="ὅσπερ">ἅπερ</w> ὁ μὴ <w lemma="λῶ">λέων</w> <w lemma="πλέω">πλέν</w>.
+                        <w lemma="ἐπί">Ἐπὶ</w> <w lemma="οὗτος">τούτοις</w> <w lemma="ὅρκιον">ὅρκια</w> <w lemma="ποιέω">ἐπ<lb n="41" break="no"/>οιήσαντο</w> οἵ τε <w>αὐτεῖ</w> <w lemma="μένω">μένον<supplied reason="lost">τ</supplied>ες</w> καὶ οἱ <w lemma="πλέω">πλέοντες</w> 
+                        <w lemma="οἰκίζω">οἰκιξόντε<lb n="42" break="no"/>ς</w> καὶ <w lemma="ἀρά">ἀρὰς</w> <w lemma="ποιέω">ἐποιήσαντο</w> τὸς <w lemma="οὗτος">ταῦτα</w> <w lemma="παραβαίνω">παρβέωντας</w> 
+                        καὶ μὴ <w lemma="ἐμμένω">ἐμ<lb n="43" break="no"/>μένοντας</w> <w lemma="ἤ">ἢ</w> τῶν <w lemma="ἐν">ἐλ</w> <placeName type="country" nymRef="#Λιβύα">Λιβύαι</placeName> <w lemma="οἰκέω">οἰκεόντων</w>
+                        <w lemma="ἤ">ἢ</w> τῶν <w>αὐτεῖ</w> <w lemma="μένω">μεν<lb n="44" break="no"/>όντων</w>. <w lemma="κήρινος">Κηρίνος</w> <w lemma="πλάσσω">πλάσσαντες</w> <w lemma="κολοσός">κολοσὸς</w> <w lemma="κατακαίω">
+                        κατέκαιον</w> <w lemma="ἐπαράομαι">ἐπα<lb n="45" break="no"/>ρεώμενοι</w> <w lemma="πάς">πάντες</w> <w lemma="συνέρπω">συνενθόντες</w> καὶ <w lemma="ἀνήρ">ἄνδρες</w> καὶ <w lemma="γυνά">γυναῖκ<lb n="46" break="no"/>ες</w> καὶ <w lemma="παῖς">παῖδες</w> καὶ <w lemma="παιδίσκα">παιδίσκαι</w>· τὸμ μὴ <w lemma="ἐμμένω">ἐμμένοντα</w> <w lemma="οὗτος">τούτοις</w>
+                    <lb n="47"/>τοῖς <w lemma="ὅρκιον">ὁρκίοις</w> <w lemma="ἀλλά">ἀλλὰ</w> <w lemma="παρβαίνω">παρβέωντα</w> <w lemma="καταλείβω">καταλείβεσθαί</w> <w>νιν</w> καὶ <w lemma="καταρρέω">κα<lb n="48" break="no"/>ταρρὲν</w> <w>ὥσπερ</w> τὸς <w lemma="κολοσός">κολοσός</w>, καὶ <w lemma="αὐτός">αὐτὸν</w> καὶ <w lemma="γόνος">γόνον</w> καὶ <w lemma="χρῆμα">χρή<lb n="49" break="no"/>ματα</w>· τοῖς δὲ <w lemma="ἐμμένω">ἐμμένοισιν</w> <w lemma="οὗτος">τούτοις</w> τοῖς <w lemma="ὅρκιον">ὁρκίοις</w> καὶ τοῖς
+                    <lb n="50"/><w lemma="πλέω">πλέοισι</w> <w lemma="ἐν">ἐλ</w> <placeName type="country" nymRef="#Λιβύα">Λιβύαν</placeName> κ<supplied reason="lost">αὶ</supplied> τ<supplied reason="lost">οῖς</supplied> 
+                        <w lemma="μένω"><supplied reason="lost">μέ</supplied>νοισι</w> <w>ἐν</w> <placeName type="city" nymRef="#Θήρα">Θήραι</placeName> <w lemma="εἰμι">ἦμεν</w> <w lemma="πολύς">πολλ<lb n="51" break="no"/>ὰ</w> καὶ <w lemma="ἀγαθός">ἀγαθὰ</w> καὶ <w lemma="αὐτός">αὐ<supplied reason="lost">τοῖς</supplied></w> <supplied reason="lost">καὶ</supplied> 
+                        <w lemma="ἔκγονος"><supplied reason="lost">ἐκγό</supplied>νοις</w>.
+	 </ab>
+            </div>
+      <div type="apparatus" xml:space="preserve">
+            <head>Apparatus</head>
+                <p>
+                    <app loc="8"><lem resp="#cdl1994">κατοικίξαισι</lem>
+                        <rdg resp="#ferri1925 #oliverio1928a #wilhelm1951 #chamoux1953 #graham1960 #meiggs-lewis1969">κατοικίξασι</rdg>
+                     </app>
+                    <app loc="12"><lem resp="#cdl1994">κατα<unclear>μ</unclear><supplied reason="lost">ῆ</supplied>ναι</lem>
+                        <rdg resp="#oliverio1928a">καταμεῖναι</rdg> 
+                        <rdg resp="#ferri1925">κατα<unclear>ν</unclear>εῖ<unclear>μ</unclear>αι <note>Wilamowitz's reading</note></rdg>
+                    </app>
+                    <app loc="13"><lem resp="#cdl1994">ποιέσθαι</lem>
+                        <rdg resp="#ferri1925 #oliverio1928a #wilhelm1951 #chamoux1953 #graham1960 #meiggs-lewis1969">ποιεῖσθαι</rdg>
+                    </app>
+                    <app loc="13"><lem resp="#ferri1925">Θηραῖος</lem>
+                        <rdg resp="#oliverio1928a">Θηραίους</rdg>
+                    </app>
+                    <app loc="13-14"><lem resp="#cdl1994">ἐπιδ<unclear>α</unclear>μ<unclear>έ</unclear><supplied reason="lost">ν</supplied><lb break="no"/>τας</lem>                        
+                        <rdg resp="#oliverio1928a">έπι<unclear>δημέ</unclear><supplied reason="lost">ον</supplied><lb break="no"/>τας</rdg>
+                    </app>
+                   <app loc="14-15"><lem resp="#cdl1994">πο<supplied reason="lost">κ</supplied><lb break="no"/>ὰ</lem>
+                        <rdg resp="#oliverio1928a">ποτ<lb break="no"/>ὲ</rdg>
+                    </app>
+                    <app loc="15"><lem resp="#cdl1994"><unclear>διώμο</unclear>σαν</lem>                        
+                        <rdg resp="#oliverio1928a"><unclear>διώ</unclear>ρκωσαν</rdg>
+                    </app>
+                    <app loc="15-16"><lem resp="#cdl1994"><num value="9"><g type="alphabetic">θ</g></num> <surplus>ε</surplus> <lb/>ἐννῆα</lem>                        
+                        <rdg resp="#ferri1925">ἐς θ᾿ἑ<lb/>ν<supplied reason="lost">ν</supplied>έα</rdg>
+                        <rdg resp="#oliverio1928a">ἔς θε <lb/> ἑννῆα</rdg>
+                    </app>
+                   <app loc="16"><lem resp="#cdl1994">ἑταιρῆιας</lem>
+                        <rdg resp="#oliverio1928a">ἑταιρήας</rdg>
+                    </app>
+                    <app loc="17"><lem resp="#cdl1994">τὸ ἱαρὸν τὸ πατρῶιον</lem>
+                        <rdg resp="#ferri1925 #oliverio1928a #wilhelm1951 #chamoux1953 #graham1960 #meiggs-lewis1969">τὸ ἱαρὸν πατρῶιον</rdg>
+                        <rdg resp="#oliverio1928a">τῶ</rdg>
+                    </app>
+                    <app loc="20"><lem resp="#oliverio1928a">Θήραθε</lem>
+                        <rdg resp="#ferri1925">Θηραίω<supplied reason="lost">ι ἐς</supplied></rdg>
+                        <rdg resp="#meiggs-lewis1969">Θήραθεν <note>Fraser's reading</note></rdg> 
+                    </app>
+                   <app loc="21"><lem resp="#cdl1994"><supplied reason="lost">τ</supplied>οὶ</lem>
+                        <rdg resp="#ferri1925 #oliverio1928a #wilhelm1951 #chamoux1953 #graham1960 #meiggs-lewis1969">οἱ</rdg>  
+                    </app>
+                    <app loc="21"><lem resp="#cdl1994">τᾶν</lem>
+                        <rdg resp="#ferri1925 #oliverio1928a #wilhelm1951 #chamoux1953 #graham1960 #meiggs-lewis1969">τῶν</rdg>
+                    </app>
+                    <app loc="27"><lem>Θηραίους</lem>
+                        <rdg resp="#oliverio1928a"><supplied reason="lost" cert="high">τοὺς Θη</supplied>ραίους <note>very faint traces of letters for the restored part</note></rdg>
+                    </app>
+                    <app loc="28"><lem resp="#cdl1994">πλ<supplied reason="lost">ὲν κατὰ τὸν</supplied> <unclear>οἶ</unclear>κον</lem>
+                        <rdg resp="#oliverio1928a">πλὲν κατὰ <supplied reason="lost" cert="high">τὸν</supplied> οἶκον <note>very faint traces of letters for the restored part</note></rdg>  
+                    </app>
+                    <app loc="29"><lem resp="#cdl1994">τός τε ἄλλος <supplied reason="lost">πολιάτας</supplied></lem>
+                        <rdg resp="#oliverio1928a">τ<supplied reason="lost">ε ἀπὸ τῶγ χώρων ἁπάντων</supplied></rdg>
+                        <rdg resp="#wilhelm1951">τ<supplied reason="lost">ῶ οἴκω ἑκάστω, πλὲν δὲ</supplied></rdg>
+                        <rdg resp="#jeffery1961a">τ<unclear>ῶ</unclear><supplied reason="lost">ν δὲ ἀστῶν πλὲν ἑκατὸν</supplied></rdg>
+                            <rdg resp="#jeffery1961a">τ<unclear>ῶ</unclear><supplied reason="lost">ν δὲ περιοίκων ἑκατὸν</supplied></rdg>
+                        <rdg resp="#meiggs-lewis1969"><orig>το<unclear>σδ</unclear>εε<unclear>λο</unclear></orig><gap reason="lost" quantity="10" unit="character" precision="low"/><unclear>καὶ</unclear> <note>Fraser's reading</note></rdg>
+                    </app>
+                    <app loc="30"><lem resp="#oliverio1928a">ἐλευθέρος <supplied reason="lost">ὅ κα λῆι</supplied></lem>
+                        <rdg resp="#jeffery1961a">ἐλευθέρος <supplied reason="lost">ἑκατὸν</supplied></rdg>
+                    </app> 
+                    <app loc="31"><lem resp="#cdl1994"><supplied reason="lost">τῶν Θηραίων</supplied></lem>
+                    <rdg resp="#oliverio1928a"><supplied reason="lost" cert="high">τῶν οἰκεί</supplied>ων <note>very faint traces of letters for the restored part</note></rdg>
+                    </app>
+                    <app loc="32"><lem resp="#cdl1994"><supplied reason="lost">καὶ π</supplied><unclear>ο</unclear><supplied reason="lost">λιτήιας</supplied></lem>
+                        <rdg resp="#oliverio1928a"><supplied reason="lost" cert="high">καὶ πολιτήιας</supplied> <note>very faint traces of letters for the restored part</note></rdg>
+                    </app>
+                    <app loc="34"><lem resp="#cdl1994">μ<unclear>η</unclear><supplied reason="lost">δὲ τὰν πό</supplied><unclear>λ</unclear>ιν</lem>
+                        <rdg resp="#oliverio1928a">μηδὲ<supplied reason="lost" cert="high">οἱ Θηραῖοι</supplied> μιν <note>very faint traces of letters for the restored part</note></rdg>
+                        <rdg resp="#ferri1925"><supplied reason="lost">καὶ τοὶ Θηραῖοι</supplied> μὴ</rdg>
+                    </app>
+                    <app loc="34-35"><lem resp="#cdl1994">ἐπικτί<supplied reason="lost">ζε</supplied><lb break="no"/>ν</lem>
+                        <rdg resp="#ferri1925">ἐπικού<supplied reason="lost">ρε</supplied><lb break="no"/>ν</rdg>
+                        <rdg resp="#oliverio1928a">ἐπικο<supplied reason="lost" cert="high">υρέ</supplied><lb break="no"/>ν <note>very faint traces of letters for the restored part</note></rdg>
+                    </app>
+                    <app loc="38"><lem resp="#maas1929 #seg">τένται</lem>
+                        <rdg resp="#ferri1925 #oliverio1928a">τ᾿ἔνται</rdg>
+                    </app>
+                    <app loc="39-40"><lem resp="#cdl1994">ἀδελφεὸς ἀδελ<lb break="no"/>φεὸν</lem>
+                        <rdg resp="#ferri1925">ἀδελφεὸς ἀ<supplied reason="lost">δελ</supplied><lb break="no"/>φεὸν</rdg>
+                        <rdg resp="#oliverio1928a">ἀδελφε<add place="overstrike">ὸ</add>ς ἀδελ<lb break="no"/>φεὸν</rdg>
+                    </app>
+                    <app loc="51"><lem resp="#cdl1994"><supplied reason="lost">καὶ ἐκγό</supplied>νοις</lem>
+                        <rdg resp="#ferri1925 #oliverio1928a"><supplied reason="lost">καὶ γό</supplied>νοις</rdg>
+                    </app>
+                </p>
+ </div>
+      <div type="translation" xml:lang="fr" xml:space="preserve">
+            <p> Dieu. Bonne fortune.</p>
+                <p>Proposition de Damis fils de Bathyklès: vu la proposition faite au nom des Théréens par Kleudamas fils d'Euthyklès pour le succès de la cité et la prospérité du peuple des Cyrénéens, 
+                à savoir rendre aux Théréens le droit de cité conformément aux traditions établies par nos ancêtres, tant ceux qui fondèrent Cyrène en venant de Théra que ceux qui restèrent à Théra,
+                lorsqu'Apollon accorda à Battos et aux Théréens fondateurs de Cyrène de vivre prospères à condition de respecter les serments échangés par nos ancêtres (10) lorsqu'ils firent partir
+                l'expédition colonisatrice selon la prescription d'Apollon Archégète; à la bonne fortune, plaise au peuple:
+                Que soit maintenue pour les Théréens l'égalité des droits civiques, même à Cyrène, dans les mêmes conditions; que tous les Théréens résidant à Cyrène prêtent le même serment que celui
+                qu'ont prêté jadis les autres; qu'ils s'établissent dans une tribu, une <foreign rend="italic">patra</foreign> et dans <supplied reason="subaudible">l'une</supplied> des neuf hétairies; que l'on grave ce décret sur une stèle de marbre blanc et que l'on place
+                la stèle dans le sanctuaire ancestral d'Apollon Pythien; que l'on grave aussi sur la stèle le serment qu'ont prêté les fondateurs lorsqu'ils eurent débarqué en Libye (20) en compagnie de Battos, 
+                arrivant de Thèra à Cyrène; quant à la dépense nécessaire pour la pierre ou la gravure, que les préposés aux comptes y pourvoient sur les recettes d'Apollon.</p>
+                <p>Clauses du serment des fondateurs</p>
+                <p>Il a plu à l'assemblée: attendu qu'Apollon a spontanément prescrit à Battos et aux Théréens de fonder la colonie de Cyrène, les Théréens considèrent comme décision définitive d'envoyer en Libye
+                Battos comme chef de la mission et roi; que pour l'accompagner s'embarquent des Théréens; qu'ils s'embarquent dans des conditions égales et semblables pour chaque famille, à raison d'un seul fils enrôlé;
+                que puissent aussi s'embarquer tous les autres <supplied reason="lost">citoyens</supplied> adultes et, (30) parmi le reste des Théréens, tout homme libre <supplied reason="lost">qui le voudra</supplied>. 
+                Si les colons maintiennent leur installation, que celui des Théréens qui fera par la suite la traversée vers la Libye obtienne sa part des <supplied reason="lost">droits civiques</supplied>
+                et des honneurs et reçoive par tirage au sort un lot de terre sans propriétaire; si au contraire ils ne maintiennent pas leur installation
+                et ne sont pas en mesure de poursuivre l'établissement de leur cité mais sont accablés par la nécessité, que pendant un délai de cinq ans ils quittent leur terre sans crainte <supplied reason="subaudible">pour 
+                regagner</supplied> Théra et leurs biens et qu'ils y exercent leurs droits de citoyens; quiconque refusera de partir alors que la cité veut l'envoyer sera passible de mort et ses biens seront confisqués;
+                quiconque le recueillera ou le cachera, qu'il s'agisse d'un père pour son fils ou d'un frère pour son frère, (40) subira la même peine que le réfractaire.</p>
+                <p>Telles sont les clauses sur lesquelles ils prêtèrent serment, aussi bien ceux qui restaient sur place que ceux qui embarquaient pour faire oeuvre colonisatrice, et ils prononcèrent
+                des imprécations contre ceux qui transgresseraient ces clauses et ne s'y conformeraient pas, soit parmi ceux qui seraient établis en Libye, soit parmi ceux qui restaient sur place. Ayant façonné des figurines de cire,
+                ils les firent brûler pendant qu'ils prononçaient ces imprécations, tous réunis, hommes, femmes, garçons et filles: "Qui ne sera pas fidèle à ces clauses de serment, mais les transgressera,
+                qu'il fonde et se liquéfie comme les figurines, lui-même, sa descendance et ses biens. Que ceux qui respecteront ces clauses de serment, aussi bien (50) ceux qui s'embarquent pour la Libye
+                que ceux qui <supplied reason="lost">restent</supplied> à Thèra, connaissent toutes les prospérités, eux-mêmes <supplied reason="lost">et leurs descendants</supplied>".</p>
+         </div>
+      <div type="translation" xml:lang="en" xml:space="preserve">
+                <p>God. Good Fortune.</p>
+                <p>It was proposed by Damis son of Bathykles: about the proposal made on behalf of the Theraeans by Kleudamas son of Euthykles with a view to success and 
+                    prosperity for the people of the Cyrenaeans, that is to say to give back city-rights to the Theraeans in accordance with the arrangements of our ancestors, 
+                    both those who, coming from Thera, founded Cyrene and those who remained in Thera, since Apollo granted the Theraeans who founded Cyrene to live in prosperity 
+                    if ever they would abide with the oaths taken with one another by our ancestors when (10) they dispatched the founding expedition following Apollo Archagetas’ injunction; 
+                    to the Good Fortune, may it seem good to the people:
+                    That the Theraeans should keep on equal civic rights also in Cyrene in the same terms; that all Theraeans living at Cyrene should take the same oath as the one taken 
+                    once by the others; that they settle themselves into a tribe, a <foreign rend="italic">patra</foreign> and <supplied reason="subaudible">one amongst</supplied> the nine <foreign rend="italic">hetaireiai</foreign>; 
+                    that this decree should be engraved on a white marble stele and that the stele should be placed into the ancestral sanctuary of Apollo Pythios; that on the stele should 
+                    also be engraved the oath that was taken by the founders when they landed in Libya (20) with Battos, arriving from Thera to Cyrene; as to the expense necessary for the stone 
+                    or the engraving, those in charge of the accounts should provide it from Apollo’s income.</p>
+                    <p>Clauses of the oath of the founders</p>
+                    <p>It seemed good to the assembly: whereas Apollo spontaneously declared that Battos and the Theraeans should settle the colony of Cyrene, the Theraeans consider it 
+                    decided that Battos should be sent to Libya as chief of mission and king; that Theraeans should sail off as companions; that they should sail off on equal and same 
+                    terms from each family, one son being chosen from each family; that would also be allowed to sail off all the other <supplied reason="lost">citizens</supplied> of age
+                    and (30) among the rest of the Theraeans any free man <supplied reason="lost">who would be willing</supplied>; that, if the settlers hold on the settlement, anyone amongst
+                    the Theraeans who would later on sail to Libya should take part in the <supplied reason="lost"> civil rights</supplied> and honours and should receive by lot a portion
+                    of owner-free land; that if on the contrary they do not hold on the settlement and are not able to settle on the city but are compelled by overwhelming necessity, 
+                    they should within five years fearless leave the country <supplied reason="subaudible">and sail back</supplied> to Thera and their belongings and be full-right citizens; 
+                    that anyone who would refuse to sail when the city wants to send him would be liable to death penalty and his belongings should be confiscated; that anyone who would 
+                    shelter or conceal him, be it a father for his son or a brother for his brother, (40) should be liable to the same penalty as the rebel.</p> 
+                    <p>Such are the clauses on which they took oath, as well those who remained on the spot as those who were sailing off with the aim of settlement, and they uttered 
+                    curses against who would transgress those clauses and would not abide to them, either amongst those settled in Libya or amongst those remaining on the spot. 
+                    Having formed waxen figurines, they burnt them off, all together, men, women, boys and girls, while uttering these curses: "Whoever will not abide to the clauses of 
+                    that oath, but will transgress them, should melt away and flow down like the figurines, himself, his offspring and his belongings. Whoever will abide to these clauses, 
+                    either (50) one sailing off towards Libya or one <supplied reason="lost">remaining</supplied> in Thera, should enjoy all sorts of prosperity for himself 
+                    <supplied reason="lost"> and his offspring </supplied>".
+                </p>
+            </div>
+      <div type="translation" xml:lang="it" xml:space="preserve">
+                <p>Dio. Buona Fortuna.</p>
+                <p>Proposta di Damis figlio di Bathykles: considerato quanto dice a nome dei Terei Kleudamas figlio di Euthykles per il successo della città e la prosperità del popolo dei Cirenei, 
+                vale a dire di concedere ai Terei il diritto di cittadinanza in conformità con le tradizioni stabilite dai nostri antenati, sia quelli che fondarono Cirene provenienti da Tera sia quelli che restarono a Tera,
+                quando Apollo accordò a Battos e ai Terei fondatori di Cirene di vivere in prosperità a condizione di rispettare i giuramenti scambiati reciprocramente dai nostri antenati quando (10) inviarono
+                la spedizione colonizzatrice secondo la prescrizione di Apollo Archegetes; alla Buona Fortuna, piaccia al popolo:
+                che sia mantenuta per i Terei l'uguaglianza dei diritti civici anche a Cirene, alle stesse condizioni; che tutti i Terei residenti a Cirene pronuncino lo stesso giuramento che gli altri 
+                giurarono un tempo; che siano inseriti in una tribù, in una <foreign rend="italic">patra</foreign> e in <supplied reason="subaudible">una</supplied> delle nove eterie; che si incida questo decreto su di una stele di marmo bianco e che si collochi 
+                la stele nel santuario ancestrale di Apollo Pizio; che si incida anche sulla stele il giuramento che pronunciarono i fondatori quando sbarcarono in Libia (20) in compagnia di Battos, 
+                arrivando da Tera a Cirene; quanto alla spesa necessaria per la pietra o per l'incisione, che gli addetti preposti ai conti provvedano dalle entrate di Apollo.</p>
+                <p>Clausole del giuramento dei fondatori.</p>
+                <p>È parso giusto all'assemblea: poiché Apollo ha spontaneamente prescritto a Battos e ai Terei di fondare la colonia di Cirene, i Terei considerano come decisione definitiva di inviare in Libia 
+                Battos come capo della missione e re; che per accompagnarlo si imbarchino dei Terei; che si imbarchino in condizioni di parità e uguaglianza per ogni famiglia, nella misura di un solo figlio scelto <supplied reason="subaudible">per famiglia</supplied>;
+                che si possano imbarcare anche tutti gli altri <supplied reason="lost">cittadini</supplied> adulti (30) e, tra gli altri Terei, ogni uomo libero <supplied reason="lost">che lo vorrà</supplied>. 
+                Se i coloni mantengono il loro insediamento, colui tra i Terei che faccia in séguito la traversata verso la Libia ottenga la sua parte dei <supplied reason="lost">diritti civici</supplied>
+                e degli onori e riceva in sorte un lotto della terra senza proprietario; se, al contrario, essi non mantengono il loro insediamento
+                e non sono in grado di fondare la città ma soffrano per la sventura, dopo cinque anni lascino la terra senza timore <supplied reason="subaudible">per
+                far ritorno</supplied> a Tera e ai loro beni e ne siano cittadini; chiunque si rifiuti di partire nel momento in cui la città lo invia sarà punibile con la morte e i suoi beni saranno confiscati;  
+                chiunque lo accolga o lo nasconda, che si tratti di un padre per suo figlio o di un fratello per suo fratello, (40) subirà la stessa pena di chi non vuole partire.</p>
+                <p>Tali sono le clausole sulle quali prestarono giuramento, sia quelli che restarono sul posto sia quelli che si imbarcarono per fondare una colonia, ed essi pronunciarono
+                delle maledizioni contro coloro che avessero trasgredito queste clausole e non si fossero ad esse conformati, sia tra coloro che si fossero stabiliti in Libia sia tra coloro che fossero rimasti sul posto. Dopo aver modellato delle statuette di cera, 
+                le fecero bruciare mentre pronunciavano queste maledizioni, tutti riuniti, uomini, donne, fanciulli e fanciulle:"Chi non sarà fedele a queste clausole di giuramento, ma le trasgredirà,
+                che fonda e si liquefaccia come le statuette, lui, la sua discendenza e i suoi beni. Coloro che rispetteranno queste clausole di giuramento, (50) sia coloro che si imbarcano per la Libia 
+                sia coloro che <supplied reason="lost">restano</supplied> a Tera, abbiano ogni bene, loro <supplied reason="lost">e i loro discendenti</supplied>".</p>
+                
+            </div>
+      <div type="commentary">
+                <head>Commentary</head>
+                <p>Restorations which are not mentioned in apparatus are Oliverio's. Most of the different readings adopted here are from <bibl>
+            <ptr target="#cdl1994"/>
+          </bibl>. Slight differences in certainty for one 
+                    letter have been dropped from the apparatus.</p>
+                <p>At line 15 <foreign xml:lang="grc">ΘΕ</foreign> (either read <foreign xml:lang="grc">θ᾿ἑ</foreign> or <foreign xml:lang="grc">θε</foreign>) has been supposed by all 
+                    commentators to have an aspirate under influence of a ghost-form <foreign xml:lang="grc">ἑννῆα</foreign> with an aspirate that never existed. We prefer <foreign xml:lang="grc">θ</foreign> 
+                    to be a symbol of numeral, followed by <foreign xml:lang="grc">ἐ</foreign> erroneously written here as beginning of <foreign xml:lang="grc">ἐννῆα</foreign>, whereas the word is written in full at next line.</p>
+	       <p>Historical commentaries are numerous. The debate about the genuineness of the different parts is somewhat biased because of modern ideas about authenticity.
+	       It is clear anyway 1) that no decree such as the one presented here in the second part (ll. 24-40) could have been taken in archaic Thera; 2) that the third part (ll. 40-51) is not
+	        the exact formula of an oath but rather a chronicle of events including an oath. The linguistic analysis appended to Dobias-Lalou's re-reading is a confirmation
+	       of that threefold structure.</p>
+	<p>We now follow Alonso Déniz's explanation of the meaning of the verb <foreign xml:lang="grc">ἀδηίζω</foreign> at line 39: 'make invisible, conceal'.</p>
+                <p>As rightly pointed out by <bibl>
+            <ptr target="#berthelot2016"/>
+          </bibl>, the infinitive <foreign xml:lang="grc">καταστᾶμεν</foreign> should have an intransitive,
+                whence reflexive, meaning. The Theraeans will be able to choose the division of the city into which they will be registered.</p>
+            </div>
+    </body>
+    </text>
+</TEI>
