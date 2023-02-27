@@ -19,10 +19,11 @@
       <IRI>https://viaf.org/viaf/97108273</IRI>
       <IRI>https://isni.org/isni/0000000121446253</IRI>
       <IRI>https://dbpedia.org/resource/Joan_of_Arc</IRI>
-      <IRI>tag:kalvesmaki.com,2021:person:joan</IRI>
+      <IRI>tag:kalvesmaki@gmail.com,2015:person:joan</IRI>
       <IRI>urn:uuid:1d8fe941-3386-49a2-82ad-621658d39be0</IRI>
       
       <name>Jeanne d'Arc</name>
+      <name xml:lang="eng">Joan of Arc</name>
       
       <desc>Joan of Arc, a fifteenth-century French woman</desc>
       

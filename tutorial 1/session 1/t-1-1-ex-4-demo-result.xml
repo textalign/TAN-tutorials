@@ -4,7 +4,8 @@
 <!-- EXERCISE 4 -->
 <!-- Metadata -->
 
-<TAN-voc xmlns="tag:textalign.net,2015:ns" id="tag:kalvesmaki@gmail.com,2021:tan-voc:test" TAN-version="2021">
+<TAN-voc xmlns="tag:textalign.net,2015:ns" 
+   id="tag:kalvesmaki@gmail.com,2021:tan-voc:test" TAN-version="2021">
    <head>
       <name>A test TAN-voc file</name>
       <license licensor="jk" which="by nc 1.0"/>
@@ -13,7 +14,7 @@
       </vocabulary-key>
       <resp who="jk" roles="editor"/>
       <file-resp who="jk"/>
-      <change when="2021-09-08" who="jk"/>
+      <change when="2021-09-22" flag="error" who="jk">warning</change>
       <to-do>
          <comment when="2021-09-08" who="jk">Add more items</comment>
       </to-do>
@@ -23,6 +24,7 @@
       <item affects-element="person">
          <IRI>http://viaf.org/viaf/299582703</IRI>
          <IRI>tag:kalvesmaki.com,2014:self</IRI>
+         <IRI>tag:kalvesmaki.com,2020:self</IRI>
          <IRI>tag:kalvesmaki@gmail.com,2021:self</IRI>
          <name>Joel Kalvesmaki</name>
       </item>

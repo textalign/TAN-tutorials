@@ -89,20 +89,21 @@
                         </ul>
                     </section>
                     <section>
-                        <h2>Project challenges</h2>
+                        <h2>Our challenges</h2>
                         <ul>
                             <li class="fragment">fragmentary text</li>
                             <li class="fragment">30+ books / editions of interest</li>
                             <li class="fragment">multiple ancient translations</li>
+                            <li class="fragment">defective, disordered versions</li>
                             <li class="fragment">extensive text reuse</li>
                             <li class="fragment">project's work in flux</li>
                         </ul>
                     </section>
                     <section>
-                        <h2>Project need</h2>
+                        <h2>We needed a reading space</h2>
                         <ul>
-                            <li class="fragment">single reading space juxtaposing every version</li>
-                            <li class="fragment">include project's working translations</li>
+                            <li class="fragment">every version juxtaposed</li>
+                            <li class="fragment">include our working translations</li>
                             <li class="fragment">include quoted literature</li>
                         </ul>
                     </section>
@@ -113,9 +114,9 @@
                             <h2>A vision: Parabola</h2>
                             <ul>
                                 <li class="fragment">Juxtapose multiple versions, multiple works, any language</li>
-                                <li class="fragment">Quoted works too</li>
+                                <li class="fragment">Make quoted works available</li>
                                 <li class="fragment">Version grouping, sorting, filtering</li>
-                                <li class="fragment">Push-button operation from underlying master files</li>
+                                <li class="fragment">Push-button operation: underlying master files → HTML output</li>
                                 <li class="fragment">Plug-n-play: add new versions as needed</li>
                             </ul>
                         </div>
@@ -144,7 +145,7 @@
                             <ol>
                                 <li>lack of space control</li>
                                 <li>interleaving of mixed- and non-mixed tree structures</li>
-                                <li>tendency toward scriptum orientation</li>
+                                <li>tendency for TEI writers to orient their files toward scripta</li>
                                 <li>difficulty of doing multiple lexicomorphological tags on a single word</li>
                                 <li>lack of inclusion techniques, encouraging repetition</li>
                             </ol>
@@ -174,7 +175,7 @@
                             <span class="fragment">Our gaze can be directed toward a text-bearing
                                 object</span> <span class="fragment">or away from it.</span>
                             <span class="fragment">Many TEI files direct our gaze toward scripta.</span> 
-                            <span class="fragment">The TAN ecosystem redirect our gaze, toward the
+                            <span class="fragment">But the TAN ecosystem directs our gaze toward the
                                 intertextual ocean.</span></div>
                         <hr class="fragment" />
                         <ul>
@@ -187,16 +188,15 @@
                         <ul>
                             <li class="fragment">Competing reference systems</li>
                             <li class="fragment">Incongruous text structures</li>
-                            <li class="fragment">Unparseable polysemy</li>
                             <li class="fragment">Presumptuous synonymity</li>
+                            <li class="fragment">Ineluctable polysemy</li>
                         </ul>
                     </section>
                     <section>
-                        <h2>Not a traditional application</h2>
+                        <h2>TAN is not traditional software</h2>
                         <ul>
-                            <li class="fragment">No GUI, not a web service, not an API</li>
-                            <li class="fragment">Could be used in conjunction with existing setups</li>
-                            <li class="fragment">To be used with an XML editor or on the command line</li>
+                            <li class="fragment">No GUI: to be used with an XML editor or on the command line</li>
+                            <li class="fragment">Not a web service, not an API (but can be integrated)</li>
                             <li class="fragment">Rooted in XSLT 3.0</li>
                         </ul>
                     </section>
@@ -218,7 +218,8 @@
                         <h2>Installation</h2>
                         <ul>
                             <li class="fragment">Download</li>
-                            <li class="fragment">Open Oxygen project <span class="code">tan.xpr</span></li>
+                            <li class="fragment">Put anywhere</li>
+                            <li class="fragment">Open a copy of <span class="code">tan.xpr</span> in Oxygen</li>
                             <li class="fragment">Get to work</li>
                         </ul>
                     </section>
@@ -230,9 +231,13 @@
                     <section>
                         <h2>Organization</h2>
                         <ul>
-                            <li class="fragment">Relatively flat directory structure</li>
+                            <li class="fragment">TAN's directory structure is relatively flat</li>
                             <li class="fragment">Names of top-level folders (plural nouns) describe
                                 purpose of the contained files</li>
+                            <li class="fragment">Files you might want to use or change are close to
+                                the root</li>
+                            <li class="fragment">Development branch supports maintenance validation,
+                                tests</li>
                         </ul>
                     </section>
                 </section>
@@ -240,7 +245,7 @@
                     <section>
                         <h1>TAN Guidelines</h1>
                     </section>
-                    <section data-background-iframe="https://textalign.net/release/TAN-2020/guidelines/xhtml/index.xhtml" data-background-interactive="">
+                    <section data-background-iframe="https://textalign.net/release/TAN-2021/guidelines/xhtml/index.xhtml" data-background-interactive="">
                         <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
                             <h2>TAN Guidelines</h2>
                             <ul>
@@ -270,12 +275,13 @@
                             <li class="fragment">terse: essential errors</li>
                             <li class="fragment">normal: standard errors</li>
                             <li class="fragment">verbose: deep checking</li>
-                            <li class="fragment">Heart of validation performed by XSLT, with Schematron as a handler.</li>
+                            <li class="fragment">Schematron is just a messenger.</li>
+                            <li class="fragment">The hard work is done by the TAN library (XSLT).</li>
                         </ul>
                     </section>
                     <section>
                         <h2>Errors</h2>
-                        <div>See the guidelines for a list of errors</div>
+                        <div>See the guidelines for a list of 120+ errors</div>
                     </section>
                 </section>
                 <section>
@@ -286,10 +292,10 @@
                         <h2>Vocabulary features</h2>
                         <ul>
                             <li class="fragment">Avoids repetition</li>
-                            <li class="fragment">Tethers abbreviations to URIs</li>
+                            <li class="fragment">Tethers nicknames/abbreviations to URIs</li>
                             <li class="fragment">Standard vocabulary: <span class="code">/vocabularies</span></li>
-                            <li class="fragment">Coverage: division types, grammar, licenses, roles, tokenization, etc.</li>
                             <li class="fragment">Standard vocabulary can be overridden</li>
+                            <li class="fragment">Wide range of vocabularies: division types, grammar, licenses, roles, tokenization, etc.</li>
                         </ul>
                     </section>
                 </section>
@@ -310,6 +316,8 @@
                         <ul>
                             <li class="fragment">Need to understand data types and XSLT syntax</li>
                             <li class="fragment">Very helpful to understand regular expressions</li>
+                            <li class="fragment">Some processes may not be affected by some parameters</li>
+                            <li class="fragment">It's up to you to track of your configuration</li>
                         </ul>
                     </section>
                 </section>
@@ -322,11 +330,11 @@
                         <div class="fragment">250+ public functions</div>
                         <div class="fragment">Drives schematron validation</div>
                         <div class="fragment">Foundation for utilities, applications</div>
-                        <div class="fragment">For XSLT developers: <span class="code">&lt;xsl:include href="[PATH]/functions/TAN-function-library.xsl"></span></div>
+                        <div class="fragment">For XSLT developers, one line: <span class="code">&lt;xsl:include href="[PATH]/functions/TAN-function-library.xsl"></span></div>
                     </section>
                     <section>
                         <h2>TAN function library coverage</h2>
-                        <div>Arabic, archives, arrays, attributes, binary, booleans, checksums,
+                        <div class="compress75">Arabic, archives, arrays, attributes, binary, booleans, checksums,
                             codepoints, colors, datatypes, diff, docx, expansion, filenames, files,
                             Greek, grouping, html, identifiers, items, language, Latin,
                             lexicomorphology, maps, merging, namespaces, nodes, numerals, numerics,
@@ -350,7 +358,9 @@
                             <li class="fragment">See guidelines to understand the XSLT process</li>
                         </ul>
                     </section>
-                    
+                    <section>
+                        <h2>Some TAN utilities...</h2>
+                    </section>
                     <section>
                         <h2>Body Builder</h2>
                         <ul>
@@ -372,9 +382,7 @@
                         </ul>
                         
                     </section>
-                    <section>
-                        <h2>Other utilities: <span class="code">/utilities</span></h2>
-                    </section>
+                    
                 </section>
                 <section>
                     <section>
@@ -424,8 +432,8 @@
                             <li class="fragment">Disregards ngram order</li>
                             <li class="fragment">Allows inserted words</li>
                             <li class="fragment">Scores results across multiple metrics</li>
-                            <li class="fragment">Still under development</li>
                             <li class="fragment">Useful for identifying plagiarism, quotations, common themes, collocations</li>
+                            <li class="fragment">Still under development</li>
                         </ul>
                         
                     </section>
@@ -446,14 +454,14 @@
                     <section>
                         <h2>Format design principles</h2>
                         <ul>
-                            <li class="fragment">Only one purpose per format</li>
+                            <li class="fragment">One format, one purpose</li>
                             <li class="fragment">Predictable design</li>
                             <li class="fragment">Human readable</li>
                             <li class="fragment">Computer actionable</li>
                         </ul>
                     </section>
                     <section>
-                        <h2>Classes</h2>
+                        <h2>Format classes</h2>
                         <ul>
                             <li class="fragment">Class 1: texts</li>
                             <li class="fragment">Class 2: annotations on texts</li>
@@ -463,7 +471,7 @@
                     <section>
                         <h2>Class 1: Texts</h2>
                         <ul>
-                            <li class="fragment"><span class="code">TEI</span>: all, slightly adjusted for TAN</li>
+                            <li class="fragment"><span class="code">TEI</span>: TEI All, slightly adjusted for TAN</li>
                             <li class="fragment"><span class="code">TAN-T</span>: as close as you can get to plain text</li>
                         </ul>
                     </section>
@@ -471,7 +479,7 @@
                         <h2>Class 1 Features</h2>
                         <ul>
                             <li class="fragment">One version, one work, one reference system, one scriptum</li>
-                            <li class="fragment"><span class="code">@n</span> is the key to navigation</li>
+                            <li class="fragment"><span class="code">@xml:id</span> normally not needed</li>
                             <li class="fragment">Complex, aliased <span class="code">@n</span>s supported</li>
                             <li class="fragment">Normalization of space, Unicode, line breaks, references</li>
                         </ul>
@@ -491,7 +499,7 @@
                             <li class="fragment">Pointing system based on <span class="code">@n</span> and tokens</li>
                             <li class="fragment">Tokenization defined by regular expressions</li>
                             <li class="fragment">All annotations are claims</li>
-                            <li class="fragment">Claim architecture reflects scholarly concerns</li>
+                            <li class="fragment">Claims designed to reflect scholarly concerns</li>
                             <li class="fragment">Conversion to RDF (reified, complex) pending</li>
                         </ul>
                     </section>
@@ -513,6 +521,7 @@
                         <ul>
                             <li class="fragment">Focus only on the data</li>
                             <li class="fragment">Predictable structure</li>
+                            <li class="fragment">Eliminate repetition</li>
                             <li class="fragment">Human readable</li>
                             <li class="fragment">Computer actionable</li>
                             <li class="fragment">Chain of responsibility</li>
@@ -533,14 +542,10 @@
                     <section>
                         <h2>Metadata structure</h2>
                         <ol>
-                            <li class="fragment">Key information</li>
-                            <li class="fragment">Declarations</li>
+                            <li class="fragment">Declarations: name, license, numeral system, tokenization, adjustments</li>
                             <li class="fragment">Network</li>
-                            <li class="fragment">Adjustments</li>
-                            <li class="fragment">Vocabulary assignment</li>
-                            <li class="fragment">Responsibility</li>
-                            <li class="fragment">Change log</li>
-                            <li class="fragment">Pending work</li>
+                            <li class="fragment">Vocabulary</li>
+                            <li class="fragment">Responsibilities, changes, work pending</li>
                         </ol>
                     </section>
                 </section>

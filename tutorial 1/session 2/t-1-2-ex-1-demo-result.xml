@@ -2,7 +2,7 @@
 <!-- Comments starting jk: are those by Joel Kalvesmaki, Sept. 2021 -->
 <!-- jk: added TAN's two schemas -->
 <?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
-<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../TAN-2022/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <!-- jk: I added @TAN-version and @id. Deciding the latter is tricky. Who "owns" the file? It seems
  to me that the blame should fall upon me for a file that I am making and controlling. -->
@@ -85,15 +85,24 @@
    </teiHeader>
    <!-- jk: I've inserted the TAN head, but I'm leaving this blank for now -->
    <head xmlns="tag:textalign.net,2015:ns">
-      <name/>
-      <license/>
-      <work/>
-      <source/>
+      <name>Euthyphro in Greek</name>
+      <license licensor="" which="by 1.0"/>
+      <work which="Prak"/>
+      <source which="Brakke 2006"/>
+      <vocabulary>
+         <IRI>tag:kalvesmaki@gmail.com,2021:tan-voc:test</IRI>
+         <name>A test TAN-voc file</name>
+         <location accessed-when="2021-09-20" 
+            href="../session%201/t-1-1-ex-4-demo-result.xml"/>
+      </vocabulary>
+      
       <vocabulary-key/>
-      <resp/>
-      <file-resp/>
-      <change when="" who=""/>
-      <to-do/>
+      <resp roles="editor" who="Joel_Kalvesmaki"/>
+      <file-resp who="joel-kalvesmaki"/>
+      <change when="2021-07-24" who="joel-kalvesmaki">Started file</change>
+      <to-do>
+         <comment when="2021-08-23" who="joel-kalvesmaki">A lot to do</comment>
+      </to-do>
    </head>
    <!-- jk: I moved @xml:lang from <text> to <body> and deleted it from <div> -->
    <text>
@@ -108,7 +117,7 @@
          -->
 
          <!-- jk: I wrapped the <head> in a <div> of its own. -->
-         <div type="title" n="title">
+         <div type="" n="title">
             <head>Εὐθύφρων</head>
          </div>
          <!-- jk: The original had  subtype="section" type="textpart", which feels very hackish, and

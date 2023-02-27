@@ -20,12 +20,39 @@
       
       <!-- Prob. 1 -->
       <!-- Add the <item> for yourself -->
+      <item>
+         <IRI>tag:kalvesmaki.com,2011:self</IRI>
+         <name>Joel</name>
+         <desc>oentuhaosnteuh</desc>
+      </item>
       
       <!-- Prob. 2 -->
       <!-- Add the <item> for the conceptual work in your corpus -->
+      <item>
+         <IRI>http://viaf.org/viaf/182262302</IRI>
+         <IRI>https://dbpedia.org/resource/Story_of_Sinuhe</IRI>
+         <name>Story of Sinuhe</name>
+         <name xml:lang="heb">סיפורו של שנהאת</name>
+         <desc>The Story of Sinuhe (also known as Sanehat)[2] is considered one of the finest works
+            of ancient Egyptian literature. It is a narrative set in the aftermath of the death of
+            Pharaoh Amenemhat I, founder of the 12th Dynasty of Egypt, in the early 20th century BC.
+            It was composed around 1875 BC, although the earliest extant manuscript is from the
+            reign of Amenemhat III, c. 1800 BC.[3] There is an ongoing debate among Egyptologists as
+            to whether or not the tale is based on actual events involving an individual named
+            Sinuhe (Egyptian: Za-Nehet "son of the sycamore"),[4] with the consensus being that it
+            is most likely a work of fiction.[5][6] Due to the universal nature of the themes
+            explored in Sinuhe, including divine providence and mercy, its anonymous author has been
+            described as the "Egyptian Shakespeare" whose ideas have parallels in biblical texts.
+            Sinuhe is considered to be a work written in verse and it may also have been
+            performed.[7] The great popularity of the work is witnessed by the numerous surviving
+            fragments.[8]</desc>
+      </item>
       
       <!-- Prob. 3 -->
       <!-- Add <item>s for the books, manuscripts, and other material objects in your corpus -->
+      <item>
+         <IRI></IRI>
+      </item>
       
       <!-- Prob. 4 -->
       <!-- Add at least one more <item> pertaining to some concept that is shared by your TEI files -->

@@ -8,7 +8,10 @@
       <vocabulary>
          <IRI>tag:kalvesmaki@gmail.com,2021:tan-voc:test</IRI>
          <name>A test TAN-voc file</name>
-         <location accessed-when="2021-09-10T14:00:51.986-04:00" href="../session%201/t-1-1-ex-4-demo-result.xml"/>
+         <location accessed-when="2021-09-21" 
+            href="../session%201/t-1-1-ex-4-demo-result.xml"/>
+         <!--<location accessed-when="2021-09-10T14:00:51.986-04:00" 
+            href="../../session%201/t-1-1-ex-4-demo-result.xml"/>-->
       </vocabulary>
       
       <source xml:id="pl">

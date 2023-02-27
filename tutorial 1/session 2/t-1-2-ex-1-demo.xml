@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="../../../TAN-2021/schemas/TAN-TEI.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <!-- Comments starting jk: are those by Joel Kalvesmaki, Nov. 2020 -->
 <!-- jk: I indented the whole document, for easier reading -->
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" TAN-version="2021"
+        id="tag:kalvesmaki.com,2011:transcriptions:philosophy:plato:eng:burnet">
     <teiHeader>
         <!-- jk: note the use of camelCase in many names; I personally prefer hyphens to separate words -->
         <fileDesc>
@@ -95,63 +98,70 @@
         </revisionDesc>
 
     </teiHeader>
-    <text xml:lang="grc">
-        <body>
-            <div xml:lang="grc" n="urn:cts:greekLit:tlg0059.tlg001.perseus-grc1" type="edition">
+    <head xmlns="tag:textalign.net,2015:ns">
+            <name></name>
+            <license></license>
+            <work></work>
+            <source></source>
+            <vocabulary-key></vocabulary-key>
+            <resp></resp>
+            <file-resp></file-resp>
+            <change when="" who=""></change>
+            <to-do></to-do>
+    </head>
+        <text xml:lang="grc" n="urn:cts:greekLit:tlg0059.tlg001.perseus-grc1">
+        <body xml:lang="grc">
+            
                 <!-- jk: the extra @xml:lang here is unnecessary; the value of @n is a URN
                 scheme called CTS URNs, an attempt to create URIs for works and work-parts. It is
                 not an official URN scheme and should be treated as a convention that a number of
                 projects are trying. -->
 
-                <head>Εὐθύφρων</head>
 
-                <div resp="perseus" n="2" subtype="section" type="textpart">
-                    <!-- jk: in the @who below the # is a visual signal that it *targets* some id, and
-                    is not itself an id. In this case, however, it doesn't target an id, but the value
-                    of /TEI/teiHeader[1]/profileDesc[1]/particDesc[1]/person[1]/persName[1] -->
-                    <!-- jk: note how milestones provide a kind of hierarchy that avoids overlap -->
-                    <p><said who="#Εὐθύφρων"><milestone n="2" unit="page" resp="Stephanus"
-                                /><milestone n="2a" unit="section" resp="Stephanus"
-                                /><label>ΕΥΘ.</label> τί νεώτερον, ὦ Σώκρατες, γέγονεν, ὅτι σὺ τὰς
-                            ἐν Λυκείῳ καταλιπὼν διατριβὰς ἐνθάδε νῦν διατρίβεις περὶ τὴν τοῦ
-                            βασιλέως στοάν; οὐ γάρ που καὶ σοί γε δίκη τις οὖσα τυγχάνει πρὸς τὸν
-                            βασιλέα ὥσπερ ἐμοί.</said></p>
-
-                    <p><said who="#Σωκράτης"><label>ΣΩ.</label> οὔτοι δὴ Ἀθηναῖοί γε, ὦ Εὐθύφρων,
-                            δίκην αὐτὴν καλοῦσιν ἀλλὰ γραφήν. </said></p>
-
-                    <p><said who="#Εὐθύφρων"><milestone n="2b" unit="section" resp="Stephanus"
-                                /><label>ΕΥΘ.</label> τί φῄς; γραφὴν σέ τις, ὡς ἔοικε, γέγραπται· οὐ
-                            γὰρ ἐκεῖνό γε καταγνώσομαι, ὡς σὺ ἕτερον.</said></p>
-
-                    <p><said who="#Σωκράτης"><label>ΣΩ.</label> οὐ γὰρ οὖν.</said></p>
-
-                    <p><said who="#Εὐθύφρων"><label>ΕΥΘ.</label> ἀλλὰ σὲ ἄλλος;</said></p>
-
-                    <p><said who="#Σωκράτης"><label>ΣΩ.</label> πάνυ γε.</said></p>
-
-                    <p><said who="#Εὐθύφρων"><label>ΕΥΘ.</label> τίς οὗτος;</said></p>
-
-                    <p><said who="#Σωκράτης"><label>ΣΩ.</label> οὐδʼ αὐτὸς πάνυ τι γιγνώσκω, ὦ
-                            Εὐθύφρων, τὸν ἄνδρα, νέος γάρ τίς μοι φαίνεται καὶ ἀγνώς· ὀνομάζουσι
-                            μέντοι αὐτόν, ὡς ἐγᾦμαι, Μέλητον. ἔστι δὲ τῶν δήμων Πιτθεύς, εἴ τινα νῷ
-                            ἔχεις Πιτθέα Μέλητον οἷον τετανότριχα καὶ οὐ πάνυ εὐγένειον, ἐπίγρυπον
-                            δέ.</said></p>
-
-                    <p><said who="#Εὐθύφρων"><label>ΕΥΘ.</label> οὐκ ἐννοῶ, ὦ Σώκρατες· ἀλλὰ δὴ τίνα
-                            γραφήν <milestone n="2c" unit="section" resp="Stephanus"/>σε
-                            γέγραπται;</said></p>
-
-                    <p><said who="#Σωκράτης"><label>ΣΩ.</label> ἥντινα; οὐκ ἀγεννῆ, ἔμοιγε δοκεῖ· τὸ
-                            γὰρ νέον ὄντα τοσοῦτον πρᾶγμα ἐγνωκέναι οὐ φαῦλόν ἐστιν. ἐκεῖνος γάρ, ὥς
-                            φησιν, οἶδε τίνα τρόπον οἱ νέοι διαφθείρονται καὶ τίνες οἱ διαφθείροντες
-                            αὐτούς. καὶ κινδυνεύει σοφός τις εἶναι, καὶ τὴν ἐμὴν ἀμαθίαν κατιδὼν ὡς
-                            διαφθείροντος τοὺς ἡλικιώτας αὐτοῦ, ἔρχεται κατηγορήσων μου ὥσπερ πρὸς
-                            μητέρα πρὸς τὴν πόλιν. καὶ φαίνεταί μοι τῶν πολιτικῶν <milestone n="2d"
-                                unit="section" resp="Stephanus"/>μόνος ἄρχεσθαι ὀρθῶς· ὀρθῶς γάρ
-                            ἐστι τῶν νέων πρῶτον ἐπιμεληθῆναι ὅπως ἔσονται ὅτι ἄριστοι, ὥσπερ
-                            γεωργὸν ἀγαθὸν τῶν νέων φυτῶν εἰκὸς πρῶτον ἐπιμεληθῆναι, μετὰ δὲ τοῦτο
-                            καὶ τῶν ἄλλων.</said></p>
+                <div n="2" type="page">
+                        <head>Εὐθύφρων</head>
+                        <!-- jk: in the @who below the # is a visual signal that it *targets* some id, and
+                                is not itself an id. In this case, however, it doesn't target an id, but the value
+                                of /TEI/teiHeader[1]/profileDesc[1]/particDesc[1]/person[1]/persName[1] -->
+                        <!-- jk: note how milestones provide a kind of hierarchy that avoids overlap -->
+                        <p part="N"><said direct="true" who="#Εὐθύφρων"><milestone n="2" resp="Stephanus" unit="page"/><milestone n="2a" resp="Stephanus" unit="section"/><label>ΕΥΘ.</label> τί νεώτερον, ὦ Σώκρατες, γέγονεν, ὅτι σὺ τὰς
+                                ἐν Λυκείῳ καταλιπὼν διατριβὰς ἐνθάδε νῦν διατρίβεις περὶ τὴν τοῦ
+                                βασιλέως στοάν; οὐ γάρ που καὶ σοί γε δίκη τις οὖσα τυγχάνει πρὸς τὸν
+                                βασιλέα ὥσπερ ἐμοί.</said></p>
+                        
+                        <p part="N"><said direct="true" who="#Σωκράτης"><label>ΣΩ.</label> οὔτοι δὴ Ἀθηναῖοί γε, ὦ Εὐθύφρων,
+                                δίκην αὐτὴν καλοῦσιν ἀλλὰ γραφήν. </said></p>
+                        
+                        <p part="N"><said direct="true" who="#Εὐθύφρων"><milestone n="2b" resp="Stephanus" unit="section"/><label>ΕΥΘ.</label> τί φῄς; γραφὴν σέ τις, ὡς ἔοικε, γέγραπται· οὐ
+                                γὰρ ἐκεῖνό γε καταγνώσομαι, ὡς σὺ ἕτερον.</said></p>
+                        
+                        <p part="N"><said direct="true" who="#Σωκράτης"><label>ΣΩ.</label> οὐ γὰρ οὖν.</said></p>
+                        
+                        <p part="N"><said direct="true" who="#Εὐθύφρων"><label>ΕΥΘ.</label> ἀλλὰ σὲ ἄλλος;</said></p>
+                        
+                        <p part="N"><said direct="true" who="#Σωκράτης"><label>ΣΩ.</label> πάνυ γε.</said></p>
+                        
+                        <p part="N"><said direct="true" who="#Εὐθύφρων"><label>ΕΥΘ.</label> τίς οὗτος;</said></p>
+                        
+                        <p part="N"><said direct="true" who="#Σωκράτης"><label>ΣΩ.</label> οὐδʼ αὐτὸς πάνυ τι γιγνώσκω, ὦ
+                                Εὐθύφρων, τὸν ἄνδρα, νέος γάρ τίς μοι φαίνεται καὶ ἀγνώς· ὀνομάζουσι
+                                μέντοι αὐτόν, ὡς ἐγᾦμαι, Μέλητον. ἔστι δὲ τῶν δήμων Πιτθεύς, εἴ τινα νῷ
+                                ἔχεις Πιτθέα Μέλητον οἷον τετανότριχα καὶ οὐ πάνυ εὐγένειον, ἐπίγρυπον
+                                δέ.</said></p>
+                        
+                        <p part="N"><said direct="true" who="#Εὐθύφρων"><label>ΕΥΘ.</label> οὐκ ἐννοῶ, ὦ Σώκρατες· ἀλλὰ δὴ τίνα
+                                γραφήν <milestone n="2c" resp="Stephanus" unit="section"/>σε
+                                γέγραπται;</said></p>
+                        
+                        <p part="N"><said direct="true" who="#Σωκράτης"><label>ΣΩ.</label> ἥντινα; οὐκ ἀγεννῆ, ἔμοιγε δοκεῖ· τὸ
+                                γὰρ νέον ὄντα τοσοῦτον πρᾶγμα ἐγνωκέναι οὐ φαῦλόν ἐστιν. ἐκεῖνος γάρ, ὥς
+                                φησιν, οἶδε τίνα τρόπον οἱ νέοι διαφθείρονται καὶ τίνες οἱ διαφθείροντες
+                                αὐτούς. καὶ κινδυνεύει σοφός τις εἶναι, καὶ τὴν ἐμὴν ἀμαθίαν κατιδὼν ὡς
+                                διαφθείροντος τοὺς ἡλικιώτας αὐτοῦ, ἔρχεται κατηγορήσων μου ὥσπερ πρὸς
+                                μητέρα πρὸς τὴν πόλιν. καὶ φαίνεταί μοι τῶν πολιτικῶν <milestone n="2d" resp="Stephanus" unit="section"/>μόνος ἄρχεσθαι ὀρθῶς· ὀρθῶς γάρ
+                                ἐστι τῶν νέων πρῶτον ἐπιμεληθῆναι ὅπως ἔσονται ὅτι ἄριστοι, ὥσπερ
+                                γεωργὸν ἀγαθὸν τῶν νέων φυτῶν εἰκὸς πρῶτον ἐπιμεληθῆναι, μετὰ δὲ τοῦτο
+                                καὶ τῶν ἄλλων.</said></p>
                 </div>
 
                 <div resp="perseus" n="3" subtype="section" type="textpart">
@@ -1118,7 +1128,7 @@
                             γέγονα καὶ ὅτι οὐκέτι ὑπʼ ἀγνοίας αὐτοσχεδιάζω οὐδὲ καινοτομῶ περὶ αὐτά,
                             καὶ δὴ καὶ τὸν ἄλλον βίον ὅτι ἄμεινον βιωσοίμην.</said></p>
                 </div>
-            </div>
+            
         </body>
     </text>
 </TEI>

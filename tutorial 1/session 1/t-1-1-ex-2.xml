@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../TAN-2021/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
 
 <!-- EXERCISE 2 -->
 <!-- Build your first TAN-voc file -->
 
-<TAN-voc xmlns="tag:textalign.net,2015:ns">
+<TAN-voc xmlns="tag:textalign.net,2015:ns" TAN-version="2021" 
+   id="tag:kalvesmaki.com,2011:tan-voc-file-test">
    
    <!-- Prob. 1 -->
    <!-- Fix the @src below so that it points to the TAN-voc schema on your local drive. -->
-   <a src="../../../TAN-2021/schemas/TAN-voc.rnc"/>
+   <!--<a src="../../../TAN-2021/schemas/TAN-voc.rnc"/>-->
    <!-- Oxygen tip: if the cursor is in some text, Ctrl+[Enter] will ask the Oxygen to open up the file.
       Ctrl+[click] does the same thing. -->
    <!-- Oxygen tip: Ctrl+[space] within @src or @href may produce a drop-down list of files available,
@@ -16,10 +18,19 @@
    <!-- Prob. 2 -->
    <!-- Use the value of @src above to fix the following processing instruction. Put the finished
       processing instruction at the top of the file. -->
-   <?xml-model href="../../somepath/schemas/TAN-voc.rnc" type="application/relax-ng-compact-syntax"?>
    
    <!-- Prob. 3 -->
    <!-- Validate the file. Use Oxygen's tools to incrementally turn this file into a skeleton TAN-voc file. 
       Do not try to populate it with real values yet. -->
 
+   <head>
+      <name></name>
+      <license></license>
+      <vocabulary-key></vocabulary-key>
+      <resp></resp>
+      <file-resp></file-resp>
+      <change when="" who=""></change>
+      <to-do></to-do>
+   </head>
+   <body></body>
 </TAN-voc>

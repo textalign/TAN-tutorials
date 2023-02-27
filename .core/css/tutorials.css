@@ -98,3 +98,6 @@ section.compress75 {
 section div.leftindent {
    margin-left: 20%;
 }
+.warning{
+   background-color:yellow;
+}
